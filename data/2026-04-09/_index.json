@@ -1,0 +1,25 @@
+{
+  "date": "2026-04-09",
+  "fetched_at": "2026-04-09T11:20:25.231448+00:00",
+  "source": "https://artificialanalysis.ai",
+  "endpoints": {
+    "llms": {
+      "model_count": 472
+    },
+    "text-to-image": {
+      "model_count": 119
+    },
+    "image-editing": {
+      "model_count": 53
+    },
+    "text-to-speech": {
+      "error": "Failed to fetch /data/media/text-to-speech after 3 attempts"
+    },
+    "text-to-video": {
+      "error": "Failed to fetch /data/media/text-to-video after 3 attempts"
+    },
+    "image-to-video": {
+      "error": "Failed to fetch /data/media/image-to-video after 3 attempts"
+    }
+  }
+}

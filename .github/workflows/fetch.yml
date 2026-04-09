@@ -1,0 +1,33 @@
+name: Fetch Leaderboards
+
+on:
+  schedule:
+    - cron: '0 5 * * *'  # 05:00 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch leaderboards
+        env:
+          AA_API_KEY: ${{ secrets.AA_API_KEY }}
+        run: python3 scripts/fetch_leaderboards.py --delay 5
+
+      - name: Commit & push
+        run: |
+          git config user.name "oolong-tea-2026"
+          git config user.email "oolongtea202603@163.com"
+          git add data/
+          DATE=$(python3 -c "from datetime import datetime, timezone; print(datetime.now(timezone.utc).strftime('%Y-%m-%d'))")
+          git diff --cached --quiet || git commit -m "data: ${DATE} daily fetch"
+          git push
