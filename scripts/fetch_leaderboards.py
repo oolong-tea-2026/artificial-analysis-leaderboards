@@ -132,7 +132,7 @@ def main():
     import argparse
     parser = argparse.ArgumentParser(description="Fetch Artificial Analysis leaderboards")
     parser.add_argument("--only", nargs="*", help="Only fetch these endpoint slugs")
-    parser.add_argument("--delay", type=int, default=2, help="Delay between requests in seconds")
+    parser.add_argument("--delay", type=int, default=30, help="Delay between requests in seconds")
     args = parser.parse_args()
 
     api_key = os.environ.get("AA_API_KEY")

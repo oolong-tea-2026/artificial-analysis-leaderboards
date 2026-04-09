@@ -2,7 +2,7 @@ name: Fetch Leaderboards
 
 on:
   schedule:
-    - cron: '0 5 * * *'  # 05:00 UTC daily
+    - cron: '13 5 * * *'  # 05:13 UTC daily
   workflow_dispatch:
 
 permissions:
@@ -21,7 +21,7 @@ jobs:
       - name: Fetch leaderboards
         env:
           AA_API_KEY: ${{ secrets.AA_API_KEY }}
-        run: python3 scripts/fetch_leaderboards.py --delay 5
+        run: python3 scripts/fetch_leaderboards.py
 
       - name: Commit & push
         run: |
