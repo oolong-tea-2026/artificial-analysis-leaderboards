@@ -50,7 +50,7 @@ def fetch_endpoint(path: str, api_key: str, include_categories: bool = False) ->
     headers = {
         "x-api-key": api_key,
         "Accept": "application/json",
-        "User-Agent": "artificial-analysis-leaderboards/1.0",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
     }
 
     req = urllib.request.Request(url, headers=headers)
