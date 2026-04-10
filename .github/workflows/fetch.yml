@@ -19,8 +19,6 @@ jobs:
           python-version: '3.12'
 
       - name: Fetch leaderboards
-        env:
-          AA_API_KEY: ${{ secrets.AA_API_KEY }}
         run: python3 scripts/fetch_leaderboards.py
 
       - name: Commit & push
