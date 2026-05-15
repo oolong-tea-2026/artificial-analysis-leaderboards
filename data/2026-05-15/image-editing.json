@@ -6,7 +6,7 @@
     "source_description": "Image editing leaderboard via text-to-image public arena endpoint",
     "parser_version": "public-web-v1",
     "model_count": 60,
-    "fetched_at": "2026-05-15T07:20:31.298892+00:00"
+    "fetched_at": "2026-05-15T08:13:52.843557+00:00"
   },
   "models": [
     {
@@ -27,7 +27,7 @@
         "name": "Riverflow",
         "url": "/image/model-families/riverflow"
       },
-      "elo": 1285.92,
+      "elo": 1285.91,
       "rank": null,
       "ci95": "-10/+10",
       "appearances": 7314,
@@ -40,7 +40,7 @@
       "note": "Sourceful's Riverflow uses a vision language model trained by Sourceful to allow chain of thought reasoning in combination with a third-party open weights diffusion model",
       "elos": [
         {
-          "elo": 1285.92,
+          "elo": 1285.91,
           "appearances": 7314,
           "wins": 5030,
           "win_rate": 0.6877221766475253,
@@ -51,7 +51,7 @@
           "accent": null
         },
         {
-          "elo": 1250.26,
+          "elo": 1250.27,
           "appearances": 777,
           "wins": 477,
           "win_rate": 0.6138996138996139,
@@ -83,7 +83,7 @@
           "accent": null
         },
         {
-          "elo": 1405.02,
+          "elo": 1405.03,
           "appearances": 837,
           "wins": 592,
           "win_rate": 0.7072879330943848,
@@ -115,7 +115,7 @@
           "accent": null
         },
         {
-          "elo": 1294.81,
+          "elo": 1294.82,
           "appearances": 1266,
           "wins": 889,
           "win_rate": 0.7022116903633492,
@@ -147,7 +147,7 @@
           "accent": null
         },
         {
-          "elo": 1295.69,
+          "elo": 1295.61,
           "appearances": 1565,
           "wins": 1134,
           "win_rate": 0.7246006389776358,
@@ -163,7 +163,7 @@
           "accent": null
         },
         {
-          "elo": 1103.22,
+          "elo": 1103.23,
           "appearances": 795,
           "wins": 527,
           "win_rate": 0.6628930817610063,
@@ -202,12 +202,12 @@
         "name": "OpenAI GPT",
         "url": "/image/model-families/openai-gpt"
       },
-      "elo": 1263.89,
+      "elo": 1263.96,
       "rank": 1,
       "ci95": "-10/+10",
-      "appearances": 5694,
-      "wins": 3941,
-      "win_rate": 0.6921320688443976,
+      "appearances": 5695,
+      "wins": 3942,
+      "win_rate": 0.6921861281826164,
       "open_weights_url": null,
       "is_current": true,
       "is_scraped": false,
@@ -215,10 +215,10 @@
       "note": "Generated using the OpenAI Images API with model_id: \"gpt-image-1.5\" and quality: \"high\".\n\nPrompts were pre-pended with \"Create the following as a square image:\" for Text to Image, and \"Edit the following to create a square image:\" for Image Editing.\n\nWe found without pre-pending these instructions, images would not be produced natively as squares.",
       "elos": [
         {
-          "elo": 1263.89,
-          "appearances": 5694,
-          "wins": 3941,
-          "win_rate": 0.6921320688443976,
+          "elo": 1263.96,
+          "appearances": 5695,
+          "wins": 3942,
+          "win_rate": 0.6921861281826164,
           "ci95": "-10/+10",
           "ci_delta": 10,
           "tag": null,
@@ -226,7 +226,7 @@
           "accent": null
         },
         {
-          "elo": 1262.52,
+          "elo": 1262.53,
           "appearances": 613,
           "wins": 399,
           "win_rate": 0.6508972267536705,
@@ -290,7 +290,7 @@
           "accent": null
         },
         {
-          "elo": 1260.76,
+          "elo": 1260.77,
           "appearances": 912,
           "wins": 634,
           "win_rate": 0.6951754385964912,
@@ -322,7 +322,7 @@
           "accent": null
         },
         {
-          "elo": 1292.09,
+          "elo": 1292.01,
           "appearances": 1228,
           "wins": 886,
           "win_rate": 0.7214983713355049,
@@ -338,10 +338,10 @@
           "accent": null
         },
         {
-          "elo": 1056.19,
-          "appearances": 644,
-          "wins": 404,
-          "win_rate": 0.6273291925465838,
+          "elo": 1057.27,
+          "appearances": 645,
+          "wins": 405,
+          "win_rate": 0.627906976744186,
           "ci95": "-28/+28",
           "ci_delta": 28,
           "tag": {
@@ -377,7 +377,7 @@
         "name": "OpenAI GPT",
         "url": "/image/model-families/openai-gpt"
       },
-      "elo": 1249.99,
+      "elo": 1249.98,
       "rank": 2,
       "ci95": "-8/+8",
       "appearances": 10658,
@@ -390,7 +390,7 @@
       "note": null,
       "elos": [
         {
-          "elo": 1249.99,
+          "elo": 1249.98,
           "appearances": 10658,
           "wins": 7026,
           "win_rate": 0.659223118784012,
@@ -401,7 +401,7 @@
           "accent": null
         },
         {
-          "elo": 1248.69,
+          "elo": 1248.7,
           "appearances": 1135,
           "wins": 710,
           "win_rate": 0.6255506607929515,
@@ -433,7 +433,7 @@
           "accent": null
         },
         {
-          "elo": 1410.56,
+          "elo": 1410.57,
           "appearances": 1194,
           "wins": 850,
           "win_rate": 0.711892797319933,
@@ -497,7 +497,7 @@
           "accent": null
         },
         {
-          "elo": 1284.62,
+          "elo": 1284.55,
           "appearances": 1260,
           "wins": 897,
           "win_rate": 0.7119047619047619,
@@ -552,12 +552,12 @@
         "name": "Gemini",
         "url": "/image/model-families/gemini"
       },
-      "elo": 1240.15,
+      "elo": 1240.04,
       "rank": 3,
       "ci95": "-9/+9",
-      "appearances": 4943,
+      "appearances": 4944,
       "wins": 3200,
-      "win_rate": 0.6473801335221525,
+      "win_rate": 0.6472491909385113,
       "open_weights_url": null,
       "is_current": true,
       "is_scraped": false,
@@ -565,10 +565,10 @@
       "note": null,
       "elos": [
         {
-          "elo": 1240.15,
-          "appearances": 4943,
+          "elo": 1240.04,
+          "appearances": 4944,
           "wins": 3200,
-          "win_rate": 0.6473801335221525,
+          "win_rate": 0.6472491909385113,
           "ci95": "-9/+9",
           "ci_delta": 9,
           "tag": null,
@@ -576,7 +576,7 @@
           "accent": null
         },
         {
-          "elo": 1258.74,
+          "elo": 1258.75,
           "appearances": 593,
           "wins": 376,
           "win_rate": 0.6340640809443507,
@@ -592,7 +592,7 @@
           "accent": null
         },
         {
-          "elo": 1054.82,
+          "elo": 1054.83,
           "appearances": 461,
           "wins": 324,
           "win_rate": 0.702819956616052,
@@ -608,10 +608,10 @@
           "accent": null
         },
         {
-          "elo": 1348.87,
-          "appearances": 598,
+          "elo": 1348.17,
+          "appearances": 599,
           "wins": 386,
-          "win_rate": 0.6454849498327759,
+          "win_rate": 0.6444073455759599,
           "ci95": "-27/+27",
           "ci_delta": 27,
           "tag": {
@@ -624,7 +624,7 @@
           "accent": null
         },
         {
-          "elo": 831.13,
+          "elo": 831.15,
           "appearances": 378,
           "wins": 192,
           "win_rate": 0.5079365079365079,
@@ -640,7 +640,7 @@
           "accent": null
         },
         {
-          "elo": 1267.65,
+          "elo": 1267.66,
           "appearances": 777,
           "wins": 534,
           "win_rate": 0.6872586872586872,
@@ -672,7 +672,7 @@
           "accent": null
         },
         {
-          "elo": 1245.06,
+          "elo": 1244.98,
           "appearances": 972,
           "wins": 640,
           "win_rate": 0.6584362139917695,
@@ -688,7 +688,7 @@
           "accent": null
         },
         {
-          "elo": 1029.89,
+          "elo": 1029.9,
           "appearances": 585,
           "wins": 346,
           "win_rate": 0.5914529914529915,
@@ -727,7 +727,7 @@
         "name": "Gemini",
         "url": "/image/model-families/gemini"
       },
-      "elo": 1230.67,
+      "elo": 1230.66,
       "rank": 4,
       "ci95": "-10/+10",
       "appearances": 6006,
@@ -740,7 +740,7 @@
       "note": null,
       "elos": [
         {
-          "elo": 1230.67,
+          "elo": 1230.66,
           "appearances": 6006,
           "wins": 3793,
           "win_rate": 0.6315351315351315,
@@ -751,7 +751,7 @@
           "accent": null
         },
         {
-          "elo": 1216.59,
+          "elo": 1216.6,
           "appearances": 710,
           "wins": 404,
           "win_rate": 0.5690140845070423,
@@ -783,7 +783,7 @@
           "accent": null
         },
         {
-          "elo": 1380.56,
+          "elo": 1380.57,
           "appearances": 684,
           "wins": 455,
           "win_rate": 0.6652046783625731,
@@ -799,7 +799,7 @@
           "accent": null
         },
         {
-          "elo": 954.19,
+          "elo": 954.18,
           "appearances": 474,
           "wins": 301,
           "win_rate": 0.6350210970464135,
@@ -847,7 +847,7 @@
           "accent": null
         },
         {
-          "elo": 1252.79,
+          "elo": 1252.71,
           "appearances": 1248,
           "wins": 832,
           "win_rate": 0.6666666666666666,
@@ -902,7 +902,7 @@
         "name": "Tencent",
         "url": "/image/model-families/tencent"
       },
-      "elo": 1222.4,
+      "elo": 1222.39,
       "rank": 5,
       "ci95": "-9/+9",
       "appearances": 6710,
@@ -915,7 +915,7 @@
       "note": null,
       "elos": [
         {
-          "elo": 1222.4,
+          "elo": 1222.39,
           "appearances": 6710,
           "wins": 4020,
           "win_rate": 0.5991058122205664,
@@ -926,7 +926,7 @@
           "accent": null
         },
         {
-          "elo": 1262.77,
+          "elo": 1262.79,
           "appearances": 747,
           "wins": 467,
           "win_rate": 0.6251673360107095,
@@ -958,7 +958,7 @@
           "accent": null
         },
         {
-          "elo": 1354.46,
+          "elo": 1354.47,
           "appearances": 787,
           "wins": 499,
           "win_rate": 0.6340533672172808,
@@ -974,7 +974,7 @@
           "accent": null
         },
         {
-          "elo": 834.48,
+          "elo": 834.51,
           "appearances": 488,
           "wins": 239,
           "win_rate": 0.48975409836065575,
@@ -1006,7 +1006,7 @@
           "accent": null
         },
         {
-          "elo": 953.85,
+          "elo": 953.84,
           "appearances": 698,
           "wins": 378,
           "win_rate": 0.5415472779369628,
@@ -1022,7 +1022,7 @@
           "accent": null
         },
         {
-          "elo": 1240.66,
+          "elo": 1240.59,
           "appearances": 1451,
           "wins": 918,
           "win_rate": 0.6326671261199173,
@@ -1038,7 +1038,7 @@
           "accent": null
         },
         {
-          "elo": 1048.09,
+          "elo": 1048.1,
           "appearances": 780,
           "wins": 447,
           "win_rate": 0.573076923076923,
@@ -1077,7 +1077,7 @@
         "name": "Grok Imagine",
         "url": "/image/model-families/grok-imagine"
       },
-      "elo": 1212.22,
+      "elo": 1212.21,
       "rank": 6,
       "ci95": "-9/+9",
       "appearances": 6833,
@@ -1090,7 +1090,7 @@
       "note": null,
       "elos": [
         {
-          "elo": 1212.22,
+          "elo": 1212.21,
           "appearances": 6833,
           "wins": 4096,
           "win_rate": 0.5994438753109907,
@@ -1101,7 +1101,7 @@
           "accent": null
         },
         {
-          "elo": 1198.83,
+          "elo": 1198.84,
           "appearances": 777,
           "wins": 413,
           "win_rate": 0.5315315315315315,
@@ -1133,7 +1133,7 @@
           "accent": null
         },
         {
-          "elo": 1331.86,
+          "elo": 1331.87,
           "appearances": 781,
           "wins": 469,
           "win_rate": 0.6005121638924455,
@@ -1197,7 +1197,7 @@
           "accent": null
         },
         {
-          "elo": 1232.52,
+          "elo": 1232.44,
           "appearances": 1498,
           "wins": 960,
           "win_rate": 0.6408544726301736,
@@ -1252,7 +1252,7 @@
         "name": "Grok Imagine",
         "url": "/image/model-families/grok-imagine"
       },
-      "elo": 1211.61,
+      "elo": 1211.6,
       "rank": null,
       "ci95": "-9/+9",
       "appearances": 6876,
@@ -1265,7 +1265,7 @@
       "note": null,
       "elos": [
         {
-          "elo": 1211.61,
+          "elo": 1211.6,
           "appearances": 6876,
           "wins": 4014,
           "win_rate": 0.5837696335078534,
@@ -1276,7 +1276,7 @@
           "accent": null
         },
         {
-          "elo": 1181.14,
+          "elo": 1181.15,
           "appearances": 817,
           "wins": 428,
           "win_rate": 0.5238678090575275,
@@ -1308,7 +1308,7 @@
           "accent": null
         },
         {
-          "elo": 1301.01,
+          "elo": 1301.02,
           "appearances": 806,
           "wins": 455,
           "win_rate": 0.5645161290322581,
@@ -1324,7 +1324,7 @@
           "accent": null
         },
         {
-          "elo": 893.19,
+          "elo": 893.2,
           "appearances": 508,
           "wins": 279,
           "win_rate": 0.5492125984251969,
@@ -1372,7 +1372,7 @@
           "accent": null
         },
         {
-          "elo": 1214.69,
+          "elo": 1214.62,
           "appearances": 1486,
           "wins": 871,
           "win_rate": 0.5861372812920592,
@@ -1388,7 +1388,7 @@
           "accent": null
         },
         {
-          "elo": 1020.33,
+          "elo": 1020.35,
           "appearances": 738,
           "wins": 405,
           "win_rate": 0.5487804878048781,
@@ -1427,12 +1427,12 @@
         "name": "HiDream",
         "url": "/image/model-families/hidream"
       },
-      "elo": 1211.61,
+      "elo": 1211.32,
       "rank": 7,
       "ci95": "-12/+12",
-      "appearances": 2065,
-      "wins": 1239,
-      "win_rate": 0.6,
+      "appearances": 2068,
+      "wins": 1240,
+      "win_rate": 0.5996131528046421,
       "open_weights_url": "https://huggingface.co/HiDream-ai/HiDream-O1-Image",
       "is_current": true,
       "is_scraped": false,
@@ -1440,10 +1440,10 @@
       "note": null,
       "elos": [
         {
-          "elo": 1211.61,
-          "appearances": 2065,
-          "wins": 1239,
-          "win_rate": 0.6,
+          "elo": 1211.32,
+          "appearances": 2068,
+          "wins": 1240,
+          "win_rate": 0.5996131528046421,
           "ci95": "-12/+12",
           "ci_delta": 12,
           "tag": null,
@@ -1451,7 +1451,7 @@
           "accent": null
         },
         {
-          "elo": 1245.87,
+          "elo": 1245.88,
           "appearances": 255,
           "wins": 153,
           "win_rate": 0.6,
@@ -1467,7 +1467,7 @@
           "accent": null
         },
         {
-          "elo": 1014.29,
+          "elo": 1014.3,
           "appearances": 263,
           "wins": 167,
           "win_rate": 0.6349809885931559,
@@ -1499,10 +1499,10 @@
           "accent": null
         },
         {
-          "elo": 931.54,
-          "appearances": 244,
+          "elo": 929.67,
+          "appearances": 246,
           "wins": 157,
-          "win_rate": 0.6434426229508197,
+          "win_rate": 0.6382113821138211,
           "ci95": "-39/+39",
           "ci_delta": 39,
           "tag": {
@@ -1515,10 +1515,10 @@
           "accent": null
         },
         {
-          "elo": 1210.35,
-          "appearances": 262,
-          "wins": 150,
-          "win_rate": 0.5725190839694656,
+          "elo": 1211.02,
+          "appearances": 263,
+          "wins": 151,
+          "win_rate": 0.5741444866920152,
           "ci95": "-30/+30",
           "ci_delta": 30,
           "tag": {
@@ -1547,7 +1547,7 @@
           "accent": null
         },
         {
-          "elo": 1192.86,
+          "elo": 1192.77,
           "appearances": 237,
           "wins": 138,
           "win_rate": 0.5822784810126582,
@@ -1563,7 +1563,7 @@
           "accent": null
         },
         {
-          "elo": 1015.32,
+          "elo": 1015.31,
           "appearances": 238,
           "wins": 137,
           "win_rate": 0.5756302521008403,
@@ -1602,7 +1602,7 @@
         "name": "Kling",
         "url": "/image/model-families/kling"
       },
-      "elo": 1207.19,
+      "elo": 1207.18,
       "rank": 8,
       "ci95": "-9/+9",
       "appearances": 5212,
@@ -1615,7 +1615,7 @@
       "note": null,
       "elos": [
         {
-          "elo": 1207.19,
+          "elo": 1207.18,
           "appearances": 5212,
           "wins": 2972,
           "win_rate": 0.570222563315426,
@@ -1626,7 +1626,7 @@
           "accent": null
         },
         {
-          "elo": 1243.39,
+          "elo": 1243.4,
           "appearances": 603,
           "wins": 344,
           "win_rate": 0.5704809286898839,
@@ -1658,7 +1658,7 @@
           "accent": null
         },
         {
-          "elo": 1329.98,
+          "elo": 1329.99,
           "appearances": 623,
           "wins": 370,
           "win_rate": 0.593900481540931,
@@ -1674,7 +1674,7 @@
           "accent": null
         },
         {
-          "elo": 901.17,
+          "elo": 901.16,
           "appearances": 605,
           "wins": 354,
           "win_rate": 0.5851239669421487,
@@ -1690,7 +1690,7 @@
           "accent": null
         },
         {
-          "elo": 1227.75,
+          "elo": 1227.76,
           "appearances": 645,
           "wins": 376,
           "win_rate": 0.5829457364341085,
@@ -1722,7 +1722,7 @@
           "accent": null
         },
         {
-          "elo": 1217.06,
+          "elo": 1216.99,
           "appearances": 613,
           "wins": 343,
           "win_rate": 0.5595432300163132,
@@ -1738,7 +1738,7 @@
           "accent": null
         },
         {
-          "elo": 1019.17,
+          "elo": 1019.16,
           "appearances": 593,
           "wins": 314,
           "win_rate": 0.5295109612141653,
@@ -1801,7 +1801,7 @@
           "accent": null
         },
         {
-          "elo": 1214.31,
+          "elo": 1214.32,
           "appearances": 474,
           "wins": 276,
           "win_rate": 0.5822784810126582,
@@ -1833,7 +1833,7 @@
           "accent": null
         },
         {
-          "elo": 1324.39,
+          "elo": 1324.4,
           "appearances": 470,
           "wins": 278,
           "win_rate": 0.5914893617021276,
@@ -1865,7 +1865,7 @@
           "accent": null
         },
         {
-          "elo": 1184.88,
+          "elo": 1184.89,
           "appearances": 604,
           "wins": 351,
           "win_rate": 0.5811258278145696,
@@ -1897,7 +1897,7 @@
           "accent": null
         },
         {
-          "elo": 1196.49,
+          "elo": 1196.42,
           "appearances": 797,
           "wins": 475,
           "win_rate": 0.5959849435382685,
@@ -1913,7 +1913,7 @@
           "accent": null
         },
         {
-          "elo": 1056.84,
+          "elo": 1056.85,
           "appearances": 442,
           "wins": 277,
           "win_rate": 0.6266968325791855,
@@ -1952,12 +1952,12 @@
         "name": "Wan",
         "url": "/image/model-families/wan"
       },
-      "elo": 1199.7,
+      "elo": 1199.56,
       "rank": 10,
       "ci95": "-9/+9",
-      "appearances": 4603,
+      "appearances": 4604,
       "wins": 2539,
-      "win_rate": 0.5515967847056268,
+      "win_rate": 0.5514769765421372,
       "open_weights_url": null,
       "is_current": true,
       "is_scraped": false,
@@ -1965,10 +1965,10 @@
       "note": null,
       "elos": [
         {
-          "elo": 1199.7,
-          "appearances": 4603,
+          "elo": 1199.56,
+          "appearances": 4604,
           "wins": 2539,
-          "win_rate": 0.5515967847056268,
+          "win_rate": 0.5514769765421372,
           "ci95": "-9/+9",
           "ci_delta": 9,
           "tag": null,
@@ -1976,7 +1976,7 @@
           "accent": null
         },
         {
-          "elo": 1205.96,
+          "elo": 1205.97,
           "appearances": 526,
           "wins": 285,
           "win_rate": 0.5418250950570342,
@@ -2008,7 +2008,7 @@
           "accent": null
         },
         {
-          "elo": 1243.08,
+          "elo": 1243.09,
           "appearances": 565,
           "wins": 257,
           "win_rate": 0.45486725663716815,
@@ -2024,7 +2024,7 @@
           "accent": null
         },
         {
-          "elo": 900.79,
+          "elo": 900.78,
           "appearances": 468,
           "wins": 248,
           "win_rate": 0.5299145299145299,
@@ -2072,7 +2072,7 @@
           "accent": null
         },
         {
-          "elo": 1202.4,
+          "elo": 1202.33,
           "appearances": 589,
           "wins": 311,
           "win_rate": 0.5280135823429541,
@@ -2088,10 +2088,10 @@
           "accent": null
         },
         {
-          "elo": 1021.28,
-          "appearances": 490,
+          "elo": 1020.37,
+          "appearances": 491,
           "wins": 262,
-          "win_rate": 0.5346938775510204,
+          "win_rate": 0.5336048879837068,
           "ci95": "-28/+28",
           "ci_delta": 28,
           "tag": {
@@ -2127,12 +2127,12 @@
         "name": "Kling",
         "url": "/image/model-families/kling"
       },
-      "elo": 1196.67,
+      "elo": 1196.78,
       "rank": 11,
       "ci95": "-10/+10",
-      "appearances": 5489,
-      "wins": 3088,
-      "win_rate": 0.562579704864274,
+      "appearances": 5490,
+      "wins": 3089,
+      "win_rate": 0.5626593806921676,
       "open_weights_url": null,
       "is_current": true,
       "is_scraped": false,
@@ -2140,10 +2140,10 @@
       "note": null,
       "elos": [
         {
-          "elo": 1196.67,
-          "appearances": 5489,
-          "wins": 3088,
-          "win_rate": 0.562579704864274,
+          "elo": 1196.78,
+          "appearances": 5490,
+          "wins": 3089,
+          "win_rate": 0.5626593806921676,
           "ci95": "-10/+10",
           "ci_delta": 10,
           "tag": null,
@@ -2151,7 +2151,7 @@
           "accent": null
         },
         {
-          "elo": 1211.6,
+          "elo": 1211.61,
           "appearances": 641,
           "wins": 346,
           "win_rate": 0.5397815912636506,
@@ -2183,7 +2183,7 @@
           "accent": null
         },
         {
-          "elo": 1266.31,
+          "elo": 1266.33,
           "appearances": 624,
           "wins": 318,
           "win_rate": 0.5096153846153846,
@@ -2247,10 +2247,10 @@
           "accent": null
         },
         {
-          "elo": 1193.62,
-          "appearances": 1033,
-          "wins": 590,
-          "win_rate": 0.5711519845111326,
+          "elo": 1194.23,
+          "appearances": 1034,
+          "wins": 591,
+          "win_rate": 0.5715667311411993,
           "ci95": "-22/+22",
           "ci_delta": 22,
           "tag": {
@@ -2263,7 +2263,7 @@
           "accent": null
         },
         {
-          "elo": 1009.54,
+          "elo": 1009.55,
           "appearances": 614,
           "wins": 360,
           "win_rate": 0.5863192182410424,
@@ -2302,7 +2302,7 @@
         "name": "Kling",
         "url": "/image/model-families/kling"
       },
-      "elo": 1193.58,
+      "elo": 1193.57,
       "rank": 12,
       "ci95": "-10/+10",
       "appearances": 5043,
@@ -2315,7 +2315,7 @@
       "note": null,
       "elos": [
         {
-          "elo": 1193.58,
+          "elo": 1193.57,
           "appearances": 5043,
           "wins": 2761,
           "win_rate": 0.5474915724767003,
@@ -2326,7 +2326,7 @@
           "accent": null
         },
         {
-          "elo": 1191.34,
+          "elo": 1191.35,
           "appearances": 559,
           "wins": 284,
           "win_rate": 0.5080500894454383,
@@ -2374,7 +2374,7 @@
           "accent": null
         },
         {
-          "elo": 957.22,
+          "elo": 957.21,
           "appearances": 474,
           "wins": 301,
           "win_rate": 0.6350210970464135,
@@ -2422,7 +2422,7 @@
           "accent": null
         },
         {
-          "elo": 1198.62,
+          "elo": 1198.55,
           "appearances": 915,
           "wins": 515,
           "win_rate": 0.5628415300546448,
@@ -2477,12 +2477,12 @@
         "name": "Wan",
         "url": "/image/model-families/wan"
       },
-      "elo": 1189.96,
+      "elo": 1189.83,
       "rank": 13,
       "ci95": "-10/+10",
-      "appearances": 4344,
+      "appearances": 4345,
       "wins": 2489,
-      "win_rate": 0.5729742173112339,
+      "win_rate": 0.5728423475258918,
       "open_weights_url": null,
       "is_current": true,
       "is_scraped": false,
@@ -2490,10 +2490,10 @@
       "note": null,
       "elos": [
         {
-          "elo": 1189.96,
-          "appearances": 4344,
+          "elo": 1189.83,
+          "appearances": 4345,
           "wins": 2489,
-          "win_rate": 0.5729742173112339,
+          "win_rate": 0.5728423475258918,
           "ci95": "-10/+10",
           "ci_delta": 10,
           "tag": null,
@@ -2501,7 +2501,7 @@
           "accent": null
         },
         {
-          "elo": 1220.91,
+          "elo": 1220.92,
           "appearances": 507,
           "wins": 279,
           "win_rate": 0.5502958579881657,
@@ -2517,7 +2517,7 @@
           "accent": null
         },
         {
-          "elo": 971.03,
+          "elo": 971.02,
           "appearances": 397,
           "wins": 235,
           "win_rate": 0.5919395465994962,
@@ -2565,7 +2565,7 @@
           "accent": null
         },
         {
-          "elo": 1184.53,
+          "elo": 1184.52,
           "appearances": 748,
           "wins": 418,
           "win_rate": 0.5588235294117647,
@@ -2581,7 +2581,7 @@
           "accent": null
         },
         {
-          "elo": 944.88,
+          "elo": 944.87,
           "appearances": 482,
           "wins": 281,
           "win_rate": 0.58298755186722,
@@ -2597,10 +2597,10 @@
           "accent": null
         },
         {
-          "elo": 1192.99,
-          "appearances": 900,
+          "elo": 1192.23,
+          "appearances": 901,
           "wins": 517,
-          "win_rate": 0.5744444444444444,
+          "win_rate": 0.5738068812430632,
           "ci95": "-22/+22",
           "ci_delta": 22,
           "tag": {
@@ -2613,7 +2613,7 @@
           "accent": null
         },
         {
-          "elo": 1058.04,
+          "elo": 1058.05,
           "appearances": 467,
           "wins": 281,
           "win_rate": 0.6017130620985011,
@@ -2676,7 +2676,7 @@
           "accent": null
         },
         {
-          "elo": 1204.43,
+          "elo": 1204.44,
           "appearances": 746,
           "wins": 444,
           "win_rate": 0.5951742627345844,
@@ -2772,7 +2772,7 @@
           "accent": null
         },
         {
-          "elo": 1181,
+          "elo": 1180.95,
           "appearances": 1407,
           "wins": 867,
           "win_rate": 0.6162046908315565,
@@ -2788,7 +2788,7 @@
           "accent": null
         },
         {
-          "elo": 1041.07,
+          "elo": 1041.08,
           "appearances": 744,
           "wins": 464,
           "win_rate": 0.6236559139784946,
@@ -2851,7 +2851,7 @@
           "accent": null
         },
         {
-          "elo": 1201.27,
+          "elo": 1201.28,
           "appearances": 666,
           "wins": 381,
           "win_rate": 0.5720720720720721,
@@ -2867,7 +2867,7 @@
           "accent": null
         },
         {
-          "elo": 939.39,
+          "elo": 939.4,
           "appearances": 600,
           "wins": 339,
           "win_rate": 0.565,
@@ -2899,7 +2899,7 @@
           "accent": null
         },
         {
-          "elo": 856.88,
+          "elo": 856.89,
           "appearances": 483,
           "wins": 269,
           "win_rate": 0.556935817805383,
@@ -2947,7 +2947,7 @@
           "accent": null
         },
         {
-          "elo": 1171.45,
+          "elo": 1171.37,
           "appearances": 1412,
           "wins": 837,
           "win_rate": 0.5927762039660056,
@@ -2963,7 +2963,7 @@
           "accent": null
         },
         {
-          "elo": 1022.23,
+          "elo": 1022.24,
           "appearances": 669,
           "wins": 397,
           "win_rate": 0.593423019431988,
@@ -3002,7 +3002,7 @@
         "name": "Seedream",
         "url": "/image/model-families/Seedream"
       },
-      "elo": 1183.76,
+      "elo": 1183.75,
       "rank": 15,
       "ci95": "-9/+9",
       "appearances": 7044,
@@ -3015,7 +3015,7 @@
       "note": null,
       "elos": [
         {
-          "elo": 1183.76,
+          "elo": 1183.75,
           "appearances": 7044,
           "wins": 4069,
           "win_rate": 0.5776547416240773,
@@ -3026,7 +3026,7 @@
           "accent": null
         },
         {
-          "elo": 1194.01,
+          "elo": 1194.03,
           "appearances": 821,
           "wins": 454,
           "win_rate": 0.5529841656516443,
@@ -3058,7 +3058,7 @@
           "accent": null
         },
         {
-          "elo": 1269.41,
+          "elo": 1269.42,
           "appearances": 828,
           "wins": 458,
           "win_rate": 0.5531400966183575,
@@ -3074,7 +3074,7 @@
           "accent": null
         },
         {
-          "elo": 832.27,
+          "elo": 832.3,
           "appearances": 542,
           "wins": 272,
           "win_rate": 0.5018450184501845,
@@ -3122,7 +3122,7 @@
           "accent": null
         },
         {
-          "elo": 1195.39,
+          "elo": 1195.31,
           "appearances": 1580,
           "wins": 932,
           "win_rate": 0.589873417721519,
@@ -3138,7 +3138,7 @@
           "accent": null
         },
         {
-          "elo": 1044.29,
+          "elo": 1044.3,
           "appearances": 766,
           "wins": 477,
           "win_rate": 0.6227154046997389,
@@ -3177,7 +3177,7 @@
         "name": "Wan",
         "url": "/image/model-families/wan"
       },
-      "elo": 1181.97,
+      "elo": 1181.96,
       "rank": 16,
       "ci95": "-9/+9",
       "appearances": 4527,
@@ -3190,7 +3190,7 @@
       "note": null,
       "elos": [
         {
-          "elo": 1181.97,
+          "elo": 1181.96,
           "appearances": 4527,
           "wins": 2433,
           "win_rate": 0.5374420145791915,
@@ -3201,7 +3201,7 @@
           "accent": null
         },
         {
-          "elo": 1187.89,
+          "elo": 1187.9,
           "appearances": 506,
           "wins": 268,
           "win_rate": 0.5296442687747036,
@@ -3217,7 +3217,7 @@
           "accent": null
         },
         {
-          "elo": 917,
+          "elo": 917.01,
           "appearances": 504,
           "wins": 243,
           "win_rate": 0.48214285714285715,
@@ -3233,7 +3233,7 @@
           "accent": null
         },
         {
-          "elo": 1276.7,
+          "elo": 1276.69,
           "appearances": 531,
           "wins": 273,
           "win_rate": 0.5141242937853108,
@@ -3249,7 +3249,7 @@
           "accent": null
         },
         {
-          "elo": 843.99,
+          "elo": 843.98,
           "appearances": 482,
           "wins": 223,
           "win_rate": 0.46265560165975106,
@@ -3265,7 +3265,7 @@
           "accent": null
         },
         {
-          "elo": 1203.67,
+          "elo": 1203.68,
           "appearances": 598,
           "wins": 329,
           "win_rate": 0.5501672240802675,
@@ -3297,7 +3297,7 @@
           "accent": null
         },
         {
-          "elo": 1169.22,
+          "elo": 1169.16,
           "appearances": 543,
           "wins": 290,
           "win_rate": 0.5340699815837937,
@@ -3355,9 +3355,9 @@
       "elo": 1178.17,
       "rank": 17,
       "ci95": "-11/+11",
-      "appearances": 2813,
-      "wins": 1556,
-      "win_rate": 0.5531461073586917,
+      "appearances": 2815,
+      "wins": 1557,
+      "win_rate": 0.5531083481349911,
       "open_weights_url": null,
       "is_current": true,
       "is_scraped": false,
@@ -3366,9 +3366,9 @@
       "elos": [
         {
           "elo": 1178.17,
-          "appearances": 2813,
-          "wins": 1556,
-          "win_rate": 0.5531461073586917,
+          "appearances": 2815,
+          "wins": 1557,
+          "win_rate": 0.5531083481349911,
           "ci95": "-11/+11",
           "ci_delta": 11,
           "tag": null,
@@ -3376,7 +3376,7 @@
           "accent": null
         },
         {
-          "elo": 1184.45,
+          "elo": 1184.46,
           "appearances": 349,
           "wins": 178,
           "win_rate": 0.5100286532951289,
@@ -3408,7 +3408,7 @@
           "accent": null
         },
         {
-          "elo": 1294.53,
+          "elo": 1294.54,
           "appearances": 347,
           "wins": 201,
           "win_rate": 0.579250720461095,
@@ -3424,7 +3424,7 @@
           "accent": null
         },
         {
-          "elo": 839.2,
+          "elo": 839.19,
           "appearances": 362,
           "wins": 189,
           "win_rate": 0.5220994475138122,
@@ -3440,7 +3440,7 @@
           "accent": null
         },
         {
-          "elo": 1171.53,
+          "elo": 1171.54,
           "appearances": 353,
           "wins": 182,
           "win_rate": 0.5155807365439093,
@@ -3456,7 +3456,7 @@
           "accent": null
         },
         {
-          "elo": 933.44,
+          "elo": 933.43,
           "appearances": 341,
           "wins": 177,
           "win_rate": 0.5190615835777126,
@@ -3472,10 +3472,10 @@
           "accent": null
         },
         {
-          "elo": 1191.86,
-          "appearances": 344,
-          "wins": 197,
-          "win_rate": 0.5726744186046512,
+          "elo": 1192.58,
+          "appearances": 345,
+          "wins": 198,
+          "win_rate": 0.5739130434782609,
           "ci95": "-26/+26",
           "ci_delta": 26,
           "tag": {
@@ -3488,10 +3488,10 @@
           "accent": null
         },
         {
-          "elo": 1053.81,
-          "appearances": 345,
+          "elo": 1053.08,
+          "appearances": 346,
           "wins": 207,
-          "win_rate": 0.6,
+          "win_rate": 0.5982658959537572,
           "ci95": "-32/+32",
           "ci_delta": 32,
           "tag": {
@@ -3527,7 +3527,7 @@
         "name": "Gemini",
         "url": "/image/model-families/gemini"
       },
-      "elo": 1173.81,
+      "elo": 1173.8,
       "rank": 18,
       "ci95": "-8/+8",
       "appearances": 7073,
@@ -3540,7 +3540,7 @@
       "note": null,
       "elos": [
         {
-          "elo": 1173.81,
+          "elo": 1173.8,
           "appearances": 7073,
           "wins": 4256,
           "win_rate": 0.6017248692209812,
@@ -3647,7 +3647,7 @@
           "accent": null
         },
         {
-          "elo": 1204.23,
+          "elo": 1204.17,
           "appearances": 1466,
           "wins": 959,
           "win_rate": 0.6541609822646658,
@@ -3663,7 +3663,7 @@
           "accent": null
         },
         {
-          "elo": 963.86,
+          "elo": 963.87,
           "appearances": 732,
           "wins": 382,
           "win_rate": 0.5218579234972678,
@@ -3702,7 +3702,7 @@
         "name": "Reve",
         "url": "/image/model-families/reve"
       },
-      "elo": 1172.48,
+      "elo": 1172.47,
       "rank": 19,
       "ci95": "-10/+10",
       "appearances": 3725,
@@ -3715,7 +3715,7 @@
       "note": null,
       "elos": [
         {
-          "elo": 1172.48,
+          "elo": 1172.47,
           "appearances": 3725,
           "wins": 2031,
           "win_rate": 0.545234899328859,
@@ -3726,7 +3726,7 @@
           "accent": null
         },
         {
-          "elo": 1183.23,
+          "elo": 1183.24,
           "appearances": 428,
           "wins": 231,
           "win_rate": 0.5397196261682243,
@@ -3758,7 +3758,7 @@
           "accent": null
         },
         {
-          "elo": 1250.42,
+          "elo": 1250.43,
           "appearances": 437,
           "wins": 212,
           "win_rate": 0.4851258581235698,
@@ -3774,7 +3774,7 @@
           "accent": null
         },
         {
-          "elo": 885.9,
+          "elo": 885.89,
           "appearances": 302,
           "wins": 172,
           "win_rate": 0.5695364238410596,
@@ -3790,7 +3790,7 @@
           "accent": null
         },
         {
-          "elo": 1202.39,
+          "elo": 1202.4,
           "appearances": 601,
           "wins": 356,
           "win_rate": 0.5923460898502496,
@@ -3806,7 +3806,7 @@
           "accent": null
         },
         {
-          "elo": 979.75,
+          "elo": 979.76,
           "appearances": 396,
           "wins": 233,
           "win_rate": 0.5883838383838383,
@@ -3822,7 +3822,7 @@
           "accent": null
         },
         {
-          "elo": 1163.21,
+          "elo": 1163.13,
           "appearances": 779,
           "wins": 422,
           "win_rate": 0.5417201540436457,
@@ -3838,7 +3838,7 @@
           "accent": null
         },
         {
-          "elo": 1025.91,
+          "elo": 1025.93,
           "appearances": 383,
           "wins": 216,
           "win_rate": 0.5639686684073107,
@@ -3877,7 +3877,7 @@
         "name": "FLUX",
         "url": "/image/model-families/flux"
       },
-      "elo": 1168.98,
+      "elo": 1168.97,
       "rank": 20,
       "ci95": "-9/+9",
       "appearances": 5756,
@@ -3890,7 +3890,7 @@
       "note": null,
       "elos": [
         {
-          "elo": 1168.98,
+          "elo": 1168.97,
           "appearances": 5756,
           "wins": 3068,
           "win_rate": 0.5330090340514246,
@@ -3901,7 +3901,7 @@
           "accent": null
         },
         {
-          "elo": 1235.54,
+          "elo": 1235.55,
           "appearances": 631,
           "wins": 377,
           "win_rate": 0.5974643423137876,
@@ -3997,7 +3997,7 @@
           "accent": null
         },
         {
-          "elo": 1191.35,
+          "elo": 1191.27,
           "appearances": 1179,
           "wins": 667,
           "win_rate": 0.5657336726039016,
@@ -4013,7 +4013,7 @@
           "accent": null
         },
         {
-          "elo": 985.72,
+          "elo": 985.74,
           "appearances": 637,
           "wins": 323,
           "win_rate": 0.5070643642072213,
@@ -4052,12 +4052,12 @@
         "name": "Eigen AI",
         "url": "/image/model-families/eigenai"
       },
-      "elo": 1161.51,
+      "elo": 1161.61,
       "rank": 21,
       "ci95": "-9/+9",
-      "appearances": 6179,
-      "wins": 3149,
-      "win_rate": 0.5096293898689108,
+      "appearances": 6180,
+      "wins": 3150,
+      "win_rate": 0.5097087378640777,
       "open_weights_url": null,
       "is_current": true,
       "is_scraped": false,
@@ -4065,10 +4065,10 @@
       "note": null,
       "elos": [
         {
-          "elo": 1161.51,
-          "appearances": 6179,
-          "wins": 3149,
-          "win_rate": 0.5096293898689108,
+          "elo": 1161.61,
+          "appearances": 6180,
+          "wins": 3150,
+          "win_rate": 0.5097087378640777,
           "ci95": "-9/+9",
           "ci_delta": 9,
           "tag": null,
@@ -4076,7 +4076,7 @@
           "accent": null
         },
         {
-          "elo": 1170.34,
+          "elo": 1170.35,
           "appearances": 683,
           "wins": 344,
           "win_rate": 0.5036603221083455,
@@ -4108,7 +4108,7 @@
           "accent": null
         },
         {
-          "elo": 1265.97,
+          "elo": 1265.98,
           "appearances": 723,
           "wins": 365,
           "win_rate": 0.5048409405255878,
@@ -4124,10 +4124,10 @@
           "accent": null
         },
         {
-          "elo": 861,
-          "appearances": 474,
-          "wins": 245,
-          "win_rate": 0.5168776371308017,
+          "elo": 861.6,
+          "appearances": 475,
+          "wins": 246,
+          "win_rate": 0.5178947368421053,
           "ci95": "-33/+33",
           "ci_delta": 33,
           "tag": {
@@ -4172,7 +4172,7 @@
           "accent": null
         },
         {
-          "elo": 1146.54,
+          "elo": 1146.47,
           "appearances": 1358,
           "wins": 672,
           "win_rate": 0.4948453608247423,
@@ -4188,7 +4188,7 @@
           "accent": null
         },
         {
-          "elo": 982.48,
+          "elo": 982.49,
           "appearances": 657,
           "wins": 318,
           "win_rate": 0.4840182648401826,
@@ -4227,12 +4227,12 @@
         "name": "FLUX",
         "url": "/image/model-families/flux"
       },
-      "elo": 1161.46,
+      "elo": 1161.53,
       "rank": 22,
       "ci95": "-9/+9",
-      "appearances": 5752,
-      "wins": 3048,
-      "win_rate": 0.5299026425591099,
+      "appearances": 5753,
+      "wins": 3049,
+      "win_rate": 0.5299843559881801,
       "open_weights_url": null,
       "is_current": true,
       "is_scraped": false,
@@ -4240,10 +4240,10 @@
       "note": "Generated with the default settings suggested on the Black Forest Labs API `{\"steps\": 50, \"guidance_scale\": 4.5}`",
       "elos": [
         {
-          "elo": 1161.46,
-          "appearances": 5752,
-          "wins": 3048,
-          "win_rate": 0.5299026425591099,
+          "elo": 1161.53,
+          "appearances": 5753,
+          "wins": 3049,
+          "win_rate": 0.5299843559881801,
           "ci95": "-9/+9",
           "ci_delta": 9,
           "tag": null,
@@ -4251,10 +4251,10 @@
           "accent": null
         },
         {
-          "elo": 1205.33,
-          "appearances": 641,
-          "wins": 349,
-          "win_rate": 0.5444617784711389,
+          "elo": 1205.69,
+          "appearances": 642,
+          "wins": 350,
+          "win_rate": 0.5451713395638629,
           "ci95": "-27/+27",
           "ci_delta": 27,
           "tag": {
@@ -4315,7 +4315,7 @@
           "accent": null
         },
         {
-          "elo": 1176.74,
+          "elo": 1176.75,
           "appearances": 964,
           "wins": 537,
           "win_rate": 0.5570539419087137,
@@ -4347,7 +4347,7 @@
           "accent": null
         },
         {
-          "elo": 1178.23,
+          "elo": 1178.15,
           "appearances": 1207,
           "wins": 670,
           "win_rate": 0.5550952775476388,
@@ -4363,7 +4363,7 @@
           "accent": null
         },
         {
-          "elo": 955.51,
+          "elo": 955.53,
           "appearances": 627,
           "wins": 290,
           "win_rate": 0.4625199362041467,
@@ -4402,7 +4402,7 @@
         "name": "anonymous",
         "url": "/image/model-families/anonymous"
       },
-      "elo": 1159.33,
+      "elo": 1159.32,
       "rank": 23,
       "ci95": "-9/+9",
       "appearances": 5561,
@@ -4415,7 +4415,7 @@
       "note": null,
       "elos": [
         {
-          "elo": 1159.33,
+          "elo": 1159.32,
           "appearances": 5561,
           "wins": 2993,
           "win_rate": 0.5382125516993347,
@@ -4426,7 +4426,7 @@
           "accent": null
         },
         {
-          "elo": 1195.39,
+          "elo": 1195.4,
           "appearances": 622,
           "wins": 346,
           "win_rate": 0.5562700964630225,
@@ -4458,7 +4458,7 @@
           "accent": null
         },
         {
-          "elo": 1246.65,
+          "elo": 1246.66,
           "appearances": 626,
           "wins": 324,
           "win_rate": 0.5175718849840255,
@@ -4474,7 +4474,7 @@
           "accent": null
         },
         {
-          "elo": 870.3,
+          "elo": 870.29,
           "appearances": 441,
           "wins": 247,
           "win_rate": 0.5600907029478458,
@@ -4522,7 +4522,7 @@
           "accent": null
         },
         {
-          "elo": 1162.03,
+          "elo": 1161.95,
           "appearances": 1193,
           "wins": 649,
           "win_rate": 0.5440067057837384,
@@ -4538,7 +4538,7 @@
           "accent": null
         },
         {
-          "elo": 1023.91,
+          "elo": 1023.93,
           "appearances": 620,
           "wins": 353,
           "win_rate": 0.5693548387096774,
@@ -4577,7 +4577,7 @@
         "name": "Qwen",
         "url": "/image/model-families/qwen"
       },
-      "elo": 1158.88,
+      "elo": 1158.87,
       "rank": 24,
       "ci95": "-9/+9",
       "appearances": 6634,
@@ -4590,7 +4590,7 @@
       "note": null,
       "elos": [
         {
-          "elo": 1158.88,
+          "elo": 1158.87,
           "appearances": 6634,
           "wins": 3339,
           "win_rate": 0.5033162496231535,
@@ -4601,7 +4601,7 @@
           "accent": null
         },
         {
-          "elo": 1164.07,
+          "elo": 1164.08,
           "appearances": 665,
           "wins": 342,
           "win_rate": 0.5142857142857142,
@@ -4697,7 +4697,7 @@
           "accent": null
         },
         {
-          "elo": 1151.62,
+          "elo": 1151.55,
           "appearances": 1337,
           "wins": 672,
           "win_rate": 0.5026178010471204,
@@ -4713,7 +4713,7 @@
           "accent": null
         },
         {
-          "elo": 1015.99,
+          "elo": 1016,
           "appearances": 780,
           "wins": 419,
           "win_rate": 0.5371794871794872,
@@ -4752,7 +4752,7 @@
         "name": "Seedream",
         "url": "/image/model-families/Seedream"
       },
-      "elo": 1157.98,
+      "elo": 1157.97,
       "rank": 25,
       "ci95": "-10/+10",
       "appearances": 4747,
@@ -4765,7 +4765,7 @@
       "note": null,
       "elos": [
         {
-          "elo": 1157.98,
+          "elo": 1157.97,
           "appearances": 4747,
           "wins": 2493,
           "win_rate": 0.5251737939751422,
@@ -4776,7 +4776,7 @@
           "accent": null
         },
         {
-          "elo": 1193.57,
+          "elo": 1193.58,
           "appearances": 551,
           "wins": 285,
           "win_rate": 0.5172413793103449,
@@ -4824,7 +4824,7 @@
           "accent": null
         },
         {
-          "elo": 765.83,
+          "elo": 765.82,
           "appearances": 443,
           "wins": 170,
           "win_rate": 0.3837471783295711,
@@ -4872,7 +4872,7 @@
           "accent": null
         },
         {
-          "elo": 1124.55,
+          "elo": 1124.48,
           "appearances": 782,
           "wins": 363,
           "win_rate": 0.4641943734015345,
@@ -4888,7 +4888,7 @@
           "accent": null
         },
         {
-          "elo": 1021.41,
+          "elo": 1021.43,
           "appearances": 562,
           "wins": 320,
           "win_rate": 0.5693950177935944,
@@ -4927,7 +4927,7 @@
         "name": "Pruna AI",
         "url": "/image/model-families/pruna-ai"
       },
-      "elo": 1156.71,
+      "elo": 1156.7,
       "rank": 26,
       "ci95": "-9/+9",
       "appearances": 4371,
@@ -4940,7 +4940,7 @@
       "note": null,
       "elos": [
         {
-          "elo": 1156.71,
+          "elo": 1156.7,
           "appearances": 4371,
           "wins": 2275,
           "win_rate": 0.5204758636467628,
@@ -4951,7 +4951,7 @@
           "accent": null
         },
         {
-          "elo": 1141.29,
+          "elo": 1141.31,
           "appearances": 529,
           "wins": 252,
           "win_rate": 0.4763705103969754,
@@ -4983,7 +4983,7 @@
           "accent": null
         },
         {
-          "elo": 1275.29,
+          "elo": 1275.3,
           "appearances": 497,
           "wins": 261,
           "win_rate": 0.5251509054325956,
@@ -4999,7 +4999,7 @@
           "accent": null
         },
         {
-          "elo": 870.82,
+          "elo": 870.83,
           "appearances": 333,
           "wins": 185,
           "win_rate": 0.5555555555555556,
@@ -5047,7 +5047,7 @@
           "accent": null
         },
         {
-          "elo": 1127.13,
+          "elo": 1127.05,
           "appearances": 871,
           "wins": 434,
           "win_rate": 0.49827784156142363,
@@ -5063,7 +5063,7 @@
           "accent": null
         },
         {
-          "elo": 1054.08,
+          "elo": 1054.1,
           "appearances": 498,
           "wins": 297,
           "win_rate": 0.5963855421686747,
@@ -5102,12 +5102,12 @@
         "name": "Qwen",
         "url": "/image/model-families/qwen"
       },
-      "elo": 1153.45,
+      "elo": 1153.54,
       "rank": 27,
       "ci95": "-10/+10",
-      "appearances": 4266,
-      "wins": 2305,
-      "win_rate": 0.5403187998124707,
+      "appearances": 4267,
+      "wins": 2306,
+      "win_rate": 0.540426529177408,
       "open_weights_url": "https://huggingface.co/Qwen/Qwen-Image-Edit-2511",
       "is_current": true,
       "is_scraped": false,
@@ -5115,10 +5115,10 @@
       "note": null,
       "elos": [
         {
-          "elo": 1153.45,
-          "appearances": 4266,
-          "wins": 2305,
-          "win_rate": 0.5403187998124707,
+          "elo": 1153.54,
+          "appearances": 4267,
+          "wins": 2306,
+          "win_rate": 0.540426529177408,
           "ci95": "-10/+10",
           "ci_delta": 10,
           "tag": null,
@@ -5126,7 +5126,7 @@
           "accent": null
         },
         {
-          "elo": 1175.38,
+          "elo": 1175.39,
           "appearances": 465,
           "wins": 236,
           "win_rate": 0.5075268817204301,
@@ -5174,7 +5174,7 @@
           "accent": null
         },
         {
-          "elo": 880.69,
+          "elo": 880.67,
           "appearances": 347,
           "wins": 201,
           "win_rate": 0.579250720461095,
@@ -5206,10 +5206,10 @@
           "accent": null
         },
         {
-          "elo": 944.22,
-          "appearances": 450,
-          "wins": 233,
-          "win_rate": 0.5177777777777778,
+          "elo": 944.64,
+          "appearances": 451,
+          "wins": 234,
+          "win_rate": 0.5188470066518847,
           "ci95": "-30/+30",
           "ci_delta": 30,
           "tag": {
@@ -5222,7 +5222,7 @@
           "accent": null
         },
         {
-          "elo": 1119.79,
+          "elo": 1119.71,
           "appearances": 862,
           "wins": 444,
           "win_rate": 0.5150812064965197,
@@ -5301,7 +5301,7 @@
           "accent": null
         },
         {
-          "elo": 1203.45,
+          "elo": 1203.46,
           "appearances": 558,
           "wins": 320,
           "win_rate": 0.5734767025089605,
@@ -5333,7 +5333,7 @@
           "accent": null
         },
         {
-          "elo": 1240.3,
+          "elo": 1240.31,
           "appearances": 548,
           "wins": 273,
           "win_rate": 0.4981751824817518,
@@ -5397,7 +5397,7 @@
           "accent": null
         },
         {
-          "elo": 1138.45,
+          "elo": 1138.38,
           "appearances": 1026,
           "wins": 546,
           "win_rate": 0.5321637426900585,
@@ -5413,7 +5413,7 @@
           "accent": null
         },
         {
-          "elo": 988.48,
+          "elo": 988.49,
           "appearances": 571,
           "wins": 288,
           "win_rate": 0.5043782837127846,
@@ -5452,12 +5452,12 @@
         "name": "HiDream",
         "url": "/image/model-families/hidream"
       },
-      "elo": 1140.48,
+      "elo": 1140.57,
       "rank": 29,
       "ci95": "-12/+12",
-      "appearances": 2075,
-      "wins": 1030,
-      "win_rate": 0.4963855421686747,
+      "appearances": 2077,
+      "wins": 1031,
+      "win_rate": 0.49638902262879153,
       "open_weights_url": "https://huggingface.co/HiDream-ai/HiDream-O1-Image-Dev",
       "is_current": true,
       "is_scraped": false,
@@ -5465,10 +5465,10 @@
       "note": null,
       "elos": [
         {
-          "elo": 1140.48,
-          "appearances": 2075,
-          "wins": 1030,
-          "win_rate": 0.4963855421686747,
+          "elo": 1140.57,
+          "appearances": 2077,
+          "wins": 1031,
+          "win_rate": 0.49638902262879153,
           "ci95": "-12/+12",
           "ci_delta": 12,
           "tag": null,
@@ -5476,7 +5476,7 @@
           "accent": null
         },
         {
-          "elo": 1178.97,
+          "elo": 1178.98,
           "appearances": 233,
           "wins": 117,
           "win_rate": 0.5021459227467812,
@@ -5508,7 +5508,7 @@
           "accent": null
         },
         {
-          "elo": 1311.26,
+          "elo": 1311.27,
           "appearances": 288,
           "wins": 164,
           "win_rate": 0.5694444444444444,
@@ -5524,10 +5524,10 @@
           "accent": null
         },
         {
-          "elo": 862.17,
-          "appearances": 234,
-          "wins": 121,
-          "win_rate": 0.5170940170940171,
+          "elo": 862.51,
+          "appearances": 235,
+          "wins": 122,
+          "win_rate": 0.5191489361702127,
           "ci95": "-37/+37",
           "ci_delta": 37,
           "tag": {
@@ -5540,7 +5540,7 @@
           "accent": null
         },
         {
-          "elo": 1168.69,
+          "elo": 1168.7,
           "appearances": 264,
           "wins": 146,
           "win_rate": 0.553030303030303,
@@ -5572,7 +5572,7 @@
           "accent": null
         },
         {
-          "elo": 1143.11,
+          "elo": 1143.03,
           "appearances": 247,
           "wins": 126,
           "win_rate": 0.5101214574898786,
@@ -5588,10 +5588,10 @@
           "accent": null
         },
         {
-          "elo": 879.46,
-          "appearances": 251,
+          "elo": 877.8,
+          "appearances": 252,
           "wins": 94,
-          "win_rate": 0.3745019920318725,
+          "win_rate": 0.373015873015873,
           "ci95": "-35/+35",
           "ci_delta": 35,
           "tag": {
@@ -5627,7 +5627,7 @@
         "name": "anonymous",
         "url": "/image/model-families/anonymous"
       },
-      "elo": 1137.45,
+      "elo": 1137.44,
       "rank": 30,
       "ci95": "-9/+9",
       "appearances": 5042,
@@ -5640,7 +5640,7 @@
       "note": null,
       "elos": [
         {
-          "elo": 1137.45,
+          "elo": 1137.44,
           "appearances": 5042,
           "wins": 2445,
           "win_rate": 0.48492661642205476,
@@ -5651,7 +5651,7 @@
           "accent": null
         },
         {
-          "elo": 1166.82,
+          "elo": 1166.83,
           "appearances": 598,
           "wins": 285,
           "win_rate": 0.4765886287625418,
@@ -5747,7 +5747,7 @@
           "accent": null
         },
         {
-          "elo": 1132.36,
+          "elo": 1132.29,
           "appearances": 1003,
           "wins": 487,
           "win_rate": 0.48554336989032904,
@@ -5763,7 +5763,7 @@
           "accent": null
         },
         {
-          "elo": 967.4,
+          "elo": 967.42,
           "appearances": 548,
           "wins": 274,
           "win_rate": 0.5,
@@ -5802,12 +5802,12 @@
         "name": "Qwen",
         "url": "/image/model-families/qwen"
       },
-      "elo": 1137.06,
+      "elo": 1136.98,
       "rank": 31,
       "ci95": "-8/+8",
-      "appearances": 7394,
+      "appearances": 7395,
       "wins": 3922,
-      "win_rate": 0.53043007844198,
+      "win_rate": 0.5303583502366463,
       "open_weights_url": "https://huggingface.co/Qwen/Qwen-Image-Edit-2509",
       "is_current": true,
       "is_scraped": false,
@@ -5815,10 +5815,10 @@
       "note": null,
       "elos": [
         {
-          "elo": 1137.06,
-          "appearances": 7394,
+          "elo": 1136.98,
+          "appearances": 7395,
           "wins": 3922,
-          "win_rate": 0.53043007844198,
+          "win_rate": 0.5303583502366463,
           "ci95": "-8/+8",
           "ci_delta": 8,
           "tag": null,
@@ -5826,10 +5826,10 @@
           "accent": null
         },
         {
-          "elo": 1164.47,
-          "appearances": 802,
+          "elo": 1164.19,
+          "appearances": 803,
           "wins": 429,
-          "win_rate": 0.5349127182044888,
+          "win_rate": 0.5342465753424658,
           "ci95": "-25/+25",
           "ci_delta": 25,
           "tag": {
@@ -5842,7 +5842,7 @@
           "accent": null
         },
         {
-          "elo": 914.7,
+          "elo": 914.71,
           "appearances": 666,
           "wins": 353,
           "win_rate": 0.53003003003003,
@@ -5922,7 +5922,7 @@
           "accent": null
         },
         {
-          "elo": 1130.52,
+          "elo": 1130.45,
           "appearances": 1545,
           "wins": 828,
           "win_rate": 0.5359223300970873,
@@ -5938,7 +5938,7 @@
           "accent": null
         },
         {
-          "elo": 986.74,
+          "elo": 986.76,
           "appearances": 759,
           "wins": 424,
           "win_rate": 0.5586297760210803,
@@ -5977,7 +5977,7 @@
         "name": "FLUX",
         "url": "/image/model-families/flux"
       },
-      "elo": 1136.99,
+      "elo": 1136.98,
       "rank": 32,
       "ci95": "-9/+9",
       "appearances": 5905,
@@ -5990,7 +5990,7 @@
       "note": null,
       "elos": [
         {
-          "elo": 1136.99,
+          "elo": 1136.98,
           "appearances": 5905,
           "wins": 2859,
           "win_rate": 0.4841659610499577,
@@ -6001,7 +6001,7 @@
           "accent": null
         },
         {
-          "elo": 1205.06,
+          "elo": 1205.07,
           "appearances": 683,
           "wins": 371,
           "win_rate": 0.5431918008784773,
@@ -6065,7 +6065,7 @@
           "accent": null
         },
         {
-          "elo": 1117.18,
+          "elo": 1117.19,
           "appearances": 980,
           "wins": 472,
           "win_rate": 0.4816326530612245,
@@ -6097,7 +6097,7 @@
           "accent": null
         },
         {
-          "elo": 1113.43,
+          "elo": 1113.36,
           "appearances": 1254,
           "wins": 574,
           "win_rate": 0.45773524720893144,
@@ -6113,7 +6113,7 @@
           "accent": null
         },
         {
-          "elo": 987.82,
+          "elo": 987.84,
           "appearances": 661,
           "wins": 306,
           "win_rate": 0.4629349470499244,
@@ -6176,7 +6176,7 @@
           "accent": null
         },
         {
-          "elo": 1186.17,
+          "elo": 1186.18,
           "appearances": 516,
           "wins": 281,
           "win_rate": 0.5445736434108527,
@@ -6192,7 +6192,7 @@
           "accent": null
         },
         {
-          "elo": 925.42,
+          "elo": 925.41,
           "appearances": 495,
           "wins": 264,
           "win_rate": 0.5333333333333333,
@@ -6224,7 +6224,7 @@
           "accent": null
         },
         {
-          "elo": 848.64,
+          "elo": 848.63,
           "appearances": 419,
           "wins": 232,
           "win_rate": 0.5536992840095465,
@@ -6272,7 +6272,7 @@
           "accent": null
         },
         {
-          "elo": 1131.25,
+          "elo": 1131.18,
           "appearances": 1077,
           "wins": 583,
           "win_rate": 0.5413184772516249,
@@ -6288,7 +6288,7 @@
           "accent": null
         },
         {
-          "elo": 983.01,
+          "elo": 983.02,
           "appearances": 524,
           "wins": 268,
           "win_rate": 0.5114503816793893,
@@ -6351,7 +6351,7 @@
           "accent": null
         },
         {
-          "elo": 1168.92,
+          "elo": 1168.93,
           "appearances": 863,
           "wins": 451,
           "win_rate": 0.522595596755504,
@@ -6447,7 +6447,7 @@
           "accent": null
         },
         {
-          "elo": 1153.95,
+          "elo": 1153.88,
           "appearances": 1503,
           "wins": 836,
           "win_rate": 0.5562208915502329,
@@ -6463,7 +6463,7 @@
           "accent": null
         },
         {
-          "elo": 951.85,
+          "elo": 951.86,
           "appearances": 800,
           "wins": 407,
           "win_rate": 0.50875,
@@ -6526,7 +6526,7 @@
           "accent": null
         },
         {
-          "elo": 1173.14,
+          "elo": 1173.15,
           "appearances": 785,
           "wins": 442,
           "win_rate": 0.5630573248407643,
@@ -6574,7 +6574,7 @@
           "accent": null
         },
         {
-          "elo": 866.86,
+          "elo": 866.87,
           "appearances": 509,
           "wins": 285,
           "win_rate": 0.5599214145383105,
@@ -6606,7 +6606,7 @@
           "accent": null
         },
         {
-          "elo": 881.49,
+          "elo": 881.48,
           "appearances": 672,
           "wins": 333,
           "win_rate": 0.4955357142857143,
@@ -6622,7 +6622,7 @@
           "accent": null
         },
         {
-          "elo": 1157.05,
+          "elo": 1156.99,
           "appearances": 1413,
           "wins": 808,
           "win_rate": 0.5718329794762915,
@@ -6638,7 +6638,7 @@
           "accent": null
         },
         {
-          "elo": 884.17,
+          "elo": 884.19,
           "appearances": 712,
           "wins": 307,
           "win_rate": 0.4311797752808989,
@@ -6677,12 +6677,12 @@
         "name": "Wan",
         "url": "/image/model-families/wan"
       },
-      "elo": 1130.42,
+      "elo": 1130.55,
       "rank": 36,
       "ci95": "-9/+9",
-      "appearances": 4515,
-      "wins": 2192,
-      "win_rate": 0.48549280177187154,
+      "appearances": 4516,
+      "wins": 2193,
+      "win_rate": 0.48560673162090345,
       "open_weights_url": null,
       "is_current": true,
       "is_scraped": false,
@@ -6690,10 +6690,10 @@
       "note": null,
       "elos": [
         {
-          "elo": 1130.42,
-          "appearances": 4515,
-          "wins": 2192,
-          "win_rate": 0.48549280177187154,
+          "elo": 1130.55,
+          "appearances": 4516,
+          "wins": 2193,
+          "win_rate": 0.48560673162090345,
           "ci95": "-9/+9",
           "ci_delta": 9,
           "tag": null,
@@ -6701,7 +6701,7 @@
           "accent": null
         },
         {
-          "elo": 1131.66,
+          "elo": 1131.67,
           "appearances": 506,
           "wins": 229,
           "win_rate": 0.4525691699604743,
@@ -6797,7 +6797,7 @@
           "accent": null
         },
         {
-          "elo": 1102,
+          "elo": 1101.93,
           "appearances": 911,
           "wins": 409,
           "win_rate": 0.4489571899012075,
@@ -6813,10 +6813,10 @@
           "accent": null
         },
         {
-          "elo": 1006.7,
-          "appearances": 503,
-          "wins": 276,
-          "win_rate": 0.5487077534791253,
+          "elo": 1007.6,
+          "appearances": 504,
+          "wins": 277,
+          "win_rate": 0.5496031746031746,
           "ci95": "-28/+28",
           "ci_delta": 28,
           "tag": {
@@ -6852,12 +6852,12 @@
         "name": "Reve",
         "url": "/image/model-families/reve"
       },
-      "elo": 1112.74,
+      "elo": 1112.8,
       "rank": null,
       "ci95": "-9/+9",
-      "appearances": 6666,
-      "wins": 3256,
-      "win_rate": 0.4884488448844885,
+      "appearances": 6669,
+      "wins": 3258,
+      "win_rate": 0.4885290148448043,
       "open_weights_url": null,
       "is_current": false,
       "is_scraped": false,
@@ -6865,10 +6865,10 @@
       "note": null,
       "elos": [
         {
-          "elo": 1112.74,
-          "appearances": 6666,
-          "wins": 3256,
-          "win_rate": 0.4884488448844885,
+          "elo": 1112.8,
+          "appearances": 6669,
+          "wins": 3258,
+          "win_rate": 0.4885290148448043,
           "ci95": "-9/+9",
           "ci_delta": 9,
           "tag": null,
@@ -6876,7 +6876,7 @@
           "accent": null
         },
         {
-          "elo": 1104.84,
+          "elo": 1104.85,
           "appearances": 688,
           "wins": 305,
           "win_rate": 0.4433139534883721,
@@ -6892,10 +6892,10 @@
           "accent": null
         },
         {
-          "elo": 831.81,
-          "appearances": 589,
-          "wins": 241,
-          "win_rate": 0.4091680814940577,
+          "elo": 832.1,
+          "appearances": 590,
+          "wins": 242,
+          "win_rate": 0.4101694915254237,
           "ci95": "-29/+29",
           "ci_delta": 29,
           "tag": {
@@ -6924,10 +6924,10 @@
           "accent": null
         },
         {
-          "elo": 831.22,
-          "appearances": 473,
-          "wins": 253,
-          "win_rate": 0.5348837209302325,
+          "elo": 831.9,
+          "appearances": 474,
+          "wins": 254,
+          "win_rate": 0.5358649789029536,
           "ci95": "-31/+31",
           "ci_delta": 31,
           "tag": {
@@ -6972,10 +6972,10 @@
           "accent": null
         },
         {
-          "elo": 1085.5,
-          "appearances": 1361,
+          "elo": 1085.01,
+          "appearances": 1362,
           "wins": 642,
-          "win_rate": 0.47171197648787655,
+          "win_rate": 0.4713656387665198,
           "ci95": "-19/+19",
           "ci_delta": 19,
           "tag": {
@@ -6988,7 +6988,7 @@
           "accent": null
         },
         {
-          "elo": 971.16,
+          "elo": 971.18,
           "appearances": 672,
           "wins": 357,
           "win_rate": 0.53125,
@@ -7027,7 +7027,7 @@
         "name": "anonymous",
         "url": "/image/model-families/anonymous"
       },
-      "elo": 1107.75,
+      "elo": 1107.74,
       "rank": 37,
       "ci95": "-9/+9",
       "appearances": 5378,
@@ -7040,7 +7040,7 @@
       "note": null,
       "elos": [
         {
-          "elo": 1107.75,
+          "elo": 1107.74,
           "appearances": 5378,
           "wins": 2469,
           "win_rate": 0.4590925994793604,
@@ -7051,7 +7051,7 @@
           "accent": null
         },
         {
-          "elo": 1201.12,
+          "elo": 1201.13,
           "appearances": 614,
           "wins": 340,
           "win_rate": 0.5537459283387622,
@@ -7147,7 +7147,7 @@
           "accent": null
         },
         {
-          "elo": 1103.5,
+          "elo": 1103.43,
           "appearances": 1099,
           "wins": 508,
           "win_rate": 0.462238398544131,
@@ -7163,7 +7163,7 @@
           "accent": null
         },
         {
-          "elo": 943,
+          "elo": 943.02,
           "appearances": 590,
           "wins": 274,
           "win_rate": 0.46440677966101696,
@@ -7202,7 +7202,7 @@
         "name": "Meituan",
         "url": "/image/model-families/meituan"
       },
-      "elo": 1103.74,
+      "elo": 1103.73,
       "rank": 38,
       "ci95": "-10/+10",
       "appearances": 3972,
@@ -7215,7 +7215,7 @@
       "note": null,
       "elos": [
         {
-          "elo": 1103.74,
+          "elo": 1103.73,
           "appearances": 3972,
           "wins": 1769,
           "win_rate": 0.44536757301107754,
@@ -7226,7 +7226,7 @@
           "accent": null
         },
         {
-          "elo": 1156.84,
+          "elo": 1156.85,
           "appearances": 435,
           "wins": 199,
           "win_rate": 0.4574712643678161,
@@ -7322,7 +7322,7 @@
           "accent": null
         },
         {
-          "elo": 1074.43,
+          "elo": 1074.36,
           "appearances": 830,
           "wins": 323,
           "win_rate": 0.3891566265060241,
@@ -7338,7 +7338,7 @@
           "accent": null
         },
         {
-          "elo": 1000.1,
+          "elo": 1000.12,
           "appearances": 450,
           "wins": 253,
           "win_rate": 0.5622222222222222,
@@ -7401,7 +7401,7 @@
           "accent": null
         },
         {
-          "elo": 1122.42,
+          "elo": 1122.43,
           "appearances": 781,
           "wins": 379,
           "win_rate": 0.4852752880921895,
@@ -7449,7 +7449,7 @@
           "accent": null
         },
         {
-          "elo": 827,
+          "elo": 827.01,
           "appearances": 465,
           "wins": 227,
           "win_rate": 0.4881720430107527,
@@ -7497,7 +7497,7 @@
           "accent": null
         },
         {
-          "elo": 1065.76,
+          "elo": 1065.7,
           "appearances": 1450,
           "wins": 683,
           "win_rate": 0.4710344827586207,
@@ -7513,7 +7513,7 @@
           "accent": null
         },
         {
-          "elo": 904.76,
+          "elo": 904.8,
           "appearances": 752,
           "wins": 320,
           "win_rate": 0.425531914893617,
@@ -7552,12 +7552,12 @@
         "name": "Bria",
         "url": "/image/model-families/bria"
       },
-      "elo": 1086.77,
+      "elo": 1086.59,
       "rank": 40,
       "ci95": "-10/+10",
-      "appearances": 5495,
+      "appearances": 5497,
       "wins": 2173,
-      "win_rate": 0.3954504094631483,
+      "win_rate": 0.3953065308350009,
       "open_weights_url": "https://huggingface.co/briaai/Fibo-Edit$0",
       "is_current": true,
       "is_scraped": false,
@@ -7565,10 +7565,10 @@
       "note": null,
       "elos": [
         {
-          "elo": 1086.77,
-          "appearances": 5495,
+          "elo": 1086.59,
+          "appearances": 5497,
           "wins": 2173,
-          "win_rate": 0.3954504094631483,
+          "win_rate": 0.3953065308350009,
           "ci95": "-10/+10",
           "ci_delta": 10,
           "tag": null,
@@ -7576,7 +7576,7 @@
           "accent": null
         },
         {
-          "elo": 1153.15,
+          "elo": 1153.17,
           "appearances": 608,
           "wins": 274,
           "win_rate": 0.4506578947368421,
@@ -7608,7 +7608,7 @@
           "accent": null
         },
         {
-          "elo": 1156.6,
+          "elo": 1156.61,
           "appearances": 642,
           "wins": 240,
           "win_rate": 0.37383177570093457,
@@ -7640,10 +7640,10 @@
           "accent": null
         },
         {
-          "elo": 1064.77,
-          "appearances": 916,
+          "elo": 1064.32,
+          "appearances": 917,
           "wins": 350,
-          "win_rate": 0.38209606986899564,
+          "win_rate": 0.3816793893129771,
           "ci95": "-25/+25",
           "ci_delta": 25,
           "tag": {
@@ -7656,10 +7656,10 @@
           "accent": null
         },
         {
-          "elo": 797.61,
-          "appearances": 642,
+          "elo": 797.17,
+          "appearances": 643,
           "wins": 189,
-          "win_rate": 0.29439252336448596,
+          "win_rate": 0.2939346811819596,
           "ci95": "-31/+31",
           "ci_delta": 31,
           "tag": {
@@ -7672,7 +7672,7 @@
           "accent": null
         },
         {
-          "elo": 1114.77,
+          "elo": 1114.69,
           "appearances": 1176,
           "wins": 519,
           "win_rate": 0.4413265306122449,
@@ -7688,7 +7688,7 @@
           "accent": null
         },
         {
-          "elo": 949.42,
+          "elo": 949.43,
           "appearances": 525,
           "wins": 237,
           "win_rate": 0.4514285714285714,
@@ -7727,7 +7727,7 @@
         "name": "Step",
         "url": "/image/model-families/step"
       },
-      "elo": 1083.61,
+      "elo": 1083.6,
       "rank": 41,
       "ci95": "-9/+9",
       "appearances": 4594,
@@ -7740,7 +7740,7 @@
       "note": null,
       "elos": [
         {
-          "elo": 1083.61,
+          "elo": 1083.6,
           "appearances": 4594,
           "wins": 1913,
           "win_rate": 0.41641271223334786,
@@ -7751,7 +7751,7 @@
           "accent": null
         },
         {
-          "elo": 1106.31,
+          "elo": 1106.32,
           "appearances": 463,
           "wins": 201,
           "win_rate": 0.43412526997840173,
@@ -7847,7 +7847,7 @@
           "accent": null
         },
         {
-          "elo": 1029.21,
+          "elo": 1029.15,
           "appearances": 922,
           "wins": 331,
           "win_rate": 0.35900216919739697,
@@ -7863,7 +7863,7 @@
           "accent": null
         },
         {
-          "elo": 938.9,
+          "elo": 938.92,
           "appearances": 582,
           "wins": 267,
           "win_rate": 0.4587628865979381,
@@ -7926,7 +7926,7 @@
           "accent": null
         },
         {
-          "elo": 1169.95,
+          "elo": 1169.96,
           "appearances": 788,
           "wins": 423,
           "win_rate": 0.5368020304568528,
@@ -7958,7 +7958,7 @@
           "accent": null
         },
         {
-          "elo": 1170.94,
+          "elo": 1170.95,
           "appearances": 766,
           "wins": 343,
           "win_rate": 0.44778067885117495,
@@ -8022,7 +8022,7 @@
           "accent": null
         },
         {
-          "elo": 1054.43,
+          "elo": 1054.37,
           "appearances": 1472,
           "wins": 659,
           "win_rate": 0.4476902173913043,
@@ -8038,7 +8038,7 @@
           "accent": null
         },
         {
-          "elo": 982.7,
+          "elo": 982.71,
           "appearances": 678,
           "wins": 378,
           "win_rate": 0.5575221238938053,
@@ -8077,12 +8077,12 @@
         "name": "Qwen",
         "url": "/image/model-families/qwen"
       },
-      "elo": 1077.48,
+      "elo": 1077.49,
       "rank": 43,
       "ci95": "-8/+8",
-      "appearances": 7382,
-      "wins": 3475,
-      "win_rate": 0.4707396369547548,
+      "appearances": 7383,
+      "wins": 3476,
+      "win_rate": 0.47081132331030745,
       "open_weights_url": "https://huggingface.co/Qwen/Qwen-Image-Edit",
       "is_current": true,
       "is_scraped": false,
@@ -8090,10 +8090,10 @@
       "note": null,
       "elos": [
         {
-          "elo": 1077.48,
-          "appearances": 7382,
-          "wins": 3475,
-          "win_rate": 0.4707396369547548,
+          "elo": 1077.49,
+          "appearances": 7383,
+          "wins": 3476,
+          "win_rate": 0.47081132331030745,
           "ci95": "-8/+8",
           "ci_delta": 8,
           "tag": null,
@@ -8101,7 +8101,7 @@
           "accent": null
         },
         {
-          "elo": 1136.43,
+          "elo": 1136.44,
           "appearances": 783,
           "wins": 390,
           "win_rate": 0.49808429118773945,
@@ -8133,7 +8133,7 @@
           "accent": null
         },
         {
-          "elo": 1186.67,
+          "elo": 1186.68,
           "appearances": 793,
           "wins": 392,
           "win_rate": 0.4943253467843632,
@@ -8149,10 +8149,10 @@
           "accent": null
         },
         {
-          "elo": 814.1,
-          "appearances": 488,
-          "wins": 246,
-          "win_rate": 0.5040983606557377,
+          "elo": 814.36,
+          "appearances": 489,
+          "wins": 247,
+          "win_rate": 0.5051124744376279,
           "ci95": "-32/+32",
           "ci_delta": 32,
           "tag": {
@@ -8197,7 +8197,7 @@
           "accent": null
         },
         {
-          "elo": 1049.57,
+          "elo": 1049.52,
           "appearances": 1503,
           "wins": 688,
           "win_rate": 0.4577511643379907,
@@ -8276,7 +8276,7 @@
           "accent": null
         },
         {
-          "elo": 1135.32,
+          "elo": 1135.33,
           "appearances": 747,
           "wins": 348,
           "win_rate": 0.46586345381526106,
@@ -8356,7 +8356,7 @@
           "accent": null
         },
         {
-          "elo": 886.25,
+          "elo": 886.26,
           "appearances": 706,
           "wins": 334,
           "win_rate": 0.4730878186968839,
@@ -8372,7 +8372,7 @@
           "accent": null
         },
         {
-          "elo": 1058.23,
+          "elo": 1058.17,
           "appearances": 1488,
           "wins": 628,
           "win_rate": 0.4220430107526882,
@@ -8388,7 +8388,7 @@
           "accent": null
         },
         {
-          "elo": 882.34,
+          "elo": 882.35,
           "appearances": 748,
           "wins": 292,
           "win_rate": 0.39037433155080214,
@@ -8451,7 +8451,7 @@
           "accent": null
         },
         {
-          "elo": 1079.16,
+          "elo": 1079.17,
           "appearances": 682,
           "wins": 292,
           "win_rate": 0.4281524926686217,
@@ -8515,7 +8515,7 @@
           "accent": null
         },
         {
-          "elo": 1100.56,
+          "elo": 1100.57,
           "appearances": 948,
           "wins": 451,
           "win_rate": 0.4757383966244726,
@@ -8547,7 +8547,7 @@
           "accent": null
         },
         {
-          "elo": 1071.73,
+          "elo": 1071.67,
           "appearances": 1375,
           "wins": 621,
           "win_rate": 0.4516363636363636,
@@ -8563,7 +8563,7 @@
           "accent": null
         },
         {
-          "elo": 917.7,
+          "elo": 917.72,
           "appearances": 666,
           "wins": 291,
           "win_rate": 0.4369369369369369,
@@ -8602,7 +8602,7 @@
         "name": "OpenAI GPT",
         "url": "/image/model-families/openai-gpt"
       },
-      "elo": 1064.7,
+      "elo": 1064.69,
       "rank": 46,
       "ci95": "-9/+9",
       "appearances": 6612,
@@ -8615,7 +8615,7 @@
       "note": "  Generated using the OpenAI Images API with `model_id: \"gpt-image-1-mini\"` and `quality: \"medium\"`.\n\n  Prompts were pre-pended with \"Create the following as a square image:\" for Text to Image, and \"Edit the following to create a square image:\" for Image Editing.\n\n\n  We found without pre-pending these instructions, images would not be produced natively as squares.",
       "elos": [
         {
-          "elo": 1064.7,
+          "elo": 1064.69,
           "appearances": 6612,
           "wins": 2894,
           "win_rate": 0.43768905021173626,
@@ -8626,7 +8626,7 @@
           "accent": null
         },
         {
-          "elo": 1119.12,
+          "elo": 1119.13,
           "appearances": 764,
           "wins": 356,
           "win_rate": 0.46596858638743455,
@@ -8674,7 +8674,7 @@
           "accent": null
         },
         {
-          "elo": 774.27,
+          "elo": 774.28,
           "appearances": 490,
           "wins": 224,
           "win_rate": 0.45714285714285713,
@@ -8722,7 +8722,7 @@
           "accent": null
         },
         {
-          "elo": 1094.54,
+          "elo": 1094.47,
           "appearances": 1371,
           "wins": 662,
           "win_rate": 0.4828592268417214,
@@ -8738,7 +8738,7 @@
           "accent": null
         },
         {
-          "elo": 831.16,
+          "elo": 831.17,
           "appearances": 678,
           "wins": 218,
           "win_rate": 0.3215339233038348,
@@ -8801,7 +8801,7 @@
           "accent": null
         },
         {
-          "elo": 1071.54,
+          "elo": 1071.56,
           "appearances": 639,
           "wins": 251,
           "win_rate": 0.39280125195618154,
@@ -8897,7 +8897,7 @@
           "accent": null
         },
         {
-          "elo": 994.42,
+          "elo": 994.37,
           "appearances": 1132,
           "wins": 379,
           "win_rate": 0.33480565371024734,
@@ -8913,7 +8913,7 @@
           "accent": null
         },
         {
-          "elo": 884.27,
+          "elo": 884.28,
           "appearances": 643,
           "wins": 248,
           "win_rate": 0.3856920684292379,
@@ -8992,7 +8992,7 @@
           "accent": null
         },
         {
-          "elo": 744.86,
+          "elo": 744.85,
           "appearances": 529,
           "wins": 162,
           "win_rate": 0.30623818525519847,
@@ -9024,7 +9024,7 @@
           "accent": null
         },
         {
-          "elo": 706.39,
+          "elo": 706.41,
           "appearances": 437,
           "wins": 157,
           "win_rate": 0.35926773455377575,
@@ -9072,7 +9072,7 @@
           "accent": null
         },
         {
-          "elo": 960.47,
+          "elo": 960.43,
           "appearances": 1331,
           "wins": 426,
           "win_rate": 0.32006010518407213,
@@ -9278,7 +9278,7 @@
           "accent": null
         },
         {
-          "elo": 731.99,
+          "elo": 731.98,
           "appearances": 171,
           "wins": 51,
           "win_rate": 0.2982456140350877,
@@ -9294,7 +9294,7 @@
           "accent": null
         },
         {
-          "elo": 1045.72,
+          "elo": 1045.71,
           "appearances": 249,
           "wins": 90,
           "win_rate": 0.3614457831325301,
@@ -9326,7 +9326,7 @@
           "accent": null
         },
         {
-          "elo": 726.44,
+          "elo": 726.42,
           "appearances": 194,
           "wins": 59,
           "win_rate": 0.30412371134020616,
@@ -9358,7 +9358,7 @@
           "accent": null
         },
         {
-          "elo": 856.5,
+          "elo": 856.48,
           "appearances": 199,
           "wins": 81,
           "win_rate": 0.40703517587939697,
@@ -9397,7 +9397,7 @@
         "name": "Step",
         "url": "/image/model-families/step"
       },
-      "elo": 953.47,
+      "elo": 953.46,
       "rank": 51,
       "ci95": "-9/+9",
       "appearances": 7055,
@@ -9410,7 +9410,7 @@
       "note": null,
       "elos": [
         {
-          "elo": 953.47,
+          "elo": 953.46,
           "appearances": 7055,
           "wins": 2046,
           "win_rate": 0.2900070871722183,
@@ -9421,7 +9421,7 @@
           "accent": null
         },
         {
-          "elo": 1047.9,
+          "elo": 1047.91,
           "appearances": 704,
           "wins": 242,
           "win_rate": 0.34375,
@@ -9517,7 +9517,7 @@
           "accent": null
         },
         {
-          "elo": 914.47,
+          "elo": 914.43,
           "appearances": 1532,
           "wins": 406,
           "win_rate": 0.2650130548302872,
@@ -9533,7 +9533,7 @@
           "accent": null
         },
         {
-          "elo": 823.54,
+          "elo": 823.55,
           "appearances": 704,
           "wins": 230,
           "win_rate": 0.32670454545454547,
@@ -9596,7 +9596,7 @@
           "accent": null
         },
         {
-          "elo": 972.4,
+          "elo": 972.41,
           "appearances": 602,
           "wins": 162,
           "win_rate": 0.2691029900332226,
@@ -9660,7 +9660,7 @@
           "accent": null
         },
         {
-          "elo": 887.92,
+          "elo": 887.91,
           "appearances": 920,
           "wins": 186,
           "win_rate": 0.20217391304347826,
@@ -9676,7 +9676,7 @@
           "accent": null
         },
         {
-          "elo": 670.18,
+          "elo": 670.17,
           "appearances": 541,
           "wins": 113,
           "win_rate": 0.2088724584103512,
@@ -9692,7 +9692,7 @@
           "accent": null
         },
         {
-          "elo": 944.07,
+          "elo": 944.02,
           "appearances": 1164,
           "wins": 307,
           "win_rate": 0.26374570446735396,
@@ -9747,12 +9747,12 @@
         "name": "OmniGen",
         "url": "/image/model-families/omniegen"
       },
-      "elo": 914.43,
+      "elo": 914.4,
       "rank": 53,
       "ci95": "-10/+10",
-      "appearances": 6228,
+      "appearances": 6229,
       "wins": 1621,
-      "win_rate": 0.2602761721258831,
+      "win_rate": 0.2602343875421416,
       "open_weights_url": "https://huggingface.co/OmniGen2/OmniGen2",
       "is_current": true,
       "is_scraped": false,
@@ -9760,10 +9760,10 @@
       "note": null,
       "elos": [
         {
-          "elo": 914.43,
-          "appearances": 6228,
+          "elo": 914.4,
+          "appearances": 6229,
           "wins": 1621,
-          "win_rate": 0.2602761721258831,
+          "win_rate": 0.2602343875421416,
           "ci95": "-10/+10",
           "ci_delta": 10,
           "tag": null,
@@ -9771,7 +9771,7 @@
           "accent": null
         },
         {
-          "elo": 987.69,
+          "elo": 987.7,
           "appearances": 665,
           "wins": 200,
           "win_rate": 0.3007518796992481,
@@ -9787,10 +9787,10 @@
           "accent": null
         },
         {
-          "elo": 735.61,
-          "appearances": 499,
+          "elo": 735.26,
+          "appearances": 500,
           "wins": 150,
-          "win_rate": 0.30060120240480964,
+          "win_rate": 0.3,
           "ci95": "-32/+32",
           "ci_delta": 32,
           "tag": {
@@ -9851,7 +9851,7 @@
           "accent": null
         },
         {
-          "elo": 650.59,
+          "elo": 650.58,
           "appearances": 594,
           "wins": 132,
           "win_rate": 0.2222222222222222,
@@ -9867,7 +9867,7 @@
           "accent": null
         },
         {
-          "elo": 887.83,
+          "elo": 887.8,
           "appearances": 1279,
           "wins": 305,
           "win_rate": 0.23846755277560594,
@@ -9883,7 +9883,7 @@
           "accent": null
         },
         {
-          "elo": 782.44,
+          "elo": 782.45,
           "appearances": 647,
           "wins": 190,
           "win_rate": 0.2936630602782071,
@@ -9922,12 +9922,12 @@
         "name": "Bagel",
         "url": "/image/model-families/bagel"
       },
-      "elo": 910.71,
+      "elo": 910.69,
       "rank": 54,
       "ci95": "-10/+10",
-      "appearances": 5713,
+      "appearances": 5714,
       "wins": 1431,
-      "win_rate": 0.25048135830561874,
+      "win_rate": 0.2504375218760938,
       "open_weights_url": "https://huggingface.co/ByteDance-Seed/BAGEL-7B-MoT",
       "is_current": true,
       "is_scraped": false,
@@ -9935,10 +9935,10 @@
       "note": null,
       "elos": [
         {
-          "elo": 910.71,
-          "appearances": 5713,
+          "elo": 910.69,
+          "appearances": 5714,
           "wins": 1431,
-          "win_rate": 0.25048135830561874,
+          "win_rate": 0.2504375218760938,
           "ci95": "-10/+10",
           "ci_delta": 10,
           "tag": null,
@@ -9946,7 +9946,7 @@
           "accent": null
         },
         {
-          "elo": 994.42,
+          "elo": 994.43,
           "appearances": 604,
           "wins": 175,
           "win_rate": 0.2897350993377483,
@@ -9994,10 +9994,10 @@
           "accent": null
         },
         {
-          "elo": 653.5,
-          "appearances": 395,
+          "elo": 653.17,
+          "appearances": 396,
           "wins": 104,
-          "win_rate": 0.26329113924050634,
+          "win_rate": 0.26262626262626265,
           "ci95": "-36/+36",
           "ci_delta": 36,
           "tag": {
@@ -10026,7 +10026,7 @@
           "accent": null
         },
         {
-          "elo": 518.09,
+          "elo": 518.08,
           "appearances": 530,
           "wins": 66,
           "win_rate": 0.12452830188679245,
@@ -10042,7 +10042,7 @@
           "accent": null
         },
         {
-          "elo": 902.16,
+          "elo": 902.13,
           "appearances": 1192,
           "wins": 296,
           "win_rate": 0.2483221476510067,
@@ -10058,7 +10058,7 @@
           "accent": null
         },
         {
-          "elo": 763.98,
+          "elo": 763.99,
           "appearances": 560,
           "wins": 151,
           "win_rate": 0.26964285714285713,
@@ -10097,12 +10097,12 @@
         "name": "Step",
         "url": "/image/model-families/step"
       },
-      "elo": 846.08,
+      "elo": 846.34,
       "rank": 55,
       "ci95": "-11/+11",
-      "appearances": 6144,
-      "wins": 1153,
-      "win_rate": 0.18766276041666666,
+      "appearances": 6145,
+      "wins": 1154,
+      "win_rate": 0.18779495524816925,
       "open_weights_url": "https://huggingface.co/stepfun-ai/Step1X-Edit",
       "is_current": true,
       "is_scraped": false,
@@ -10110,10 +10110,10 @@
       "note": null,
       "elos": [
         {
-          "elo": 846.08,
-          "appearances": 6144,
-          "wins": 1153,
-          "win_rate": 0.18766276041666666,
+          "elo": 846.34,
+          "appearances": 6145,
+          "wins": 1154,
+          "win_rate": 0.18779495524816925,
           "ci95": "-11/+11",
           "ci_delta": 11,
           "tag": null,
@@ -10121,7 +10121,7 @@
           "accent": null
         },
         {
-          "elo": 926.95,
+          "elo": 926.96,
           "appearances": 629,
           "wins": 131,
           "win_rate": 0.2082670906200318,
@@ -10137,7 +10137,7 @@
           "accent": null
         },
         {
-          "elo": 590.46,
+          "elo": 590.45,
           "appearances": 507,
           "wins": 82,
           "win_rate": 0.16173570019723865,
@@ -10217,10 +10217,10 @@
           "accent": null
         },
         {
-          "elo": 834.21,
-          "appearances": 1313,
-          "wins": 260,
-          "win_rate": 0.19801980198019803,
+          "elo": 835.68,
+          "appearances": 1314,
+          "wins": 261,
+          "win_rate": 0.19863013698630136,
           "ci95": "-25/+25",
           "ci_delta": 25,
           "tag": {
@@ -10233,7 +10233,7 @@
           "accent": null
         },
         {
-          "elo": 684.81,
+          "elo": 684.8,
           "appearances": 659,
           "wins": 110,
           "win_rate": 0.1669195751138088,
@@ -10328,7 +10328,7 @@
           "accent": null
         },
         {
-          "elo": 810.47,
+          "elo": 810.51,
           "appearances": 386,
           "wins": 76,
           "win_rate": 0.19689119170984457,
