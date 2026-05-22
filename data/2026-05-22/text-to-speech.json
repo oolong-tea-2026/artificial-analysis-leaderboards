@@ -1,0 +1,3445 @@
+{
+  "meta": {
+    "endpoint": "text-to-speech",
+    "source_type": "public_json",
+    "source_url": "https://artificialanalysis.ai/api/text-to-speech/arena/preferences",
+    "source_description": "Text-to-speech arena leaderboard",
+    "parser_version": "public-web-v1",
+    "model_count": 78,
+    "fetched_at": "2026-05-22T07:20:35.342878+00:00"
+  },
+  "models": [
+    {
+      "id": "abed0fa5-3a5e-4346-8559-5c9090924546",
+      "name": "Gemini 3.1 Flash TTS",
+      "slug": "gemini-3-1-tts",
+      "release_date": "2026-04-15",
+      "creator": {
+        "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
+        "name": "Google",
+        "logoSmall": "/img/logos/google_small.svg",
+        "color": "#34A853"
+      },
+      "family": {
+        "id": "89cb87fa-f63b-4170-9450-ab6c20bf4df5",
+        "name": "Gemini TTS",
+        "url": "/text-to-speech/model-families/gemini-tts"
+      },
+      "elo": 1210.01,
+      "rank": 1,
+      "ci95": "-14/+14",
+      "appearances": 2115,
+      "wins": 1510,
+      "win_rate": 0.7139479905437353,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1210.01,
+          "appearances": 2115,
+          "wins": 1510,
+          "win_rate": 0.7139479905437353,
+          "ci95": "-14/+14",
+          "ci_delta": 14,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 18.31
+      }
+    },
+    {
+      "id": "6e0eadf0-3bf9-4424-a563-90292f2a0afd",
+      "name": "Realtime TTS 1.5 Max",
+      "slug": "realtime-tts-1-5-max",
+      "release_date": "2026-01-21",
+      "creator": {
+        "id": "3aab6d2e-04b0-43ee-996f-d8ef76ac3232",
+        "name": "Inworld",
+        "logoSmall": "/img/logos/inworld_small.svg",
+        "color": "#02553f"
+      },
+      "family": {
+        "id": "20ab54bf-bc4d-4b13-8a54-0e387ace6f96",
+        "name": "Inworld",
+        "url": "/text-to-speech/model-families/inworld"
+      },
+      "elo": 1194.62,
+      "rank": 2,
+      "ci95": "-14/+14",
+      "appearances": 2116,
+      "wins": 1517,
+      "win_rate": 0.7169187145557656,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1194.62,
+          "appearances": 2116,
+          "wins": 1517,
+          "win_rate": 0.7169187145557656,
+          "ci95": "-14/+14",
+          "ci_delta": 14,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 35
+      }
+    },
+    {
+      "id": "c84d8fe6-60f5-4ccd-9428-e0fee47eefc8",
+      "name": "StepAudio 2.5 TTS",
+      "slug": "step-audio-2.5-tts",
+      "release_date": "2026-04-30",
+      "creator": {
+        "id": "ce2e2e8b-7a22-4020-98ec-8ef71000dd42",
+        "name": "StepFun",
+        "logoSmall": "/img/logos/stepfun_small.svg",
+        "color": "#017AFF"
+      },
+      "family": {
+        "id": "88e23b85-e3cd-408f-9e76-a073af6864e6",
+        "name": "StepFun",
+        "url": "/text-to-speech/model-families/stepfun"
+      },
+      "elo": 1188.1,
+      "rank": 3,
+      "ci95": "-15/+15",
+      "appearances": 1382,
+      "wins": 952,
+      "win_rate": 0.6888567293777135,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1188.1,
+          "appearances": 1382,
+          "wins": 952,
+          "win_rate": 0.6888567293777135,
+          "ci95": "-15/+15",
+          "ci_delta": 15,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 85
+      }
+    },
+    {
+      "id": "49285d46-f230-416c-aa92-6322c9f60629",
+      "name": "Eleven v3",
+      "slug": "eleven-v3",
+      "release_date": "2026-02-02",
+      "creator": {
+        "id": "8d057760-0a8b-460a-9625-6dd261bb325c",
+        "name": "ElevenLabs",
+        "logoSmall": "/img/logos/elevenlabs_small.svg",
+        "color": "#30C695"
+      },
+      "family": {
+        "id": "093d4099-d52d-4c3e-9a35-a55e625bd59f",
+        "name": "ElevenLabs",
+        "url": "/text-to-speech/model-families/elevenlabs"
+      },
+      "elo": 1186.62,
+      "rank": 4,
+      "ci95": "-12/+12",
+      "appearances": 4000,
+      "wins": 2742,
+      "win_rate": 0.6855,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1186.62,
+          "appearances": 4000,
+          "wins": 2742,
+          "win_rate": 0.6855,
+          "ci95": "-12/+12",
+          "ci_delta": 12,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 100
+      }
+    },
+    {
+      "id": "1a91c803-1508-4c8e-9327-e05d09b0cfc8",
+      "name": "Speech 2.8 HD",
+      "slug": "speech-2-8-hd",
+      "release_date": "2026-02-14",
+      "creator": {
+        "id": "a31a9071-6144-4dbb-92dc-2e02d653ecea",
+        "name": "MiniMax",
+        "logoSmall": "/img/logos/minimax_small.svg",
+        "color": "#EB3568"
+      },
+      "family": {
+        "id": "2eae7778-70a2-43c5-92c7-14884febeb33",
+        "name": "MiniMax",
+        "url": "/text-to-speech/model-families/minimax-hailou"
+      },
+      "elo": 1169.58,
+      "rank": 5,
+      "ci95": "-12/+12",
+      "appearances": 3728,
+      "wins": 2418,
+      "win_rate": 0.6486051502145923,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1169.58,
+          "appearances": 3728,
+          "wins": 2418,
+          "win_rate": 0.6486051502145923,
+          "ci95": "-12/+12",
+          "ci_delta": 12,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 100
+      }
+    },
+    {
+      "id": "bc7fffec-5ccd-420c-b5b3-be6fba294b53",
+      "name": "Inworld TTS 1 Max",
+      "slug": "inworld-tts-1-max",
+      "release_date": "2025-06-02",
+      "creator": {
+        "id": "3aab6d2e-04b0-43ee-996f-d8ef76ac3232",
+        "name": "Inworld",
+        "logoSmall": "/img/logos/inworld_small.svg",
+        "color": "#02553f"
+      },
+      "family": {
+        "id": "20ab54bf-bc4d-4b13-8a54-0e387ace6f96",
+        "name": "Inworld",
+        "url": "/text-to-speech/model-families/inworld"
+      },
+      "elo": 1168.07,
+      "rank": 6,
+      "ci95": "-13/+13",
+      "appearances": 1928,
+      "wins": 1257,
+      "win_rate": 0.6519709543568465,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1168.07,
+          "appearances": 1928,
+          "wins": 1257,
+          "win_rate": 0.6519709543568465,
+          "ci95": "-13/+13",
+          "ci_delta": 13,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 35
+      }
+    },
+    {
+      "id": "2e399bdb-8e9e-4a63-971b-ed9647b42a02",
+      "name": "Realtime TTS 1.5 Mini",
+      "slug": "realtime-tts-1-5-mini",
+      "release_date": "2026-01-21",
+      "creator": {
+        "id": "3aab6d2e-04b0-43ee-996f-d8ef76ac3232",
+        "name": "Inworld",
+        "logoSmall": "/img/logos/inworld_small.svg",
+        "color": "#02553f"
+      },
+      "family": {
+        "id": "20ab54bf-bc4d-4b13-8a54-0e387ace6f96",
+        "name": "Inworld",
+        "url": "/text-to-speech/model-families/inworld"
+      },
+      "elo": 1160.04,
+      "rank": 7,
+      "ci95": "-13/+13",
+      "appearances": 2366,
+      "wins": 1554,
+      "win_rate": 0.6568047337278107,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1160.04,
+          "appearances": 2366,
+          "wins": 1554,
+          "win_rate": 0.6568047337278107,
+          "ci95": "-13/+13",
+          "ci_delta": 13,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 25
+      }
+    },
+    {
+      "id": "7b1ca2ff-3ba6-4071-b78f-925c913725b4",
+      "name": "Step TTS 2 (Mar 2026)",
+      "slug": "step-tts-2-mar-2026",
+      "release_date": "2026-02-12",
+      "creator": {
+        "id": "ce2e2e8b-7a22-4020-98ec-8ef71000dd42",
+        "name": "StepFun",
+        "logoSmall": "/img/logos/stepfun_small.svg",
+        "color": "#017AFF"
+      },
+      "family": {
+        "id": "88e23b85-e3cd-408f-9e76-a073af6864e6",
+        "name": "StepFun",
+        "url": "/text-to-speech/model-families/stepfun"
+      },
+      "elo": 1150.77,
+      "rank": 8,
+      "ci95": "-14/+14",
+      "appearances": 1520,
+      "wins": 965,
+      "win_rate": 0.6348684210526315,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1150.77,
+          "appearances": 1520,
+          "wins": 965,
+          "win_rate": 0.6348684210526315,
+          "ci95": "-14/+14",
+          "ci_delta": 14,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 40
+      }
+    },
+    {
+      "id": "827b69bd-3c20-415c-b5cd-9228e439c326",
+      "name": "Speech 2.8 Turbo",
+      "slug": "speech-2-8-turbo",
+      "release_date": "2026-02-14",
+      "creator": {
+        "id": "a31a9071-6144-4dbb-92dc-2e02d653ecea",
+        "name": "MiniMax",
+        "logoSmall": "/img/logos/minimax_small.svg",
+        "color": "#EB3568"
+      },
+      "family": {
+        "id": "2eae7778-70a2-43c5-92c7-14884febeb33",
+        "name": "MiniMax",
+        "url": "/text-to-speech/model-families/minimax-hailou"
+      },
+      "elo": 1148.35,
+      "rank": 9,
+      "ci95": "-11/+11",
+      "appearances": 3924,
+      "wins": 2484,
+      "win_rate": 0.6330275229357798,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1148.35,
+          "appearances": 3924,
+          "wins": 2484,
+          "win_rate": 0.6330275229357798,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 60
+      }
+    },
+    {
+      "id": "365ea52f-0abb-4d28-a292-3d77e32fe468",
+      "name": "Speech 2.6 Turbo",
+      "slug": "speech-2.6-turbo",
+      "release_date": "2025-10-30",
+      "creator": {
+        "id": "a31a9071-6144-4dbb-92dc-2e02d653ecea",
+        "name": "MiniMax",
+        "logoSmall": "/img/logos/minimax_small.svg",
+        "color": "#EB3568"
+      },
+      "family": {
+        "id": "2eae7778-70a2-43c5-92c7-14884febeb33",
+        "name": "MiniMax",
+        "url": "/text-to-speech/model-families/minimax-hailou"
+      },
+      "elo": 1140.36,
+      "rank": 10,
+      "ci95": "-11/+11",
+      "appearances": 3955,
+      "wins": 2420,
+      "win_rate": 0.6118836915297092,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1140.36,
+          "appearances": 3955,
+          "wins": 2420,
+          "win_rate": 0.6118836915297092,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 60
+      }
+    },
+    {
+      "id": "0b68ecd2-8ad5-4035-bafc-e76e61bb536b",
+      "name": "Speech 2.6 HD",
+      "slug": "speech-2.6-hd",
+      "release_date": "2025-10-30",
+      "creator": {
+        "id": "a31a9071-6144-4dbb-92dc-2e02d653ecea",
+        "name": "MiniMax",
+        "logoSmall": "/img/logos/minimax_small.svg",
+        "color": "#EB3568"
+      },
+      "family": {
+        "id": "2eae7778-70a2-43c5-92c7-14884febeb33",
+        "name": "MiniMax",
+        "url": "/text-to-speech/model-families/minimax-hailou"
+      },
+      "elo": 1138.3,
+      "rank": 11,
+      "ci95": "-11/+11",
+      "appearances": 3636,
+      "wins": 2237,
+      "win_rate": 0.6152365236523653,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1138.3,
+          "appearances": 3636,
+          "wins": 2237,
+          "win_rate": 0.6152365236523653,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 100
+      }
+    },
+    {
+      "id": "fd453d8f-75f5-45b4-84ba-47cfd5ca2a93",
+      "name": "SIMBA 3.0",
+      "slug": "simba-3-0",
+      "release_date": "2026-02-19",
+      "creator": {
+        "id": "237d1944-ea14-43ed-82e6-3ab69698c9b4",
+        "name": "Speechify",
+        "logoSmall": "/img/logos/speechify_small.png",
+        "color": "#3137fc"
+      },
+      "family": {
+        "id": "fdb3fdd5-3dd6-427a-98a0-4dc5ab785d46",
+        "name": "Speechify",
+        "url": "/text-to-speech/model-families/speechify"
+      },
+      "elo": 1136.74,
+      "rank": 12,
+      "ci95": "-13/+13",
+      "appearances": 1576,
+      "wins": 937,
+      "win_rate": 0.5945431472081218,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1136.74,
+          "appearances": 1576,
+          "wins": 937,
+          "win_rate": 0.5945431472081218,
+          "ci95": "-13/+13",
+          "ci_delta": 13,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 10
+      }
+    },
+    {
+      "id": "794ee34e-8276-4119-9aae-eff196fee678",
+      "name": "Fish Audio S2 Pro",
+      "slug": "fish-audio-s2-pro",
+      "release_date": "2026-03-10",
+      "creator": {
+        "id": "b28a9155-95e8-460a-82fe-8271e5f2bc77",
+        "name": "Fish Audio",
+        "logoSmall": "/img/logos/fishaudio_small.svg",
+        "color": "#0e0e0e"
+      },
+      "family": {
+        "id": "3fabf1bf-48a3-45cb-b32d-b6a42901c2e0",
+        "name": "Fish Audio",
+        "url": "/text-to-speech/model-families/fishaudio"
+      },
+      "elo": 1125.49,
+      "rank": 13,
+      "ci95": "-14/+14",
+      "appearances": 1300,
+      "wins": 776,
+      "win_rate": 0.5969230769230769,
+      "open_weights_url": "https://huggingface.co/fishaudio/s2-pro",
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1125.49,
+          "appearances": 1300,
+          "wins": 776,
+          "win_rate": 0.5969230769230769,
+          "ci95": "-14/+14",
+          "ci_delta": 14,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 15
+      }
+    },
+    {
+      "id": "1df468c9-1994-44ac-8515-672074258436",
+      "name": "Inworld TTS 1",
+      "slug": "inworld-tts",
+      "release_date": "2025-06-02",
+      "creator": {
+        "id": "3aab6d2e-04b0-43ee-996f-d8ef76ac3232",
+        "name": "Inworld",
+        "logoSmall": "/img/logos/inworld_small.svg",
+        "color": "#02553f"
+      },
+      "family": {
+        "id": "20ab54bf-bc4d-4b13-8a54-0e387ace6f96",
+        "name": "Inworld",
+        "url": "/text-to-speech/model-families/inworld"
+      },
+      "elo": 1120.88,
+      "rank": 14,
+      "ci95": "-12/+12",
+      "appearances": 2164,
+      "wins": 1288,
+      "win_rate": 0.5951940850277264,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1120.88,
+          "appearances": 2164,
+          "wins": 1288,
+          "win_rate": 0.5951940850277264,
+          "ci95": "-12/+12",
+          "ci_delta": 12,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 25
+      }
+    },
+    {
+      "id": "65166a7b-b42c-4a68-b051-9662facd2f91",
+      "name": "Speech-02-HD",
+      "slug": "speech-02-hd",
+      "release_date": "2025-03-31",
+      "creator": {
+        "id": "a31a9071-6144-4dbb-92dc-2e02d653ecea",
+        "name": "MiniMax",
+        "logoSmall": "/img/logos/minimax_small.svg",
+        "color": "#EB3568"
+      },
+      "family": {
+        "id": "2eae7778-70a2-43c5-92c7-14884febeb33",
+        "name": "MiniMax",
+        "url": "/text-to-speech/model-families/minimax-hailou"
+      },
+      "elo": 1117.07,
+      "rank": 15,
+      "ci95": "-11/+11",
+      "appearances": 4321,
+      "wins": 2638,
+      "win_rate": 0.610506827123351,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1117.07,
+          "appearances": 4321,
+          "wins": 2638,
+          "win_rate": 0.610506827123351,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 100
+      }
+    },
+    {
+      "id": "59719e55-ec01-44c4-8c40-8ec20242520d",
+      "name": "Azure HD 2.5",
+      "slug": "azure-hd-2-5",
+      "release_date": "2026-03-30",
+      "creator": {
+        "id": "ef5ce458-9986-4652-915a-e31fac5506b0",
+        "name": "Microsoft",
+        "logoSmall": "/img/logos/microsoft_small.svg",
+        "color": "#0078D5"
+      },
+      "family": {
+        "id": "52686da2-69f8-462a-9695-d65f316bffe5",
+        "name": "Microsoft Azure",
+        "url": "/text-to-speech/model-families/azure"
+      },
+      "elo": 1112.54,
+      "rank": 16,
+      "ci95": "-14/+14",
+      "appearances": 1440,
+      "wins": 810,
+      "win_rate": 0.5625,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1112.54,
+          "appearances": 1440,
+          "wins": 810,
+          "win_rate": 0.5625,
+          "ci95": "-14/+14",
+          "ci_delta": 14,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 22
+      }
+    },
+    {
+      "id": "0af2723d-0560-45b0-8cdb-81f19bcdceba",
+      "name": "Step Audio EditX (Mar 2026)",
+      "slug": "step-audio-editx-mar-2026",
+      "release_date": "2026-02-12",
+      "creator": {
+        "id": "ce2e2e8b-7a22-4020-98ec-8ef71000dd42",
+        "name": "StepFun",
+        "logoSmall": "/img/logos/stepfun_small.svg",
+        "color": "#017AFF"
+      },
+      "family": {
+        "id": "88e23b85-e3cd-408f-9e76-a073af6864e6",
+        "name": "StepFun",
+        "url": "/text-to-speech/model-families/stepfun"
+      },
+      "elo": 1112.06,
+      "rank": 17,
+      "ci95": "-14/+14",
+      "appearances": 1233,
+      "wins": 720,
+      "win_rate": 0.583941605839416,
+      "open_weights_url": "https://huggingface.co/stepfun-ai/Step-Audio-EditX",
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1112.06,
+          "appearances": 1233,
+          "wins": 720,
+          "win_rate": 0.583941605839416,
+          "ci95": "-14/+14",
+          "ci_delta": 14,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": null
+      }
+    },
+    {
+      "id": "9cd43eb4-f436-4ea2-b3d9-5c912bdea912",
+      "name": "Multilingual v2",
+      "slug": "multilingual-v2",
+      "release_date": "2023-08-22",
+      "creator": {
+        "id": "8d057760-0a8b-460a-9625-6dd261bb325c",
+        "name": "ElevenLabs",
+        "logoSmall": "/img/logos/elevenlabs_small.svg",
+        "color": "#30C695"
+      },
+      "family": {
+        "id": "093d4099-d52d-4c3e-9a35-a55e625bd59f",
+        "name": "ElevenLabs",
+        "url": "/text-to-speech/model-families/elevenlabs"
+      },
+      "elo": 1110.41,
+      "rank": 18,
+      "ci95": "-10/+10",
+      "appearances": 8712,
+      "wins": 5627,
+      "win_rate": 0.64589072543618,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1110.41,
+          "appearances": 8712,
+          "wins": 5627,
+          "win_rate": 0.64589072543618,
+          "ci95": "-10/+10",
+          "ci_delta": 10,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 100
+      }
+    },
+    {
+      "id": "2d3f6b08-353d-40e9-a5e7-a3c1952b2dd8",
+      "name": "Turbo v2.5",
+      "slug": "turbo-v2-5",
+      "release_date": "2024-07-19",
+      "creator": {
+        "id": "8d057760-0a8b-460a-9625-6dd261bb325c",
+        "name": "ElevenLabs",
+        "logoSmall": "/img/logos/elevenlabs_small.svg",
+        "color": "#30C695"
+      },
+      "family": {
+        "id": "093d4099-d52d-4c3e-9a35-a55e625bd59f",
+        "name": "ElevenLabs",
+        "url": "/text-to-speech/model-families/elevenlabs"
+      },
+      "elo": 1107.91,
+      "rank": 19,
+      "ci95": "-10/+10",
+      "appearances": 8149,
+      "wins": 5168,
+      "win_rate": 0.6341882439563137,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1107.91,
+          "appearances": 8149,
+          "wins": 5168,
+          "win_rate": 0.6341882439563137,
+          "ci95": "-10/+10",
+          "ci_delta": 10,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 50
+      }
+    },
+    {
+      "id": "4a2776b8-a0c6-42f2-8ebe-db364f1ddf13",
+      "name": "TTS-1 HD",
+      "slug": "tts-1-hd",
+      "release_date": "2023-11-06",
+      "creator": {
+        "id": "e67e56e3-15cd-43db-b679-da4660a69f41",
+        "name": "OpenAI",
+        "logoSmall": "/img/logos/openai_small.svg",
+        "color": "#1f1f1f"
+      },
+      "family": {
+        "id": "b7f02b9d-2171-4096-be1f-d95a9cc34960",
+        "name": "OpenAI TTS",
+        "url": "/text-to-speech/model-families/openai"
+      },
+      "elo": 1096.72,
+      "rank": 20,
+      "ci95": "-11/+11",
+      "appearances": 3344,
+      "wins": 1869,
+      "win_rate": 0.5589114832535885,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1096.72,
+          "appearances": 3344,
+          "wins": 1869,
+          "win_rate": 0.5589114832535885,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 30
+      }
+    },
+    {
+      "id": "31ef1e00-542b-4d06-8b0f-0bb52ef4e518",
+      "name": "Seed-TTS 2.0",
+      "slug": "seed-tts-2-0",
+      "release_date": "2026-05-16",
+      "creator": {
+        "id": "2354746c-4775-4a06-b64d-0ba4137785b8",
+        "name": "ByteDance Seed",
+        "logoSmall": "/img/logos/bytedance_small.svg",
+        "color": "#3c8bff"
+      },
+      "family": {
+        "id": "013efad2-fcbb-4058-bd8c-35c69015724c",
+        "name": "Seed-TTS",
+        "url": "/text-to-speech/model-families/seed-tts"
+      },
+      "elo": 1095.53,
+      "rank": 21,
+      "ci95": "-15/+15",
+      "appearances": 1025,
+      "wins": 579,
+      "win_rate": 0.5648780487804878,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1095.53,
+          "appearances": 1025,
+          "wins": 579,
+          "win_rate": 0.5648780487804878,
+          "ci95": "-15/+15",
+          "ci_delta": 15,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 45
+      }
+    },
+    {
+      "id": "78588185-b188-46fb-8d06-c06f52009715",
+      "name": "TTS-1",
+      "slug": "tts-1",
+      "release_date": "2023-11-06",
+      "creator": {
+        "id": "e67e56e3-15cd-43db-b679-da4660a69f41",
+        "name": "OpenAI",
+        "logoSmall": "/img/logos/openai_small.svg",
+        "color": "#1f1f1f"
+      },
+      "family": {
+        "id": "b7f02b9d-2171-4096-be1f-d95a9cc34960",
+        "name": "OpenAI TTS",
+        "url": "/text-to-speech/model-families/openai"
+      },
+      "elo": 1094.67,
+      "rank": 22,
+      "ci95": "-10/+10",
+      "appearances": 7741,
+      "wins": 4966,
+      "win_rate": 0.6415191835680145,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1094.67,
+          "appearances": 7741,
+          "wins": 4966,
+          "win_rate": 0.6415191835680145,
+          "ci95": "-10/+10",
+          "ci_delta": 10,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 15
+      }
+    },
+    {
+      "id": "cccb3742-da05-4447-910c-43a5d3eda5b7",
+      "name": "Flash v2.5",
+      "slug": "flash-v2-5",
+      "release_date": "2024-12-18",
+      "creator": {
+        "id": "8d057760-0a8b-460a-9625-6dd261bb325c",
+        "name": "ElevenLabs",
+        "logoSmall": "/img/logos/elevenlabs_small.svg",
+        "color": "#30C695"
+      },
+      "family": {
+        "id": "093d4099-d52d-4c3e-9a35-a55e625bd59f",
+        "name": "ElevenLabs",
+        "url": "/text-to-speech/model-families/elevenlabs"
+      },
+      "elo": 1092.06,
+      "rank": 23,
+      "ci95": "-10/+10",
+      "appearances": 6153,
+      "wins": 3602,
+      "win_rate": 0.5854054932553227,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1092.06,
+          "appearances": 6153,
+          "wins": 3602,
+          "win_rate": 0.5854054932553227,
+          "ci95": "-10/+10",
+          "ci_delta": 10,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 50
+      }
+    },
+    {
+      "id": "953aeced-7f15-4a02-a2f5-3c9cfccbbb39",
+      "name": "Speech-02-Turbo",
+      "slug": "speech-02-turbo",
+      "release_date": "2025-03-31",
+      "creator": {
+        "id": "a31a9071-6144-4dbb-92dc-2e02d653ecea",
+        "name": "MiniMax",
+        "logoSmall": "/img/logos/minimax_small.svg",
+        "color": "#EB3568"
+      },
+      "family": {
+        "id": "2eae7778-70a2-43c5-92c7-14884febeb33",
+        "name": "MiniMax",
+        "url": "/text-to-speech/model-families/minimax-hailou"
+      },
+      "elo": 1091.35,
+      "rank": 24,
+      "ci95": "-11/+11",
+      "appearances": 3827,
+      "wins": 2282,
+      "win_rate": 0.5962895218186569,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1091.35,
+          "appearances": 3827,
+          "wins": 2282,
+          "win_rate": 0.5962895218186569,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 60
+      }
+    },
+    {
+      "id": "abdcf494-6c73-4574-ade9-6672cdb21936",
+      "name": "MiMo-V2.5-TTS",
+      "slug": "mimo-v2-5-tts",
+      "release_date": null,
+      "creator": {
+        "id": "5147c8b4-61d5-4070-9324-8adf8aa144c2",
+        "name": "Xiaomi",
+        "logoSmall": "/img/logos/xiaomi_small.svg",
+        "color": "#ff6900"
+      },
+      "family": {
+        "id": "2813092d-a750-4d9d-8cfb-aabbfe725568",
+        "name": "MiMo",
+        "url": "/text-to-speech/model-families/mimo"
+      },
+      "elo": 1088.71,
+      "rank": 25,
+      "ci95": "-15/+15",
+      "appearances": 986,
+      "wins": 536,
+      "win_rate": 0.5436105476673428,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1088.71,
+          "appearances": 986,
+          "wins": 536,
+          "win_rate": 0.5436105476673428,
+          "ci95": "-15/+15",
+          "ci_delta": 15,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": null
+      }
+    },
+    {
+      "id": "a71d7774-e73e-4b6c-8dfe-7963273b2975",
+      "name": "Sonic 3",
+      "slug": "sonic3",
+      "release_date": "2025-10-29",
+      "creator": {
+        "id": "1fa5b287-d75e-4268-a1c1-c04c0a9e512a",
+        "name": "Cartesia",
+        "logoSmall": "/img/logos/cartesia_small.svg",
+        "color": "#000000"
+      },
+      "family": {
+        "id": "94561eb8-32f5-4f07-b423-ef496c1a06f8",
+        "name": "Cartesia",
+        "url": "/text-to-speech/model-families/cartesia"
+      },
+      "elo": 1082.62,
+      "rank": 26,
+      "ci95": "-11/+11",
+      "appearances": 3067,
+      "wins": 1635,
+      "win_rate": 0.5330942288881644,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1082.62,
+          "appearances": 3067,
+          "wins": 1635,
+          "win_rate": 0.5330942288881644,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 39
+      }
+    },
+    {
+      "id": "02265a20-67bc-4892-89d0-f54545b6b4a1",
+      "name": "Studio",
+      "slug": "studio",
+      "release_date": "2023-02-08",
+      "creator": {
+        "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
+        "name": "Google",
+        "logoSmall": "/img/logos/google_small.svg",
+        "color": "#34A853"
+      },
+      "family": {
+        "id": "d728dc09-1307-469d-8e1f-aeb5aff8de1c",
+        "name": "Google Cloud TTS",
+        "url": "/text-to-speech/model-families/google"
+      },
+      "elo": 1077.66,
+      "rank": 27,
+      "ci95": "-11/+11",
+      "appearances": 5481,
+      "wins": 3326,
+      "win_rate": 0.6068235723408137,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1077.66,
+          "appearances": 5481,
+          "wins": 3326,
+          "win_rate": 0.6068235723408137,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 160
+      }
+    },
+    {
+      "id": "a3824338-576c-4deb-8446-264eb9895db2",
+      "name": "Gemini 2.5 Flash Lite TTS",
+      "slug": "gemini-2-5-flash-lite",
+      "release_date": "2025-12-10",
+      "creator": {
+        "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
+        "name": "Google",
+        "logoSmall": "/img/logos/google_small.svg",
+        "color": "#34A853"
+      },
+      "family": {
+        "id": "9bdc5a83-380a-4d4e-a427-680ae431f8e8",
+        "name": "Gemini",
+        "url": "/text-to-speech/model-families/gemini"
+      },
+      "elo": 1076.84,
+      "rank": 28,
+      "ci95": "-12/+12",
+      "appearances": 2712,
+      "wins": 1447,
+      "win_rate": 0.5335545722713865,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1076.84,
+          "appearances": 2712,
+          "wins": 1447,
+          "win_rate": 0.5335545722713865,
+          "ci95": "-12/+12",
+          "ci_delta": 12,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 9.15
+      }
+    },
+    {
+      "id": "b424cd2e-abb9-4131-8f47-7731bdbff455",
+      "name": "Voxtral TTS",
+      "slug": "voxtral-tts",
+      "release_date": "2026-03-26",
+      "creator": {
+        "id": "b5c0639a-cc9c-443b-a07e-bae6b7088933",
+        "name": "Mistral",
+        "logoSmall": "/img/logos/mistral_small.png",
+        "color": "#fd6f00"
+      },
+      "family": {
+        "id": "9cb49869-716b-4cc6-8ad9-24fb7062f593",
+        "name": "Mistral",
+        "url": "/text-to-speech/model-families/mistral"
+      },
+      "elo": 1069.19,
+      "rank": 29,
+      "ci95": "-14/+14",
+      "appearances": 1240,
+      "wins": 644,
+      "win_rate": 0.5193548387096775,
+      "open_weights_url": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1069.19,
+          "appearances": 1240,
+          "wins": 644,
+          "win_rate": 0.5193548387096775,
+          "ci95": "-14/+14",
+          "ci_delta": 14,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 16
+      }
+    },
+    {
+      "id": "0707d10e-e111-484c-8fd5-5dbb0a78029e",
+      "name": "T2A-01-HD",
+      "slug": "t2a-01-hd",
+      "release_date": "2025-01-15",
+      "creator": {
+        "id": "a31a9071-6144-4dbb-92dc-2e02d653ecea",
+        "name": "MiniMax",
+        "logoSmall": "/img/logos/minimax_small.svg",
+        "color": "#EB3568"
+      },
+      "family": {
+        "id": "2eae7778-70a2-43c5-92c7-14884febeb33",
+        "name": "MiniMax",
+        "url": "/text-to-speech/model-families/minimax-hailou"
+      },
+      "elo": 1067.17,
+      "rank": 30,
+      "ci95": "-11/+11",
+      "appearances": 5058,
+      "wins": 2766,
+      "win_rate": 0.5468564650059312,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1067.17,
+          "appearances": 5058,
+          "wins": 2766,
+          "win_rate": 0.5468564650059312,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 50
+      }
+    },
+    {
+      "id": "4ef13968-15ee-4311-a6d1-685f015b0717",
+      "name": "Polly Generative",
+      "slug": "polly-generative",
+      "release_date": "2024-05-08",
+      "creator": {
+        "id": "bb5a4e55-7969-4ab4-8702-3b9fd6547dc2",
+        "name": "Amazon",
+        "logoSmall": "/img/logos/aws_small.svg",
+        "color": "#FF9900"
+      },
+      "family": {
+        "id": "3de00dec-c57d-4b88-9d1e-e91e5508a950",
+        "name": "Amazon Polly",
+        "url": "/text-to-speech/model-families/aws"
+      },
+      "elo": 1066.66,
+      "rank": 31,
+      "ci95": "-11/+11",
+      "appearances": 3771,
+      "wins": 2076,
+      "win_rate": 0.5505171042163882,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1066.66,
+          "appearances": 3771,
+          "wins": 2076,
+          "win_rate": 0.5505171042163882,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 30
+      }
+    },
+    {
+      "id": "7255e62a-855d-49f2-948c-2ea36bc603aa",
+      "name": "Azure Neural",
+      "slug": "azure-neural",
+      "release_date": "2018-09-24",
+      "creator": {
+        "id": "ef5ce458-9986-4652-915a-e31fac5506b0",
+        "name": "Microsoft",
+        "logoSmall": "/img/logos/microsoft_small.svg",
+        "color": "#0078D5"
+      },
+      "family": {
+        "id": "52686da2-69f8-462a-9695-d65f316bffe5",
+        "name": "Microsoft Azure",
+        "url": "/text-to-speech/model-families/azure"
+      },
+      "elo": 1064.2,
+      "rank": 32,
+      "ci95": "-11/+11",
+      "appearances": 6907,
+      "wins": 4005,
+      "win_rate": 0.5798465325032576,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1064.2,
+          "appearances": 6907,
+          "wins": 4005,
+          "win_rate": 0.5798465325032576,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 15
+      }
+    },
+    {
+      "id": "6de03a42-66ce-484a-9c01-95fe9b4d7422",
+      "name": "Kokoro 82M v1.0",
+      "slug": "kokoro-82m-v1-0",
+      "release_date": "2025-01-27",
+      "creator": {
+        "id": "7aef44e5-4337-4f96-afc5-ceb076e18afb",
+        "name": "Kokoro",
+        "logoSmall": "/img/logos/kokoro_small.jpeg",
+        "color": "#C2D5E3"
+      },
+      "family": {
+        "id": "fe5a9ab1-a4b3-4abe-a07c-9437e458d663",
+        "name": "Kokoro",
+        "url": "/text-to-speech/model-families/kokoro"
+      },
+      "elo": 1063.48,
+      "rank": 33,
+      "ci95": "-10/+10",
+      "appearances": 5618,
+      "wins": 3045,
+      "win_rate": 0.5420078319686721,
+      "open_weights_url": "https://huggingface.co/hexgrad/Kokoro-82M",
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1063.48,
+          "appearances": 5618,
+          "wins": 3045,
+          "win_rate": 0.5420078319686721,
+          "ci95": "-10/+10",
+          "ci_delta": 10,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 0.65
+      }
+    },
+    {
+      "id": "46730007-0d7b-4395-8077-2b5104ea79b0",
+      "name": "OpenAudio S1",
+      "slug": "openaudio-s1",
+      "release_date": "2025-06-03",
+      "creator": {
+        "id": "b28a9155-95e8-460a-82fe-8271e5f2bc77",
+        "name": "Fish Audio",
+        "logoSmall": "/img/logos/fishaudio_small.svg",
+        "color": "#0e0e0e"
+      },
+      "family": {
+        "id": "3fabf1bf-48a3-45cb-b32d-b6a42901c2e0",
+        "name": "Fish Audio",
+        "url": "/text-to-speech/model-families/fishaudio"
+      },
+      "elo": 1063.29,
+      "rank": 34,
+      "ci95": "-11/+11",
+      "appearances": 4411,
+      "wins": 2427,
+      "win_rate": 0.5502153706642484,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1063.29,
+          "appearances": 4411,
+          "wins": 2427,
+          "win_rate": 0.5502153706642484,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 15
+      }
+    },
+    {
+      "id": "e0ca6a5b-6888-4e0f-8f4e-2c4cb59dd2aa",
+      "name": "SIMBA 1.6",
+      "slug": "simba-1-6",
+      "release_date": "2024-10-01",
+      "creator": {
+        "id": "237d1944-ea14-43ed-82e6-3ab69698c9b4",
+        "name": "Speechify",
+        "logoSmall": "/img/logos/speechify_small.png",
+        "color": "#3137fc"
+      },
+      "family": {
+        "id": "fdb3fdd5-3dd6-427a-98a0-4dc5ab785d46",
+        "name": "Speechify",
+        "url": "/text-to-speech/model-families/speechify"
+      },
+      "elo": 1063.24,
+      "rank": 35,
+      "ci95": "-13/+13",
+      "appearances": 1482,
+      "wins": 753,
+      "win_rate": 0.5080971659919028,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1063.24,
+          "appearances": 1482,
+          "wins": 753,
+          "win_rate": 0.5080971659919028,
+          "ci95": "-13/+13",
+          "ci_delta": 13,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 10
+      }
+    },
+    {
+      "id": "765fd2b5-acb4-490f-a402-eaad710f23e1",
+      "name": "AsyncFlow V2, async",
+      "slug": "asyncflow-v2",
+      "release_date": "2025-07-08",
+      "creator": {
+        "id": "fccade0c-ac6f-4c87-9c6e-59957a1e93b9",
+        "name": "async",
+        "logoSmall": "/img/logos/async_small.png",
+        "color": "#000000"
+      },
+      "family": {
+        "id": "0b85fc71-7f54-4893-bcac-af9de7863caf",
+        "name": "async",
+        "url": "/text-to-speech/model-families/async"
+      },
+      "elo": 1061.72,
+      "rank": 36,
+      "ci95": "-11/+11",
+      "appearances": 3744,
+      "wins": 1914,
+      "win_rate": 0.5112179487179487,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1061.72,
+          "appearances": 3744,
+          "wins": 1914,
+          "win_rate": 0.5112179487179487,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 8.33
+      }
+    },
+    {
+      "id": "49198771-e5ea-4c4e-bad9-e57671a92291",
+      "name": "Magpie-Multilingual 357M (Feb 2026)",
+      "slug": "magpie-multilingual-357m-feb-2026",
+      "release_date": "2026-02-27",
+      "creator": {
+        "id": "0c303112-430d-4367-a484-51defaa2e166",
+        "name": "NVIDIA",
+        "logoSmall": "/img/logos/nvidia_small.svg",
+        "color": "#86b737"
+      },
+      "family": {
+        "id": "59ddff0f-5e89-4c07-9aca-dded68abe545",
+        "name": "NVIDIA",
+        "url": "/text-to-speech/model-families/nvidia"
+      },
+      "elo": 1060.58,
+      "rank": 37,
+      "ci95": "-14/+14",
+      "appearances": 1254,
+      "wins": 653,
+      "win_rate": 0.5207336523125997,
+      "open_weights_url": "https://huggingface.co/nvidia/magpie_tts_multilingual_357m",
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1060.58,
+          "appearances": 1254,
+          "wins": 653,
+          "win_rate": 0.5207336523125997,
+          "ci95": "-14/+14",
+          "ci_delta": 14,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": null
+      }
+    },
+    {
+      "id": "8b4be309-2f31-4ff2-be79-a6652c29ab12",
+      "name": "Polly Long-Form",
+      "slug": "polly-long-form",
+      "release_date": "2023-11-16",
+      "creator": {
+        "id": "bb5a4e55-7969-4ab4-8702-3b9fd6547dc2",
+        "name": "Amazon",
+        "logoSmall": "/img/logos/aws_small.svg",
+        "color": "#FF9900"
+      },
+      "family": {
+        "id": "3de00dec-c57d-4b88-9d1e-e91e5508a950",
+        "name": "Amazon Polly",
+        "url": "/text-to-speech/model-families/aws"
+      },
+      "elo": 1059.09,
+      "rank": 38,
+      "ci95": "-13/+13",
+      "appearances": 1486,
+      "wins": 725,
+      "win_rate": 0.4878869448183042,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1059.09,
+          "appearances": 1486,
+          "wins": 725,
+          "win_rate": 0.4878869448183042,
+          "ci95": "-13/+13",
+          "ci_delta": 13,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 100
+      }
+    },
+    {
+      "id": "929669fa-4b43-44ef-9125-9482165e2a31",
+      "name": "Gradium TTS",
+      "slug": "gradium-default",
+      "release_date": "2025-12-02",
+      "creator": {
+        "id": "a7dece53-2775-474b-8a96-8be0a1e0ea38",
+        "name": "Gradium",
+        "logoSmall": "/img/logos/gradium_small.svg",
+        "color": "#000000"
+      },
+      "family": {
+        "id": "80a587a3-9eb0-4f01-aac5-832445ff5b55",
+        "name": "Gradium",
+        "url": "/text-to-speech/model-families/gradium"
+      },
+      "elo": 1058.69,
+      "rank": 39,
+      "ci95": "-15/+15",
+      "appearances": 1030,
+      "wins": 507,
+      "win_rate": 0.49223300970873785,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1058.69,
+          "appearances": 1030,
+          "wins": 507,
+          "win_rate": 0.49223300970873785,
+          "ci95": "-15/+15",
+          "ci_delta": 15,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 47.22
+      }
+    },
+    {
+      "id": "798934ab-0f43-49d2-8343-15c1ade78458",
+      "name": "Sonic English (Oct 2024)",
+      "slug": "sonic-english-oct-24-",
+      "release_date": "2024-10-19",
+      "creator": {
+        "id": "1fa5b287-d75e-4268-a1c1-c04c0a9e512a",
+        "name": "Cartesia",
+        "logoSmall": "/img/logos/cartesia_small.svg",
+        "color": "#000000"
+      },
+      "family": {
+        "id": "94561eb8-32f5-4f07-b423-ef496c1a06f8",
+        "name": "Cartesia",
+        "url": "/text-to-speech/model-families/cartesia"
+      },
+      "elo": 1055.77,
+      "rank": 40,
+      "ci95": "-11/+11",
+      "appearances": 3400,
+      "wins": 1680,
+      "win_rate": 0.49411764705882355,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1055.77,
+          "appearances": 3400,
+          "wins": 1680,
+          "win_rate": 0.49411764705882355,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 39
+      }
+    },
+    {
+      "id": "081709c5-d010-462f-b6ad-ef128df78cbd",
+      "name": "Maya1",
+      "slug": "maya-1",
+      "release_date": "2025-06-25",
+      "creator": {
+        "id": "2dc2b41d-fb75-4fec-8e91-c55cfd34814f",
+        "name": "Maya Research",
+        "logoSmall": "/img/logos/maya_small.jpg",
+        "color": "#309569"
+      },
+      "family": {
+        "id": "c2d296da-95ab-4806-bf64-b8277dc97344",
+        "name": "Maya Research ",
+        "url": "/text-to-speech/model-families/maya-research"
+      },
+      "elo": 1054.35,
+      "rank": 41,
+      "ci95": "-11/+11",
+      "appearances": 3095,
+      "wins": 1554,
+      "win_rate": 0.5021001615508885,
+      "open_weights_url": "https://huggingface.co/maya-research/maya1",
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1054.35,
+          "appearances": 3095,
+          "wins": 1554,
+          "win_rate": 0.5021001615508885,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": null
+      }
+    },
+    {
+      "id": "b4a9f921-ae13-4c12-b907-6e9c6bedaf58",
+      "name": "Octave 2",
+      "slug": "ocateve-2",
+      "release_date": "2025-10-01",
+      "creator": {
+        "id": "a6194e19-3b44-47d8-97b8-7eb2564c5b91",
+        "name": "Hume AI",
+        "logoSmall": "/img/logos/humeai_small.svg",
+        "color": "#facdc2"
+      },
+      "family": {
+        "id": "07dbe181-3ca8-4afa-8880-54ca89fc063d",
+        "name": "Hume AI",
+        "url": "/text-to-speech/model-families/humeai"
+      },
+      "elo": 1053.12,
+      "rank": 42,
+      "ci95": "-12/+12",
+      "appearances": 2724,
+      "wins": 1344,
+      "win_rate": 0.4933920704845815,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1053.12,
+          "appearances": 2724,
+          "wins": 1344,
+          "win_rate": 0.4933920704845815,
+          "ci95": "-12/+12",
+          "ci_delta": 12,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 87.5
+      }
+    },
+    {
+      "id": "f524429e-7e12-47eb-88df-6a9730f88989",
+      "name": "Chirp 3: HD",
+      "slug": "chirp3-hd",
+      "release_date": "2025-03-12",
+      "creator": {
+        "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
+        "name": "Google",
+        "logoSmall": "/img/logos/google_small.svg",
+        "color": "#34A853"
+      },
+      "family": {
+        "id": "d728dc09-1307-469d-8e1f-aeb5aff8de1c",
+        "name": "Google Cloud TTS",
+        "url": "/text-to-speech/model-families/google"
+      },
+      "elo": 1048.62,
+      "rank": 43,
+      "ci95": "-11/+11",
+      "appearances": 3181,
+      "wins": 1535,
+      "win_rate": 0.48255265639735934,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1048.62,
+          "appearances": 3181,
+          "wins": 1535,
+          "win_rate": 0.48255265639735934,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 30
+      }
+    },
+    {
+      "id": "2b5bb443-e32e-4cb4-a9f2-918c00210211",
+      "name": "Journey",
+      "slug": "journey",
+      "release_date": "2023-12-23",
+      "creator": {
+        "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
+        "name": "Google",
+        "logoSmall": "/img/logos/google_small.svg",
+        "color": "#34A853"
+      },
+      "family": {
+        "id": "d728dc09-1307-469d-8e1f-aeb5aff8de1c",
+        "name": "Google Cloud TTS",
+        "url": "/text-to-speech/model-families/google"
+      },
+      "elo": 1044.37,
+      "rank": 44,
+      "ci95": "-13/+13",
+      "appearances": 1619,
+      "wins": 768,
+      "win_rate": 0.474366893143916,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1044.37,
+          "appearances": 1619,
+          "wins": 768,
+          "win_rate": 0.474366893143916,
+          "ci95": "-13/+13",
+          "ci_delta": 13,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 160
+      }
+    },
+    {
+      "id": "ed574df4-d4f7-4c60-b19a-f1b80828aa98",
+      "name": "Lightning v3.1",
+      "slug": "lightning-v3-1",
+      "release_date": "2026-03-24",
+      "creator": {
+        "id": "000cfce6-a1fa-478d-a83c-16a4928d91cf",
+        "name": "Smallest.ai",
+        "logoSmall": "/img/logos/smallestai_small.svg",
+        "color": "#123233"
+      },
+      "family": {
+        "id": "70a77900-34a0-424d-8f7d-d64cec848d6f",
+        "name": "Smallest.ai",
+        "url": "/text-to-speech/model-families/smallestai"
+      },
+      "elo": 1041.76,
+      "rank": 45,
+      "ci95": "-13/+13",
+      "appearances": 1417,
+      "wins": 684,
+      "win_rate": 0.4827099505998589,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1041.76,
+          "appearances": 1417,
+          "wins": 684,
+          "win_rate": 0.4827099505998589,
+          "ci95": "-13/+13",
+          "ci_delta": 13,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 25
+      }
+    },
+    {
+      "id": "7b6ea07a-99e1-4635-9ea1-beee1b6520d5",
+      "name": "Gemini 2.5 Flash TTS (Dec 2025)",
+      "slug": "gemini-2-5-flash-dec-2025",
+      "release_date": "2025-12-10",
+      "creator": {
+        "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
+        "name": "Google",
+        "logoSmall": "/img/logos/google_small.svg",
+        "color": "#34A853"
+      },
+      "family": {
+        "id": "9bdc5a83-380a-4d4e-a427-680ae431f8e8",
+        "name": "Gemini",
+        "url": "/text-to-speech/model-families/gemini"
+      },
+      "elo": 1033.9,
+      "rank": 46,
+      "ci95": "-12/+12",
+      "appearances": 2334,
+      "wins": 1047,
+      "win_rate": 0.448586118251928,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1033.9,
+          "appearances": 2334,
+          "wins": 1047,
+          "win_rate": 0.448586118251928,
+          "ci95": "-12/+12",
+          "ci_delta": 12,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 9.15
+      }
+    },
+    {
+      "id": "009f6201-1862-454e-87b5-e2a367bc027f",
+      "name": "Octave TTS",
+      "slug": "octave-tts",
+      "release_date": "2025-02-26",
+      "creator": {
+        "id": "a6194e19-3b44-47d8-97b8-7eb2564c5b91",
+        "name": "Hume AI",
+        "logoSmall": "/img/logos/humeai_small.svg",
+        "color": "#facdc2"
+      },
+      "family": {
+        "id": "07dbe181-3ca8-4afa-8880-54ca89fc063d",
+        "name": "Hume AI",
+        "url": "/text-to-speech/model-families/humeai"
+      },
+      "elo": 1033.3,
+      "rank": 47,
+      "ci95": "-11/+11",
+      "appearances": 5018,
+      "wins": 2491,
+      "win_rate": 0.49641291351135913,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1033.3,
+          "appearances": 5018,
+          "wins": 2491,
+          "win_rate": 0.49641291351135913,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 87.5
+      }
+    },
+    {
+      "id": "588357bb-fe98-4286-b13e-3cae200e6085",
+      "name": "SIMBA 1.0",
+      "slug": "simba",
+      "release_date": "2024-06-20",
+      "creator": {
+        "id": "237d1944-ea14-43ed-82e6-3ab69698c9b4",
+        "name": "Speechify",
+        "logoSmall": "/img/logos/speechify_small.png",
+        "color": "#3137fc"
+      },
+      "family": {
+        "id": "fdb3fdd5-3dd6-427a-98a0-4dc5ab785d46",
+        "name": "Speechify",
+        "url": "/text-to-speech/model-families/speechify"
+      },
+      "elo": 1032.77,
+      "rank": 48,
+      "ci95": "-11/+11",
+      "appearances": 4999,
+      "wins": 2496,
+      "win_rate": 0.4992998599719944,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1032.77,
+          "appearances": 4999,
+          "wins": 2496,
+          "win_rate": 0.4992998599719944,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 10
+      }
+    },
+    {
+      "id": "2e9ecf4e-7aca-41ac-9436-a5c0c5664fe0",
+      "name": "Gemini 2.5 Pro (Dec 2025)",
+      "slug": "gemini-2-5-pro-dec-2025",
+      "release_date": "2025-12-10",
+      "creator": {
+        "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
+        "name": "Google",
+        "logoSmall": "/img/logos/google_small.svg",
+        "color": "#34A853"
+      },
+      "family": {
+        "id": "9bdc5a83-380a-4d4e-a427-680ae431f8e8",
+        "name": "Gemini",
+        "url": "/text-to-speech/model-families/gemini"
+      },
+      "elo": 1032.15,
+      "rank": 49,
+      "ci95": "-12/+12",
+      "appearances": 2168,
+      "wins": 1024,
+      "win_rate": 0.47232472324723246,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1032.15,
+          "appearances": 2168,
+          "wins": 1024,
+          "win_rate": 0.47232472324723246,
+          "ci95": "-12/+12",
+          "ci_delta": 12,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 18.31
+      }
+    },
+    {
+      "id": "06b8f3e3-e4fe-4cf7-9774-30816972bb59",
+      "name": "Chatterbox HD",
+      "slug": "chatterbox-hd",
+      "release_date": "2025-05-28",
+      "creator": {
+        "id": "cca8a754-6c73-4b9f-aaad-aa10f0adb8e4",
+        "name": "Resemble AI",
+        "logoSmall": "/img/logos/resembleai_small.jpg",
+        "color": "#48d1a1"
+      },
+      "family": {
+        "id": "896d63f2-6a60-4860-8aa5-e43a526ca37a",
+        "name": "Resemble AI",
+        "url": "/text-to-speech/model-families/resembleai"
+      },
+      "elo": 1029.56,
+      "rank": 50,
+      "ci95": "-11/+11",
+      "appearances": 4694,
+      "wins": 2388,
+      "win_rate": 0.5087345547507456,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1029.56,
+          "appearances": 4694,
+          "wins": 2388,
+          "win_rate": 0.5087345547507456,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 40
+      }
+    },
+    {
+      "id": "cddf7ab5-43d6-488f-be03-1dcfbb8955d3",
+      "name": "Coda",
+      "slug": "rime-coda",
+      "release_date": "2026-05-19",
+      "creator": {
+        "id": "2f5ee776-6f01-4c17-8ce2-335e235f45f8",
+        "name": "Rime",
+        "logoSmall": "/img/logos/rime_small.svg",
+        "color": "#f05707"
+      },
+      "family": {
+        "id": "a32a3756-4ce4-4195-b3c7-c48c9bf35538",
+        "name": "Rime",
+        "url": "/text-to-speech/model-families/rime"
+      },
+      "elo": 1027.82,
+      "rank": 51,
+      "ci95": "-14/+14",
+      "appearances": 1215,
+      "wins": 572,
+      "win_rate": 0.4707818930041152,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1027.82,
+          "appearances": 1215,
+          "wins": 572,
+          "win_rate": 0.4707818930041152,
+          "ci95": "-14/+14",
+          "ci_delta": 14,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 50
+      }
+    },
+    {
+      "id": "c8c8fcf1-03cb-4b63-a6c9-d72cab227b3f",
+      "name": "T2A-01-Turbo",
+      "slug": "t2a-01-turbo",
+      "release_date": "2025-01-20",
+      "creator": {
+        "id": "a31a9071-6144-4dbb-92dc-2e02d653ecea",
+        "name": "MiniMax",
+        "logoSmall": "/img/logos/minimax_small.svg",
+        "color": "#EB3568"
+      },
+      "family": {
+        "id": "2eae7778-70a2-43c5-92c7-14884febeb33",
+        "name": "MiniMax",
+        "url": "/text-to-speech/model-families/minimax-hailou"
+      },
+      "elo": 1023.5,
+      "rank": 52,
+      "ci95": "-10/+10",
+      "appearances": 5192,
+      "wins": 2561,
+      "win_rate": 0.4932588597842835,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1023.5,
+          "appearances": 5192,
+          "wins": 2561,
+          "win_rate": 0.4932588597842835,
+          "ci95": "-10/+10",
+          "ci_delta": 10,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 30
+      }
+    },
+    {
+      "id": "4489b587-5602-434a-9c24-772df19e879b",
+      "name": "MiMo-V2-TTS",
+      "slug": "mimo-v2-tts",
+      "release_date": "2026-03-18",
+      "creator": {
+        "id": "5147c8b4-61d5-4070-9324-8adf8aa144c2",
+        "name": "Xiaomi",
+        "logoSmall": "/img/logos/xiaomi_small.svg",
+        "color": "#ff6900"
+      },
+      "family": {
+        "id": "2813092d-a750-4d9d-8cfb-aabbfe725568",
+        "name": "MiMo",
+        "url": "/text-to-speech/model-families/mimo"
+      },
+      "elo": 1020.08,
+      "rank": 53,
+      "ci95": "-14/+14",
+      "appearances": 1371,
+      "wins": 621,
+      "win_rate": 0.45295404814004375,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1020.08,
+          "appearances": 1371,
+          "wins": 621,
+          "win_rate": 0.45295404814004375,
+          "ci95": "-14/+14",
+          "ci_delta": 14,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": null
+      }
+    },
+    {
+      "id": "c8b0b07c-26a7-444c-a8ff-c412a3d433b7",
+      "name": "MAI-Voice-1",
+      "slug": "mai-voice-1",
+      "release_date": "2026-04-02",
+      "creator": {
+        "id": "ef5ce458-9986-4652-915a-e31fac5506b0",
+        "name": "Microsoft",
+        "logoSmall": "/img/logos/microsoft_small.svg",
+        "color": "#0078D5"
+      },
+      "family": {
+        "id": "52686da2-69f8-462a-9695-d65f316bffe5",
+        "name": "Microsoft Azure",
+        "url": "/text-to-speech/model-families/azure"
+      },
+      "elo": 1012.84,
+      "rank": 54,
+      "ci95": "-14/+14",
+      "appearances": 1388,
+      "wins": 614,
+      "win_rate": 0.4423631123919308,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1012.84,
+          "appearances": 1388,
+          "wins": 614,
+          "win_rate": 0.4423631123919308,
+          "ci95": "-14/+14",
+          "ci_delta": 14,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": null
+      }
+    },
+    {
+      "id": "8bdfce7b-e8c5-4a29-984a-bd360d913c31",
+      "name": "Fish Speech 1.5",
+      "slug": "fish-speech-1-5",
+      "release_date": "2024-12-24",
+      "creator": {
+        "id": "b28a9155-95e8-460a-82fe-8271e5f2bc77",
+        "name": "Fish Audio",
+        "logoSmall": "/img/logos/fishaudio_small.svg",
+        "color": "#0e0e0e"
+      },
+      "family": {
+        "id": "3fabf1bf-48a3-45cb-b32d-b6a42901c2e0",
+        "name": "Fish Audio",
+        "url": "/text-to-speech/model-families/fishaudio"
+      },
+      "elo": 1010.5,
+      "rank": 55,
+      "ci95": "-11/+11",
+      "appearances": 5129,
+      "wins": 2494,
+      "win_rate": 0.4862546305322675,
+      "open_weights_url": "https://huggingface.co/fishaudio/fish-speech-1.5",
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1010.5,
+          "appearances": 5129,
+          "wins": 2494,
+          "win_rate": 0.4862546305322675,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 15
+      }
+    },
+    {
+      "id": "6cb43d71-bd49-4b44-9635-9ea5f28fd376",
+      "name": "Chatterbox",
+      "slug": "chatterbox",
+      "release_date": "2025-05-28",
+      "creator": {
+        "id": "cca8a754-6c73-4b9f-aaad-aa10f0adb8e4",
+        "name": "Resemble AI",
+        "logoSmall": "/img/logos/resembleai_small.jpg",
+        "color": "#48d1a1"
+      },
+      "family": {
+        "id": "896d63f2-6a60-4860-8aa5-e43a526ca37a",
+        "name": "Resemble AI",
+        "url": "/text-to-speech/model-families/resembleai"
+      },
+      "elo": 1009.6,
+      "rank": 56,
+      "ci95": "-11/+11",
+      "appearances": 4945,
+      "wins": 2333,
+      "win_rate": 0.4717896865520728,
+      "open_weights_url": "https://github.com/resemble-ai/chatterbox",
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1009.6,
+          "appearances": 4945,
+          "wins": 2333,
+          "win_rate": 0.4717896865520728,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 25
+      }
+    },
+    {
+      "id": "620699f2-ae0e-4ff4-a3e3-5d43b96e98c5",
+      "name": "Magpie-Multilingual 357M",
+      "slug": "magpie-multilingual-357m",
+      "release_date": "2026-01-05",
+      "creator": {
+        "id": "0c303112-430d-4367-a484-51defaa2e166",
+        "name": "NVIDIA",
+        "logoSmall": "/img/logos/nvidia_small.svg",
+        "color": "#86b737"
+      },
+      "family": {
+        "id": "59ddff0f-5e89-4c07-9aca-dded68abe545",
+        "name": "NVIDIA",
+        "url": "/text-to-speech/model-families/nvidia"
+      },
+      "elo": 1007.68,
+      "rank": 57,
+      "ci95": "-11/+11",
+      "appearances": 3748,
+      "wins": 1686,
+      "win_rate": 0.44983991462113126,
+      "open_weights_url": "https://huggingface.co/nvidia/magpie_tts_multilingual_357m",
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1007.68,
+          "appearances": 3748,
+          "wins": 1686,
+          "win_rate": 0.44983991462113126,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": null
+      }
+    },
+    {
+      "id": "20c6b2a3-4881-4f5d-b82f-f135fab82711",
+      "name": "Arcana v3",
+      "slug": "rime-arcana",
+      "release_date": "2026-02-04",
+      "creator": {
+        "id": "2f5ee776-6f01-4c17-8ce2-335e235f45f8",
+        "name": "Rime",
+        "logoSmall": "/img/logos/rime_small.svg",
+        "color": "#f05707"
+      },
+      "family": {
+        "id": "a32a3756-4ce4-4195-b3c7-c48c9bf35538",
+        "name": "Rime",
+        "url": "/text-to-speech/model-families/rime"
+      },
+      "elo": 1007.65,
+      "rank": 58,
+      "ci95": "-14/+14",
+      "appearances": 1315,
+      "wins": 563,
+      "win_rate": 0.4281368821292776,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1007.65,
+          "appearances": 1315,
+          "wins": 563,
+          "win_rate": 0.4281368821292776,
+          "ci95": "-14/+14",
+          "ci_delta": 14,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 40
+      }
+    },
+    {
+      "id": "f5a3ab85-032b-41b1-8c78-c4b0eef2a9e8",
+      "name": "Zonos-v0.1",
+      "slug": "zonos-v0-1",
+      "release_date": "2025-02-10",
+      "creator": {
+        "id": "1124c0e1-03d7-498e-b8ca-212e86387c06",
+        "name": "Zyphra",
+        "logoSmall": "/img/logos/zyphra_small.jpg",
+        "color": "#1A1A2E"
+      },
+      "family": {
+        "id": "e93d52b0-2544-4487-ab45-ea8c11235231",
+        "name": "Zyphra",
+        "url": "/text-to-speech/model-families/zyphra"
+      },
+      "elo": 1000,
+      "rank": 59,
+      "ci95": "-0/+0",
+      "appearances": 5089,
+      "wins": 2366,
+      "win_rate": 0.4649243466299862,
+      "open_weights_url": "https://github.com/Zyphra/Zonos",
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 1000,
+          "appearances": 5089,
+          "wins": 2366,
+          "win_rate": 0.4649243466299862,
+          "ci95": "-0/+0",
+          "ci_delta": 0,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 20
+      }
+    },
+    {
+      "id": "86d3b629-8222-4ab6-ba77-6d2841fbf212",
+      "name": "Murf Speech Gen 2",
+      "slug": "murf-speech-gen-2",
+      "release_date": "2024-07-23",
+      "creator": {
+        "id": "b4f8bea1-3777-4cfb-a062-0487d3ea1de6",
+        "name": "Murf AI",
+        "logoSmall": "/img/logos/murfai_small.svg",
+        "color": "#150C25"
+      },
+      "family": {
+        "id": "807fa267-00a1-4167-9aed-3470ce4d3a8a",
+        "name": "Murf AI",
+        "url": "/text-to-speech/model-families/murfai"
+      },
+      "elo": 971.14,
+      "rank": 60,
+      "ci95": "-11/+11",
+      "appearances": 5665,
+      "wins": 2316,
+      "win_rate": 0.4088261253309797,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 971.14,
+          "appearances": 5665,
+          "wins": 2316,
+          "win_rate": 0.4088261253309797,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 100
+      }
+    },
+    {
+      "id": "a8b4b1db-2a38-4649-9b57-a12fb0a85253",
+      "name": "LMNT",
+      "slug": "lmnt",
+      "release_date": "2023-12-12",
+      "creator": {
+        "id": "6129a13c-7a80-4e52-9f6a-3f1269cc1594",
+        "name": "LMNT",
+        "logoSmall": "/img/logos/lmnt_small.svg",
+        "color": "#1585CF"
+      },
+      "family": {
+        "id": "3bf9c5f1-f2ad-499b-ac66-8cc0ae7169ca",
+        "name": "LMNT",
+        "url": "/text-to-speech/model-families/lmnt"
+      },
+      "elo": 969.61,
+      "rank": 61,
+      "ci95": "-12/+12",
+      "appearances": 4312,
+      "wins": 2048,
+      "win_rate": 0.4749536178107607,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 969.61,
+          "appearances": 4312,
+          "wins": 2048,
+          "win_rate": 0.4749536178107607,
+          "ci95": "-12/+12",
+          "ci_delta": 12,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 49
+      }
+    },
+    {
+      "id": "bd053b0f-5f69-4313-a7e5-5acd71422d4a",
+      "name": "VibeVoice 1.5B",
+      "slug": "vibe-voice-1-5b",
+      "release_date": "2025-08-26",
+      "creator": {
+        "id": "ef5ce458-9986-4652-915a-e31fac5506b0",
+        "name": "Microsoft",
+        "logoSmall": "/img/logos/microsoft_small.svg",
+        "color": "#0078D5"
+      },
+      "family": {
+        "id": "52686da2-69f8-462a-9695-d65f316bffe5",
+        "name": "Microsoft Azure",
+        "url": "/text-to-speech/model-families/azure"
+      },
+      "elo": 966.85,
+      "rank": 62,
+      "ci95": "-13/+13",
+      "appearances": 2331,
+      "wins": 799,
+      "win_rate": 0.34277134277134275,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 966.85,
+          "appearances": 2331,
+          "wins": 799,
+          "win_rate": 0.34277134277134275,
+          "ci95": "-13/+13",
+          "ci_delta": 13,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": null
+      }
+    },
+    {
+      "id": "7395ed9e-1d19-4ab8-a989-eca165beefa4",
+      "name": "VibeVoice 7B",
+      "slug": "vibe-voice-7b",
+      "release_date": "2025-08-26",
+      "creator": {
+        "id": "ef5ce458-9986-4652-915a-e31fac5506b0",
+        "name": "Microsoft",
+        "logoSmall": "/img/logos/microsoft_small.svg",
+        "color": "#0078D5"
+      },
+      "family": {
+        "id": "52686da2-69f8-462a-9695-d65f316bffe5",
+        "name": "Microsoft Azure",
+        "url": "/text-to-speech/model-families/azure"
+      },
+      "elo": 963.53,
+      "rank": 63,
+      "ci95": "-13/+13",
+      "appearances": 1832,
+      "wins": 693,
+      "win_rate": 0.37827510917030566,
+      "open_weights_url": "https://huggingface.co/microsoft/VibeVoice-Large",
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 963.53,
+          "appearances": 1832,
+          "wins": 693,
+          "win_rate": 0.37827510917030566,
+          "ci95": "-13/+13",
+          "ci_delta": 13,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": null
+      }
+    },
+    {
+      "id": "80791fbe-7454-4719-9063-bedfcde606c7",
+      "name": "OpenVoice v2",
+      "slug": "openvoice-v2",
+      "release_date": "2024-04-01",
+      "creator": {
+        "id": "4a331525-1ba3-4722-b939-f3191c168ece",
+        "name": "OpenVoice",
+        "logoSmall": "/img/logos/openvoice_small.svg",
+        "color": "#293BB4"
+      },
+      "family": {
+        "id": "45e3f2c5-14a1-49ca-bff5-c282dedaece3",
+        "name": "OpenVoice v2",
+        "url": "/text-to-speech/model-families/openvoice"
+      },
+      "elo": 951.28,
+      "rank": 64,
+      "ci95": "-10/+10",
+      "appearances": 8098,
+      "wins": 3520,
+      "win_rate": 0.4346752284514695,
+      "open_weights_url": "https://huggingface.co/myshell-ai/OpenVoiceV2",
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 951.28,
+          "appearances": 8098,
+          "wins": 3520,
+          "win_rate": 0.4346752284514695,
+          "ci95": "-10/+10",
+          "ci_delta": 10,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 8.33
+      }
+    },
+    {
+      "id": "04719149-11ed-42b1-bc2c-166860c03c23",
+      "name": "Magpie Multilingual",
+      "slug": "magpie-mutlilingual",
+      "release_date": "2025-04-01",
+      "creator": {
+        "id": "0c303112-430d-4367-a484-51defaa2e166",
+        "name": "NVIDIA",
+        "logoSmall": "/img/logos/nvidia_small.svg",
+        "color": "#86b737"
+      },
+      "family": {
+        "id": "59ddff0f-5e89-4c07-9aca-dded68abe545",
+        "name": "NVIDIA",
+        "url": "/text-to-speech/model-families/nvidia"
+      },
+      "elo": 948.99,
+      "rank": 65,
+      "ci95": "-13/+13",
+      "appearances": 1697,
+      "wins": 593,
+      "win_rate": 0.3494401885680613,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 948.99,
+          "appearances": 1697,
+          "wins": 593,
+          "win_rate": 0.3494401885680613,
+          "ci95": "-13/+13",
+          "ci_delta": 13,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": null
+      }
+    },
+    {
+      "id": "55912533-f2de-48e4-8318-990c435f1401",
+      "name": "Neuphonic TTS",
+      "slug": "neuphonic",
+      "release_date": "2024-10-01",
+      "creator": {
+        "id": "184db8d5-b310-4f56-b5fc-d600f42146f3",
+        "name": "Neuphonic",
+        "logoSmall": "/img/logos/neuphonic_small.svg",
+        "color": "#dc0228"
+      },
+      "family": {
+        "id": "f04c6722-851e-4950-8ae0-9789e3f9bbe9",
+        "name": "Neuphonic",
+        "url": "/text-to-speech/model-families/neuphonic"
+      },
+      "elo": 939.82,
+      "rank": 66,
+      "ci95": "-13/+13",
+      "appearances": 1907,
+      "wins": 645,
+      "win_rate": 0.3382275825904562,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 939.82,
+          "appearances": 1907,
+          "wins": 645,
+          "win_rate": 0.3382275825904562,
+          "ci95": "-13/+13",
+          "ci_delta": 13,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 20.79
+      }
+    },
+    {
+      "id": "f05bc243-0723-4f05-aa19-31341d8f2677",
+      "name": "Qwen3 TTS Flash",
+      "slug": "qwen3-tts-flash",
+      "release_date": "2025-09-22",
+      "creator": {
+        "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
+        "name": "Alibaba",
+        "logoSmall": "/img/logos/alibaba_small.svg",
+        "color": "#ff7018"
+      },
+      "family": {
+        "id": "5591eff6-c69e-4097-bafc-af9668717025",
+        "name": "Qwen",
+        "url": "/text-to-speech/model-families/qwen"
+      },
+      "elo": 936.23,
+      "rank": 67,
+      "ci95": "-13/+13",
+      "appearances": 1947,
+      "wins": 663,
+      "win_rate": 0.3405238828967643,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 936.23,
+          "appearances": 1947,
+          "wins": 663,
+          "win_rate": 0.3405238828967643,
+          "ci95": "-13/+13",
+          "ci_delta": 13,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 10
+      }
+    },
+    {
+      "id": "8eb42b0b-213a-4911-b096-a7455e944090",
+      "name": "Qwen3 TTS",
+      "slug": "qwen3-tts-vc-realtime",
+      "release_date": null,
+      "creator": {
+        "id": "d874d370-74d3-4fa0-ba00-5272f92f946b",
+        "name": "Alibaba",
+        "logoSmall": "/img/logos/alibaba_small.svg",
+        "color": "#ff7018"
+      },
+      "family": {
+        "id": "5591eff6-c69e-4097-bafc-af9668717025",
+        "name": "Qwen",
+        "url": "/text-to-speech/model-families/qwen"
+      },
+      "elo": 929.99,
+      "rank": 68,
+      "ci95": "-13/+13",
+      "appearances": 2368,
+      "wins": 803,
+      "win_rate": 0.3391047297297297,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 929.99,
+          "appearances": 2368,
+          "wins": 803,
+          "win_rate": 0.3391047297297297,
+          "ci95": "-13/+13",
+          "ci_delta": 13,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": null
+      }
+    },
+    {
+      "id": "f2f2989e-69d1-4b1c-a419-ee316e6c1c3d",
+      "name": "XTTS v2",
+      "slug": "xtts-v2",
+      "release_date": "2023-11-08",
+      "creator": {
+        "id": "40cc2505-fa7e-428a-aeca-2c53b5589f07",
+        "name": "Coqui",
+        "logoSmall": "/img/logos/coqui_small.png",
+        "color": "#5EAE91"
+      },
+      "family": {
+        "id": "27b30805-d31a-47f7-adf5-a2ccc8fc6e48",
+        "name": "XTTS v2",
+        "url": "/text-to-speech/model-families/xtts"
+      },
+      "elo": 895.54,
+      "rank": 69,
+      "ci95": "-12/+12",
+      "appearances": 6344,
+      "wins": 2292,
+      "win_rate": 0.36128625472887765,
+      "open_weights_url": "https://huggingface.co/coqui/XTTS-v2",
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 895.54,
+          "appearances": 6344,
+          "wins": 2292,
+          "win_rate": 0.36128625472887765,
+          "ci95": "-12/+12",
+          "ci_delta": 12,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 40.44
+      }
+    },
+    {
+      "id": "5d922a1e-af77-4dae-adb4-7428dd634d5a",
+      "name": "Mist V2",
+      "slug": "mist-v2",
+      "release_date": "2025-03-06",
+      "creator": {
+        "id": "2f5ee776-6f01-4c17-8ce2-335e235f45f8",
+        "name": "Rime",
+        "logoSmall": "/img/logos/rime_small.svg",
+        "color": "#f05707"
+      },
+      "family": {
+        "id": "a32a3756-4ce4-4195-b3c7-c48c9bf35538",
+        "name": "Rime",
+        "url": "/text-to-speech/model-families/rime"
+      },
+      "elo": 894.66,
+      "rank": 70,
+      "ci95": "-14/+14",
+      "appearances": 2603,
+      "wins": 912,
+      "win_rate": 0.35036496350364965,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 894.66,
+          "appearances": 2603,
+          "wins": 912,
+          "win_rate": 0.35036496350364965,
+          "ci95": "-14/+14",
+          "ci_delta": 14,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 31.13
+      }
+    },
+    {
+      "id": "16ad3e89-cc78-4478-a5a0-a048b5c72cfb",
+      "name": "WaveNet",
+      "slug": "wavenet",
+      "release_date": "2016-09-08",
+      "creator": {
+        "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
+        "name": "Google",
+        "logoSmall": "/img/logos/google_small.svg",
+        "color": "#34A853"
+      },
+      "family": {
+        "id": "d728dc09-1307-469d-8e1f-aeb5aff8de1c",
+        "name": "Google Cloud TTS",
+        "url": "/text-to-speech/model-families/google"
+      },
+      "elo": 893.09,
+      "rank": 71,
+      "ci95": "-11/+11",
+      "appearances": 7374,
+      "wins": 2523,
+      "win_rate": 0.3421480878763222,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 893.09,
+          "appearances": 7374,
+          "wins": 2523,
+          "win_rate": 0.3421480878763222,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 16
+      }
+    },
+    {
+      "id": "eb3b0d75-134b-4e6a-82c5-4db2398d5c07",
+      "name": "Polly Neural",
+      "slug": "polly-neural",
+      "release_date": "2019-07-30",
+      "creator": {
+        "id": "bb5a4e55-7969-4ab4-8702-3b9fd6547dc2",
+        "name": "Amazon",
+        "logoSmall": "/img/logos/aws_small.svg",
+        "color": "#FF9900"
+      },
+      "family": {
+        "id": "3de00dec-c57d-4b88-9d1e-e91e5508a950",
+        "name": "Amazon Polly",
+        "url": "/text-to-speech/model-families/aws"
+      },
+      "elo": 880.7,
+      "rank": 72,
+      "ci95": "-13/+13",
+      "appearances": 2506,
+      "wins": 673,
+      "win_rate": 0.2685554668794892,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 880.7,
+          "appearances": 2506,
+          "wins": 673,
+          "win_rate": 0.2685554668794892,
+          "ci95": "-13/+13",
+          "ci_delta": 13,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 16
+      }
+    },
+    {
+      "id": "666ff702-a2c8-413a-a8df-61902a6e7cb9",
+      "name": "Neural2",
+      "slug": "neural2",
+      "release_date": "2022-06-27",
+      "creator": {
+        "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
+        "name": "Google",
+        "logoSmall": "/img/logos/google_small.svg",
+        "color": "#34A853"
+      },
+      "family": {
+        "id": "d728dc09-1307-469d-8e1f-aeb5aff8de1c",
+        "name": "Google Cloud TTS",
+        "url": "/text-to-speech/model-families/google"
+      },
+      "elo": 875.75,
+      "rank": 73,
+      "ci95": "-11/+11",
+      "appearances": 7810,
+      "wins": 2407,
+      "win_rate": 0.3081946222791293,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 875.75,
+          "appearances": 7810,
+          "wins": 2407,
+          "win_rate": 0.3081946222791293,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 16
+      }
+    },
+    {
+      "id": "3b322e37-a016-4b2e-aacb-1aef8df00829",
+      "name": "StyleTTS 2",
+      "slug": "styletts-2",
+      "release_date": "2023-06-13",
+      "creator": {
+        "id": "26d4eeda-75bd-48e2-ac45-543879b9a9de",
+        "name": "StyleTTS ",
+        "logoSmall": "/img/logos/styletts_small.png",
+        "color": "#C2D5E3"
+      },
+      "family": {
+        "id": "0063ae9c-1d9b-45c2-a8da-5970808819ea",
+        "name": "StyleTTS 2",
+        "url": "/text-to-speech/model-families/styletts"
+      },
+      "elo": 873.68,
+      "rank": 74,
+      "ci95": "-12/+12",
+      "appearances": 5887,
+      "wins": 2168,
+      "win_rate": 0.368269067436725,
+      "open_weights_url": "https://github.com/yl4579/StyleTTS2",
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 873.68,
+          "appearances": 5887,
+          "wins": 2168,
+          "win_rate": 0.368269067436725,
+          "ci95": "-12/+12",
+          "ci_delta": 12,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 2.82
+      }
+    },
+    {
+      "id": "7efc9790-17f6-44a5-8b4f-897deaeb0088",
+      "name": "Standard",
+      "slug": "standard",
+      "release_date": "2018-08-28",
+      "creator": {
+        "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
+        "name": "Google",
+        "logoSmall": "/img/logos/google_small.svg",
+        "color": "#34A853"
+      },
+      "family": {
+        "id": "d728dc09-1307-469d-8e1f-aeb5aff8de1c",
+        "name": "Google Cloud TTS",
+        "url": "/text-to-speech/model-families/google"
+      },
+      "elo": 873.55,
+      "rank": 75,
+      "ci95": "-11/+11",
+      "appearances": 8031,
+      "wins": 2479,
+      "win_rate": 0.308678869381148,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 873.55,
+          "appearances": 8031,
+          "wins": 2479,
+          "win_rate": 0.308678869381148,
+          "ci95": "-11/+11",
+          "ci_delta": 11,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 4
+      }
+    },
+    {
+      "id": "5ab04a8d-c698-4726-bebd-af5fc553b752",
+      "name": "Falcon (Beta)",
+      "slug": "falcon-beta",
+      "release_date": "2025-11-06",
+      "creator": {
+        "id": "b4f8bea1-3777-4cfb-a062-0487d3ea1de6",
+        "name": "Murf AI",
+        "logoSmall": "/img/logos/murfai_small.svg",
+        "color": "#150C25"
+      },
+      "family": {
+        "id": "807fa267-00a1-4167-9aed-3470ce4d3a8a",
+        "name": "Murf AI",
+        "url": "/text-to-speech/model-families/murfai"
+      },
+      "elo": 820.41,
+      "rank": 76,
+      "ci95": "-15/+15",
+      "appearances": 2439,
+      "wins": 521,
+      "win_rate": 0.2136121361213612,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 820.41,
+          "appearances": 2439,
+          "wins": 521,
+          "win_rate": 0.2136121361213612,
+          "ci95": "-15/+15",
+          "ci_delta": 15,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": null
+      }
+    },
+    {
+      "id": "d3f9b298-8e1a-4328-a2bd-ce3ceea6db1f",
+      "name": "Polly Standard",
+      "slug": "polly-standard",
+      "release_date": "2016-11-30",
+      "creator": {
+        "id": "bb5a4e55-7969-4ab4-8702-3b9fd6547dc2",
+        "name": "Amazon",
+        "logoSmall": "/img/logos/aws_small.svg",
+        "color": "#FF9900"
+      },
+      "family": {
+        "id": "3de00dec-c57d-4b88-9d1e-e91e5508a950",
+        "name": "Amazon Polly",
+        "url": "/text-to-speech/model-families/aws"
+      },
+      "elo": 814.04,
+      "rank": 77,
+      "ci95": "-14/+14",
+      "appearances": 4151,
+      "wins": 1039,
+      "win_rate": 0.2503011322572874,
+      "open_weights_url": null,
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 814.04,
+          "appearances": 4151,
+          "wins": 1039,
+          "win_rate": 0.2503011322572874,
+          "ci95": "-14/+14",
+          "ci_delta": 14,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": 4
+      }
+    },
+    {
+      "id": "fb51ab93-d79a-49c5-a2f5-19f03e311afd",
+      "name": "MetaVoice v1",
+      "slug": "metavoice-v1",
+      "release_date": "2024-02-06",
+      "creator": {
+        "id": "f3b30c3c-550d-4a90-870a-9a2f506c333e",
+        "name": "MetaVoice",
+        "logoSmall": "/img/logos/metavoice_small.png",
+        "color": "#BA51B4"
+      },
+      "family": {
+        "id": "411c6664-aecc-4153-a88b-671a925dd066",
+        "name": "MetaVoice v1",
+        "url": "/text-to-speech/model-families/metavoice"
+      },
+      "elo": 772.85,
+      "rank": 78,
+      "ci95": "-15/+15",
+      "appearances": 3786,
+      "wins": 793,
+      "win_rate": 0.20945589012150026,
+      "open_weights_url": "https://github.com/metavoiceio/metavoice-src",
+      "is_current": null,
+      "is_scraped": null,
+      "introduced_at": null,
+      "note": null,
+      "elos": [
+        {
+          "elo": 772.85,
+          "appearances": 3786,
+          "wins": 793,
+          "win_rate": 0.20945589012150026,
+          "ci95": "-15/+15",
+          "ci_delta": 15,
+          "tag": null,
+          "category": null,
+          "accent": null
+        }
+      ],
+      "pricing": {
+        "price_per_1m_characters": null
+      }
+    }
+  ]
+}
