@@ -1,0 +1,39 @@
+{
+  "date": "2026-05-30",
+  "fetched_at": "2026-05-30T07:49:05.248929+00:00",
+  "source": "https://artificialanalysis.ai",
+  "source_type": "public_web_surfaces",
+  "parser_version": "public-web-v1",
+  "endpoints": {
+    "llms": {
+      "model_count": 498,
+      "source_type": "page_payload",
+      "source_url": "https://artificialanalysis.ai/leaderboards/models"
+    },
+    "text-to-image": {
+      "model_count": 137,
+      "source_type": "public_json",
+      "source_url": "https://artificialanalysis.ai/api/text-to-image/arena/preferences?supports_image_input=false"
+    },
+    "image-editing": {
+      "model_count": 63,
+      "source_type": "public_json",
+      "source_url": "https://artificialanalysis.ai/api/text-to-image/arena/preferences?supports_image_input=true"
+    },
+    "text-to-speech": {
+      "model_count": 82,
+      "source_type": "public_json",
+      "source_url": "https://artificialanalysis.ai/api/text-to-speech/arena/preferences"
+    },
+    "text-to-video": {
+      "model_count": 0,
+      "source_type": "public_json",
+      "source_url": "https://artificialanalysis.ai/api/text-to-video/arena/preferences?supports-image-input=false"
+    },
+    "image-to-video": {
+      "model_count": 0,
+      "source_type": "public_json",
+      "source_url": "https://artificialanalysis.ai/api/text-to-video/arena/preferences?supports-image-input=true"
+    }
+  }
+}
