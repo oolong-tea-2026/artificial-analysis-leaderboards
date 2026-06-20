@@ -6,7 +6,7 @@
     "source_description": "LLM leaderboard page payload",
     "parser_version": "public-web-v1",
     "model_count": 511,
-    "fetched_at": "2026-06-20T07:20:55.141999+00:00"
+    "fetched_at": "2026-06-20T08:27:46.606532+00:00"
   },
   "models": [
     {
@@ -65408,6 +65408,7 @@
             "reasoningTokens": 617647,
             "outputTokens": 845685
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 298698,
             "answerTokens": 146206,
@@ -65449,7 +65450,8 @@
             "answerTokens": 185252,
             "reasoningTokens": 881486,
             "outputTokens": 1066738
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -65635,6 +65637,7 @@
             "reasoningTokens": 331820,
             "outputTokens": 532961
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 272433,
             "answerTokens": 166096,
@@ -65659,6 +65662,7 @@
             "reasoningTokens": 1501667,
             "outputTokens": 1759707
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 717910,
             "answerTokens": 151045,
@@ -65670,7 +65674,8 @@
             "answerTokens": 206535,
             "reasoningTokens": 1048817,
             "outputTokens": 1255352
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -65805,7 +65810,17 @@
             "hallucinationRate": 0.28484848484848485
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 672235,
@@ -66024,7 +66039,17 @@
             "hallucinationRate": 0.8514285714285714
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 666849,
@@ -66274,12 +66299,14 @@
             "reasoningTokens": 0,
             "outputTokens": 0
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 229822,
             "answerTokens": 142960,
             "reasoningTokens": 0,
             "outputTokens": 142960
           },
+          "gdpval": null,
           "ifbench": {
             "inputTokens": 24358,
             "answerTokens": 215495,
@@ -66292,6 +66319,7 @@
             "reasoningTokens": 0,
             "outputTokens": 165307
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 713510,
             "answerTokens": 74938,
@@ -66303,7 +66331,8 @@
             "answerTokens": 504762,
             "reasoningTokens": 0,
             "outputTokens": 504762
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -66397,8 +66426,32 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
-        "eval_token_counts": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
+        "eval_token_counts": {
+          "hle": null,
+          "lcr": null,
+          "gpqa": null,
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
+          "scicode": null,
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
+        },
         "intelligence_index_token_counts": null
       }
     },
@@ -66527,7 +66580,17 @@
             "hallucinationRate": 0.9620733249051833
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 638383,
@@ -66553,12 +66616,14 @@
             "reasoningTokens": 0,
             "outputTokens": 0
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 187053,
             "answerTokens": 86728,
             "reasoningTokens": 0,
             "outputTokens": 86728
           },
+          "gdpval": null,
           "ifbench": {
             "inputTokens": 24589,
             "answerTokens": 118456,
@@ -66571,6 +66636,7 @@
             "reasoningTokens": 0,
             "outputTokens": 72148
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 33997,
@@ -66582,7 +66648,8 @@
             "answerTokens": 1024559,
             "reasoningTokens": 0,
             "outputTokens": 1024559
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -66748,6 +66815,7 @@
             "reasoningTokens": 0,
             "outputTokens": 452822
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 224462,
             "answerTokens": 104501,
@@ -66789,7 +66857,8 @@
             "answerTokens": 725306,
             "reasoningTokens": 0,
             "outputTokens": 725306
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -66955,6 +67024,7 @@
             "reasoningTokens": 0,
             "outputTokens": 110293
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 210682,
             "answerTokens": 88173,
@@ -66979,6 +67049,7 @@
             "reasoningTokens": 0,
             "outputTokens": 109374
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 69627,
@@ -66990,7 +67061,8 @@
             "answerTokens": 430041,
             "reasoningTokens": 0,
             "outputTokens": 430041
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -67084,7 +67156,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 651905,
@@ -67092,18 +67174,28 @@
             "reasoningTokens": 0,
             "outputTokens": 792763
           },
+          "lcr": null,
           "gpqa": {
             "inputTokens": 50260,
             "answerTokens": 26536,
             "reasoningTokens": 0,
             "outputTokens": 26536
           },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
           "scicode": {
             "inputTokens": 628161,
             "answerTokens": 105301,
             "reasoningTokens": 0,
             "outputTokens": 105301
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -67197,7 +67289,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 785314,
@@ -67205,18 +67307,28 @@
             "reasoningTokens": 0,
             "outputTokens": 899489
           },
+          "lcr": null,
           "gpqa": {
             "inputTokens": 52438,
             "answerTokens": 48315,
             "reasoningTokens": 0,
             "outputTokens": 48315
           },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
           "scicode": {
             "inputTokens": 662545,
             "answerTokens": 89219,
             "reasoningTokens": 0,
             "outputTokens": 89219
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -67310,7 +67422,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 651905,
@@ -67318,18 +67440,28 @@
             "reasoningTokens": 0,
             "outputTokens": 1074515
           },
+          "lcr": null,
           "gpqa": {
             "inputTokens": 50260,
             "answerTokens": 65582,
             "reasoningTokens": 0,
             "outputTokens": 65582
           },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
           "scicode": {
             "inputTokens": 661342,
             "answerTokens": 157966,
             "reasoningTokens": 0,
             "outputTokens": 157966
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -67459,7 +67591,17 @@
             "hallucinationRate": 0.9320276497695853
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 657785,
@@ -67485,6 +67627,7 @@
             "reasoningTokens": 287355,
             "outputTokens": 641319
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 259762,
             "answerTokens": 134978,
@@ -67526,7 +67669,8 @@
             "answerTokens": 641388,
             "reasoningTokens": 831052,
             "outputTokens": 1472440
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -67656,7 +67800,17 @@
             "hallucinationRate": 0.9489164086687306
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 667300,
@@ -67682,6 +67836,7 @@
             "reasoningTokens": 0,
             "outputTokens": 234117
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 595919,
             "answerTokens": 488970,
@@ -67706,6 +67861,7 @@
             "reasoningTokens": 0,
             "outputTokens": 162391
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 712636,
             "answerTokens": 35713,
@@ -67717,7 +67873,8 @@
             "answerTokens": 1239031,
             "reasoningTokens": 0,
             "outputTokens": 1239031
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -68096,7 +68253,17 @@
             "hallucinationRate": 0.9649122807017544
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 667111,
@@ -68122,6 +68289,7 @@
             "reasoningTokens": 0,
             "outputTokens": 95261
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 139482,
             "answerTokens": 79297,
@@ -68163,7 +68331,8 @@
             "answerTokens": 313566,
             "reasoningTokens": 0,
             "outputTokens": 313566
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -68329,12 +68498,14 @@
             "reasoningTokens": 0,
             "outputTokens": 0
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 289742,
             "answerTokens": 173124,
             "reasoningTokens": 0,
             "outputTokens": 173124
           },
+          "gdpval": null,
           "ifbench": {
             "inputTokens": 24589,
             "answerTokens": 141075,
@@ -68347,6 +68518,7 @@
             "reasoningTokens": 0,
             "outputTokens": 162166
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 118558,
@@ -68358,7 +68530,8 @@
             "answerTokens": 650709,
             "reasoningTokens": 0,
             "outputTokens": 650709
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -68544,6 +68717,7 @@
             "reasoningTokens": 0,
             "outputTokens": 228619
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 267729,
             "answerTokens": 144486,
@@ -68568,6 +68742,7 @@
             "reasoningTokens": 757777,
             "outputTokens": 875996
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 717910,
             "answerTokens": 40498,
@@ -68579,7 +68754,8 @@
             "answerTokens": 491699,
             "reasoningTokens": 1108495,
             "outputTokens": 1600194
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -68709,7 +68885,17 @@
             "hallucinationRate": 0.9312581063553826
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 743743,
@@ -68735,6 +68921,7 @@
             "reasoningTokens": 577482,
             "outputTokens": 720985
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 210361,
             "answerTokens": 103134,
@@ -68759,6 +68946,7 @@
             "reasoningTokens": 1532729,
             "outputTokens": 1626376
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 142260,
@@ -68770,7 +68958,8 @@
             "answerTokens": 290058,
             "reasoningTokens": 795926,
             "outputTokens": 1085984
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -68936,6 +69125,7 @@
             "reasoningTokens": 0,
             "outputTokens": 208130
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 478236,
             "answerTokens": 365399,
@@ -68960,6 +69150,7 @@
             "reasoningTokens": 0,
             "outputTokens": 1292783
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 714278,
             "answerTokens": 716964,
@@ -68971,7 +69162,8 @@
             "answerTokens": 374943,
             "reasoningTokens": 0,
             "outputTokens": 374943
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -69137,6 +69329,7 @@
             "reasoningTokens": 450784,
             "outputTokens": 633398
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 139482,
             "answerTokens": 272276,
@@ -69178,7 +69371,8 @@
             "answerTokens": 273965,
             "reasoningTokens": 224233,
             "outputTokens": 498198
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -69313,7 +69507,17 @@
             "hallucinationRate": 0.8198757763975155
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 666749,
@@ -69527,6 +69731,9 @@
             "reasoningTokens": 472927,
             "outputTokens": 1021784
           },
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
           "ifbench": {
             "inputTokens": 24589,
             "answerTokens": 153319,
@@ -69538,7 +69745,11 @@
             "answerTokens": 114183,
             "reasoningTokens": 4668721,
             "outputTokens": 4782904
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -69632,7 +69843,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 657728,
@@ -69652,6 +69873,10 @@
             "reasoningTokens": 758927,
             "outputTokens": 865825
           },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
           "ifbench": {
             "inputTokens": 24589,
             "answerTokens": 101021,
@@ -69663,7 +69888,11 @@
             "answerTokens": 158362,
             "reasoningTokens": 963057,
             "outputTokens": 1121419
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -69793,7 +70022,17 @@
             "hallucinationRate": 0.9534619750283768
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 710309,
@@ -69819,6 +70058,7 @@
             "reasoningTokens": 0,
             "outputTokens": 177540
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 215000,
             "answerTokens": 156768,
@@ -69843,6 +70083,7 @@
             "reasoningTokens": 0,
             "outputTokens": 145191
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 735910,
             "answerTokens": 138395,
@@ -69854,7 +70095,8 @@
             "answerTokens": 789991,
             "reasoningTokens": 0,
             "outputTokens": 789991
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -69948,7 +70190,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 651876,
@@ -69956,18 +70208,28 @@
             "reasoningTokens": 0,
             "outputTokens": 800818
           },
+          "lcr": null,
           "gpqa": {
             "inputTokens": 50260,
             "answerTokens": 52226,
             "reasoningTokens": 0,
             "outputTokens": 52226
           },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
           "scicode": {
             "inputTokens": 651656,
             "answerTokens": 163493,
             "reasoningTokens": 0,
             "outputTokens": 163493
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -70097,7 +70359,17 @@
             "hallucinationRate": 0.8697788697788698
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 667111,
@@ -70123,6 +70395,7 @@
             "reasoningTokens": 507227,
             "outputTokens": 633149
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 1195497,
             "answerTokens": 1169328,
@@ -70147,6 +70420,7 @@
             "reasoningTokens": 182289,
             "outputTokens": 463050
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 47382,
@@ -70158,7 +70432,8 @@
             "answerTokens": 342211,
             "reasoningTokens": 606362,
             "outputTokens": 948573
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -70308,7 +70583,17 @@
             "hallucinationRate": 0.9366106080206986
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 654871,
@@ -70334,6 +70619,7 @@
             "reasoningTokens": 522785,
             "outputTokens": 741028
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 287201,
             "answerTokens": 210945,
@@ -70375,7 +70661,8 @@
             "answerTokens": 161200,
             "reasoningTokens": 370916,
             "outputTokens": 532116
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -70469,7 +70756,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": null,
         "intelligence_index_token_counts": null
       }
@@ -70563,7 +70860,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 786105,
@@ -70583,12 +70890,21 @@
             "reasoningTokens": 0,
             "outputTokens": 73787
           },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
           "scicode": {
             "inputTokens": 643487,
             "answerTokens": 104641,
             "reasoningTokens": 0,
             "outputTokens": 104641
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -70682,7 +70998,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 786105,
@@ -70690,18 +71016,28 @@
             "reasoningTokens": 0,
             "outputTokens": 1123904
           },
+          "lcr": null,
           "gpqa": {
             "inputTokens": 52438,
             "answerTokens": 97776,
             "reasoningTokens": 0,
             "outputTokens": 97776
           },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
           "scicode": {
             "inputTokens": 646273,
             "answerTokens": 107036,
             "reasoningTokens": 0,
             "outputTokens": 107036
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -70867,6 +71203,7 @@
             "reasoningTokens": 0,
             "outputTokens": 364443
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 246572,
             "answerTokens": 129623,
@@ -70891,6 +71228,7 @@
             "reasoningTokens": 0,
             "outputTokens": 109848
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 4299,
             "answerTokens": 225,
@@ -70902,7 +71240,8 @@
             "answerTokens": 1030087,
             "reasoningTokens": 0,
             "outputTokens": 1030087
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -71032,7 +71371,17 @@
             "hallucinationRate": 0.89453125
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 784898,
@@ -71058,12 +71407,14 @@
             "reasoningTokens": 0,
             "outputTokens": 258394
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 221143,
             "answerTokens": 145048,
             "reasoningTokens": 0,
             "outputTokens": 145048
           },
+          "gdpval": null,
           "ifbench": {
             "inputTokens": 24589,
             "answerTokens": 156724,
@@ -71076,6 +71427,7 @@
             "reasoningTokens": 0,
             "outputTokens": 106797
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 54717,
@@ -71087,7 +71439,8 @@
             "answerTokens": 717561,
             "reasoningTokens": 0,
             "outputTokens": 717561
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -71181,7 +71534,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 652085,
@@ -71189,18 +71552,28 @@
             "reasoningTokens": 9636864,
             "outputTokens": 11009510
           },
+          "lcr": null,
           "gpqa": {
             "inputTokens": 50260,
             "answerTokens": 59202,
             "reasoningTokens": 312896,
             "outputTokens": 372098
           },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
           "scicode": {
             "inputTokens": 678022,
             "answerTokens": 120823,
             "reasoningTokens": 544107,
             "outputTokens": 664930
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -71366,6 +71739,7 @@
             "reasoningTokens": 0,
             "outputTokens": 366205
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 545110,
             "answerTokens": 426341,
@@ -71390,6 +71764,7 @@
             "reasoningTokens": 0,
             "outputTokens": 135741
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716538,
             "answerTokens": 256460,
@@ -71401,7 +71776,8 @@
             "answerTokens": 1037643,
             "reasoningTokens": 0,
             "outputTokens": 1037643
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -71495,7 +71871,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 786105,
@@ -71503,12 +71889,17 @@
             "reasoningTokens": 0,
             "outputTokens": 1333931
           },
+          "lcr": null,
           "gpqa": {
             "inputTokens": 52438,
             "answerTokens": 95438,
             "reasoningTokens": 0,
             "outputTokens": 95438
           },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
           "ifbench": {
             "inputTokens": 24896,
             "answerTokens": 99909,
@@ -71526,7 +71917,10 @@
             "answerTokens": 384914,
             "reasoningTokens": 0,
             "outputTokens": 384914
-          }
+          },
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -71692,6 +72086,7 @@
             "reasoningTokens": 276788,
             "outputTokens": 539378
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 134874,
             "answerTokens": 278914,
@@ -71716,6 +72111,7 @@
             "reasoningTokens": 6674154,
             "outputTokens": 6766279
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 76190,
@@ -71727,7 +72123,8 @@
             "answerTokens": 790462,
             "reasoningTokens": 1529879,
             "outputTokens": 2320341
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -71862,7 +72259,17 @@
             "hallucinationRate": 0.9576923076923077
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 667195,
@@ -71918,6 +72325,7 @@
             "reasoningTokens": 7281454,
             "outputTokens": 7401508
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 172433,
@@ -72106,6 +72514,7 @@
             "reasoningTokens": 2088717,
             "outputTokens": 2441343
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 246513,
             "answerTokens": 124060,
@@ -72147,7 +72556,8 @@
             "answerTokens": 254507,
             "reasoningTokens": 1154391,
             "outputTokens": 1408898
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -72241,7 +72651,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 786105,
@@ -72249,18 +72669,28 @@
             "reasoningTokens": 0,
             "outputTokens": 2028477
           },
+          "lcr": null,
           "gpqa": {
             "inputTokens": 52438,
             "answerTokens": 133373,
             "reasoningTokens": 0,
             "outputTokens": 133373
           },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
           "scicode": {
             "inputTokens": 529995,
             "answerTokens": 90658,
             "reasoningTokens": 0,
             "outputTokens": 90658
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -72410,7 +72840,17 @@
             "hallucinationRate": 0.6807817589576547
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 666765,
@@ -72436,6 +72876,7 @@
             "reasoningTokens": 0,
             "outputTokens": 301215
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 674013,
             "answerTokens": 600664,
@@ -72477,7 +72918,8 @@
             "answerTokens": 273731,
             "reasoningTokens": 0,
             "outputTokens": 273731
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -72632,7 +73074,17 @@
             "hallucinationRate": 0.9595959595959596
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 662390,
@@ -72871,7 +73323,17 @@
             "hallucinationRate": 0.5340136054421769
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 667111,
@@ -73085,7 +73547,17 @@
             "hallucinationRate": 0.8990578734858681
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 748701,
@@ -73111,6 +73583,7 @@
             "reasoningTokens": 162921,
             "outputTokens": 236524
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 786283,
             "answerTokens": 674719,
@@ -73135,6 +73608,7 @@
             "reasoningTokens": 2051942,
             "outputTokens": 2138173
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 126653,
@@ -73146,7 +73620,8 @@
             "answerTokens": 131421,
             "reasoningTokens": 453585,
             "outputTokens": 585006
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -73312,6 +73787,7 @@
             "reasoningTokens": 0,
             "outputTokens": 283494
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 345244,
             "answerTokens": 226413,
@@ -73353,7 +73829,8 @@
             "answerTokens": 613718,
             "reasoningTokens": 0,
             "outputTokens": 613718
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -73447,8 +73924,32 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
-        "eval_token_counts": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
+        "eval_token_counts": {
+          "hle": null,
+          "lcr": null,
+          "gpqa": null,
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
+          "scicode": null,
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
+        },
         "intelligence_index_token_counts": null
       }
     },
@@ -73577,7 +74078,17 @@
             "hallucinationRate": 0.9286713286713286
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 633117,
@@ -73603,6 +74114,7 @@
             "reasoningTokens": 0,
             "outputTokens": 159609
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 291142,
             "answerTokens": 176836,
@@ -73627,6 +74139,7 @@
             "reasoningTokens": 0,
             "outputTokens": 5785
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 42948,
@@ -73638,7 +74151,8 @@
             "answerTokens": 289607,
             "reasoningTokens": 0,
             "outputTokens": 289607
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -73732,7 +74246,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 627344,
@@ -73740,18 +74264,28 @@
             "reasoningTokens": 0,
             "outputTokens": 2041140
           },
+          "lcr": null,
           "gpqa": {
             "inputTokens": 47453,
             "answerTokens": 152256,
             "reasoningTokens": 0,
             "outputTokens": 152256
           },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
           "scicode": {
             "inputTokens": 527183,
             "answerTokens": 117268,
             "reasoningTokens": 0,
             "outputTokens": 117268
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -73937,6 +74471,7 @@
             "reasoningTokens": 187120,
             "outputTokens": 443451
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 269691,
             "answerTokens": 148295,
@@ -73961,6 +74496,7 @@
             "reasoningTokens": 1465917,
             "outputTokens": 1599651
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 717795,
             "answerTokens": 140140,
@@ -73972,7 +74508,8 @@
             "answerTokens": 463794,
             "reasoningTokens": 248894,
             "outputTokens": 712688
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -74158,6 +74695,7 @@
             "reasoningTokens": 188769,
             "outputTokens": 472949
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 594227,
             "answerTokens": 236816,
@@ -74182,6 +74720,7 @@
             "reasoningTokens": 1473693,
             "outputTokens": 1617537
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 110977,
@@ -74193,7 +74732,8 @@
             "answerTokens": 443152,
             "reasoningTokens": 1065880,
             "outputTokens": 1509032
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -74394,6 +74934,7 @@
             "reasoningTokens": 3244445,
             "outputTokens": 3363388
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 715366,
             "answerTokens": 32439,
@@ -74510,7 +75051,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 702852,
@@ -74530,6 +75081,10 @@
             "reasoningTokens": 0,
             "outputTokens": 163735
           },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
           "ifbench": {
             "inputTokens": 24896,
             "answerTokens": 123161,
@@ -74541,7 +75096,11 @@
             "answerTokens": 130940,
             "reasoningTokens": 0,
             "outputTokens": 130940
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -74671,7 +75230,17 @@
             "hallucinationRate": 0.582312925170068
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 786105,
@@ -74697,6 +75266,7 @@
             "reasoningTokens": 0,
             "outputTokens": 99112
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 241659,
             "answerTokens": 120045,
@@ -74721,6 +75291,7 @@
             "reasoningTokens": 0,
             "outputTokens": 0
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716618,
             "answerTokens": 105510,
@@ -74732,7 +75303,8 @@
             "answerTokens": 415637,
             "reasoningTokens": 0,
             "outputTokens": 415637
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -74867,7 +75439,17 @@
             "hallucinationRate": 0.7229219143576826
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 667111,
@@ -74893,6 +75475,7 @@
             "reasoningTokens": 0,
             "outputTokens": 241057
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 139482,
             "answerTokens": 173808,
@@ -74934,7 +75517,8 @@
             "answerTokens": 583858,
             "reasoningTokens": 0,
             "outputTokens": 583858
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -75100,6 +75684,7 @@
             "reasoningTokens": 0,
             "outputTokens": 302112
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 237733,
             "answerTokens": 126751,
@@ -75141,7 +75726,8 @@
             "answerTokens": 618656,
             "reasoningTokens": 0,
             "outputTokens": 618656
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -75307,6 +75893,7 @@
             "reasoningTokens": 931349,
             "outputTokens": 1263458
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 308745,
             "answerTokens": 214120,
@@ -75348,7 +75935,8 @@
             "answerTokens": 681749,
             "reasoningTokens": 626091,
             "outputTokens": 1307840
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -75534,6 +76122,7 @@
             "reasoningTokens": 0,
             "outputTokens": 223612
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 298792,
             "answerTokens": 179378,
@@ -75575,7 +76164,8 @@
             "answerTokens": 582496,
             "reasoningTokens": 0,
             "outputTokens": 582496
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -75669,7 +76259,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": null,
         "intelligence_index_token_counts": null
       }
@@ -75829,12 +76429,15 @@
             "reasoningTokens": 0,
             "outputTokens": 176963
           },
+          "tau2": null,
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 241772,
             "answerTokens": 126642,
             "reasoningTokens": 0,
             "outputTokens": 126642
           },
+          "gdpval": null,
           "ifbench": {
             "inputTokens": 24589,
             "answerTokens": 212161,
@@ -75847,6 +76450,7 @@
             "reasoningTokens": 0,
             "outputTokens": 182036
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 339577,
@@ -75858,7 +76462,8 @@
             "answerTokens": 0,
             "reasoningTokens": 0,
             "outputTokens": 0
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -75952,7 +76557,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 633117,
@@ -75960,18 +76575,28 @@
             "reasoningTokens": 0,
             "outputTokens": 2217600
           },
+          "lcr": null,
           "gpqa": {
             "inputTokens": 48874,
             "answerTokens": 112208,
             "reasoningTokens": 0,
             "outputTokens": 112208
           },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
           "scicode": {
             "inputTokens": 704154,
             "answerTokens": 151302,
             "reasoningTokens": 0,
             "outputTokens": 151302
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -76101,7 +76726,17 @@
             "hallucinationRate": 0.3192982456140351
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 667111,
@@ -76127,6 +76762,7 @@
             "reasoningTokens": 305490,
             "outputTokens": 475596
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 139482,
             "answerTokens": 350462,
@@ -76168,7 +76804,8 @@
             "answerTokens": 170604,
             "reasoningTokens": 666864,
             "outputTokens": 837468
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -76262,7 +76899,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 723258,
@@ -76270,18 +76917,28 @@
             "reasoningTokens": 0,
             "outputTokens": 1516613
           },
+          "lcr": null,
           "gpqa": {
             "inputTokens": 52438,
             "answerTokens": 159121,
             "reasoningTokens": 0,
             "outputTokens": 159121
           },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
           "scicode": {
             "inputTokens": 765266,
             "answerTokens": 184807,
             "reasoningTokens": 0,
             "outputTokens": 184807
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -76467,6 +77124,7 @@
             "reasoningTokens": 146400,
             "outputTokens": 315486
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 281197,
             "answerTokens": 173253,
@@ -76508,7 +77166,8 @@
             "answerTokens": 281106,
             "reasoningTokens": 574486,
             "outputTokens": 855592
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -76674,6 +77333,7 @@
             "reasoningTokens": 975165,
             "outputTokens": 1352792
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 276632,
             "answerTokens": 152693,
@@ -76698,6 +77358,7 @@
             "reasoningTokens": 1186936,
             "outputTokens": 1341169
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 50804,
@@ -76709,7 +77370,8 @@
             "answerTokens": 144648,
             "reasoningTokens": 997401,
             "outputTokens": 1142049
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -76839,7 +77501,17 @@
             "hallucinationRate": 0.8876404494382022
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 667300,
@@ -76865,6 +77537,7 @@
             "reasoningTokens": 15336,
             "outputTokens": 200224
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 262615,
             "answerTokens": 33441,
@@ -76906,7 +77579,8 @@
             "answerTokens": 201679,
             "reasoningTokens": 42837,
             "outputTokens": 244516
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -77072,6 +77746,7 @@
             "reasoningTokens": 547402,
             "outputTokens": 854491
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 1185500,
             "answerTokens": 114192,
@@ -77096,6 +77771,7 @@
             "reasoningTokens": 5039712,
             "outputTokens": 5133049
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 52043,
@@ -77107,7 +77783,8 @@
             "answerTokens": 536654,
             "reasoningTokens": 6617860,
             "outputTokens": 7154514
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -77273,6 +77950,7 @@
             "reasoningTokens": 0,
             "outputTokens": 249523
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 351587,
             "answerTokens": 249385,
@@ -77297,6 +77975,7 @@
             "reasoningTokens": 0,
             "outputTokens": 182280
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716774,
             "answerTokens": 43446,
@@ -77308,7 +77987,8 @@
             "answerTokens": 631505,
             "reasoningTokens": 0,
             "outputTokens": 631505
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -77494,6 +78174,7 @@
             "reasoningTokens": 2541859,
             "outputTokens": 2876460
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 238018,
             "answerTokens": 124077,
@@ -77518,6 +78199,7 @@
             "reasoningTokens": 2004156,
             "outputTokens": 2058625
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 717910,
             "answerTokens": 54570,
@@ -77529,7 +78211,8 @@
             "answerTokens": 22170,
             "reasoningTokens": 1707820,
             "outputTokens": 1729990
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -77679,7 +78362,17 @@
             "hallucinationRate": 0.976063829787234
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 666576,
@@ -77705,6 +78398,7 @@
             "reasoningTokens": 121056,
             "outputTokens": 413062
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 247554,
             "answerTokens": 125571,
@@ -77729,6 +78423,7 @@
             "reasoningTokens": 124226,
             "outputTokens": 288025
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 741910,
             "answerTokens": 79700,
@@ -77740,7 +78435,8 @@
             "answerTokens": 127886,
             "reasoningTokens": 78910,
             "outputTokens": 206796
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -77834,14 +78530,36 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
+          "hle": null,
+          "lcr": null,
           "gpqa": {
             "inputTokens": 48975,
             "answerTokens": 46583,
             "reasoningTokens": 645773,
             "outputTokens": 692356
-          }
+          },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
+          "scicode": null,
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -77935,7 +78653,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 785751,
@@ -77943,18 +78671,28 @@
             "reasoningTokens": 0,
             "outputTokens": 1004590
           },
+          "lcr": null,
           "gpqa": {
             "inputTokens": 52438,
             "answerTokens": 76097,
             "reasoningTokens": 0,
             "outputTokens": 76097
           },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
           "scicode": {
             "inputTokens": 628915,
             "answerTokens": 124388,
             "reasoningTokens": 0,
             "outputTokens": 124388
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -78140,6 +78878,7 @@
             "reasoningTokens": 145283,
             "outputTokens": 419520
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 289351,
             "answerTokens": 166091,
@@ -78164,6 +78903,7 @@
             "reasoningTokens": 1453668,
             "outputTokens": 1553308
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 51820,
@@ -78175,7 +78915,8 @@
             "answerTokens": 185853,
             "reasoningTokens": 775879,
             "outputTokens": 961732
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -78305,7 +79046,17 @@
             "hallucinationRate": 0.9335839598997494
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 659294,
@@ -78331,6 +79082,7 @@
             "reasoningTokens": 0,
             "outputTokens": 166686
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 315364,
             "answerTokens": 192092,
@@ -78355,6 +79107,7 @@
             "reasoningTokens": 0,
             "outputTokens": 122629
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 101998,
@@ -78366,7 +79119,8 @@
             "answerTokens": 177380,
             "reasoningTokens": 0,
             "outputTokens": 177380
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -78460,8 +79214,32 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
-        "eval_token_counts": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
+        "eval_token_counts": {
+          "hle": null,
+          "lcr": null,
+          "gpqa": null,
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
+          "scicode": null,
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
+        },
         "intelligence_index_token_counts": null
       }
     },
@@ -78824,7 +79602,17 @@
             "hallucinationRate": 0.6290322580645161
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 932358,
@@ -78880,6 +79668,7 @@
             "reasoningTokens": 1294232,
             "outputTokens": 1511611
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 1021375,
             "answerTokens": 330155,
@@ -79068,6 +79857,7 @@
             "reasoningTokens": 1997727,
             "outputTokens": 3138361
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 250447,
             "answerTokens": 165046,
@@ -79109,7 +79899,8 @@
             "answerTokens": 262687,
             "reasoningTokens": 2045240,
             "outputTokens": 2307927
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -79259,7 +80050,17 @@
             "hallucinationRate": 0.8914919852034525
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 666927,
@@ -79285,6 +80086,7 @@
             "reasoningTokens": 0,
             "outputTokens": 149477
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 335307,
             "answerTokens": 223300,
@@ -79326,7 +80128,8 @@
             "answerTokens": 595050,
             "reasoningTokens": 0,
             "outputTokens": 595050
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -79420,7 +80223,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 749693,
@@ -79440,6 +80253,10 @@
             "reasoningTokens": 1145668,
             "outputTokens": 1867206
           },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
           "ifbench": {
             "inputTokens": 24589,
             "answerTokens": 120371,
@@ -79451,7 +80268,11 @@
             "answerTokens": 83822,
             "reasoningTokens": 1761268,
             "outputTokens": 1845090
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -79617,6 +80438,7 @@
             "reasoningTokens": 263098,
             "outputTokens": 368606
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 197091,
             "answerTokens": 60270,
@@ -79641,6 +80463,7 @@
             "reasoningTokens": 1423005,
             "outputTokens": 1502357
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 740990,
             "answerTokens": 184892,
@@ -79652,7 +80475,8 @@
             "answerTokens": 137224,
             "reasoningTokens": 238071,
             "outputTokens": 375295
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -79782,7 +80606,17 @@
             "hallucinationRate": 0.618657937806874
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 659361,
@@ -79808,6 +80642,7 @@
             "reasoningTokens": 0,
             "outputTokens": 225178
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 246793,
             "answerTokens": 140171,
@@ -79849,7 +80684,8 @@
             "answerTokens": 363386,
             "reasoningTokens": 0,
             "outputTokens": 363386
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -79979,7 +80815,17 @@
             "hallucinationRate": 0.8790637191157347
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 667111,
@@ -80005,6 +80851,7 @@
             "reasoningTokens": 0,
             "outputTokens": 231135
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 139482,
             "answerTokens": 397848,
@@ -80046,7 +80893,8 @@
             "answerTokens": 458247,
             "reasoningTokens": 0,
             "outputTokens": 458247
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -80212,6 +81060,7 @@
             "reasoningTokens": 0,
             "outputTokens": 368715
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 385660,
             "answerTokens": 264222,
@@ -80253,7 +81102,8 @@
             "answerTokens": 412755,
             "reasoningTokens": 0,
             "outputTokens": 412755
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -80439,6 +81289,7 @@
             "reasoningTokens": 988306,
             "outputTokens": 1134224
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 332608,
             "answerTokens": 255785,
@@ -80480,7 +81331,8 @@
             "answerTokens": 546134,
             "reasoningTokens": 778384,
             "outputTokens": 1324518
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -80666,12 +81518,14 @@
             "reasoningTokens": 0,
             "outputTokens": 614359
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 190383,
             "answerTokens": 85391,
             "reasoningTokens": 0,
             "outputTokens": 85391
           },
+          "gdpval": null,
           "ifbench": {
             "inputTokens": 24589,
             "answerTokens": 237221,
@@ -80684,6 +81538,7 @@
             "reasoningTokens": 0,
             "outputTokens": 97581
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 57400,
@@ -80695,7 +81550,8 @@
             "answerTokens": 211412,
             "reasoningTokens": 0,
             "outputTokens": 211412
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -80789,14 +81645,36 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
+          "hle": null,
+          "lcr": null,
           "gpqa": {
             "inputTokens": 50018,
             "answerTokens": 103866,
             "reasoningTokens": 0,
             "outputTokens": 103866
-          }
+          },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
+          "scicode": null,
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -80946,7 +81824,17 @@
             "hallucinationRate": 0.6496894409937888
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 665907,
@@ -80972,6 +81860,7 @@
             "reasoningTokens": 159267,
             "outputTokens": 434641
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 661161,
             "answerTokens": 308438,
@@ -81013,7 +81902,8 @@
             "answerTokens": 473310,
             "reasoningTokens": 250808,
             "outputTokens": 724118
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -81179,6 +82069,7 @@
             "reasoningTokens": 0,
             "outputTokens": 455452
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 285567,
             "answerTokens": 265496,
@@ -81203,6 +82094,7 @@
             "reasoningTokens": 0,
             "outputTokens": 639217
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 3370912,
@@ -81214,7 +82106,8 @@
             "answerTokens": 640288,
             "reasoningTokens": 0,
             "outputTokens": 640288
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -81380,6 +82273,7 @@
             "reasoningTokens": 1305293,
             "outputTokens": 1655464
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 274047,
             "answerTokens": 173283,
@@ -81421,7 +82315,8 @@
             "answerTokens": 263033,
             "reasoningTokens": 2342405,
             "outputTokens": 2605438
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -81622,6 +82517,7 @@
             "reasoningTokens": 0,
             "outputTokens": 113786
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 715645,
             "answerTokens": 37358,
@@ -81774,7 +82670,17 @@
             "hallucinationRate": 0.8995215311004785
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 654849,
@@ -82024,6 +82930,7 @@
             "reasoningTokens": 0,
             "outputTokens": 249526
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 710554,
             "answerTokens": 588043,
@@ -82065,7 +82972,8 @@
             "answerTokens": 848460,
             "reasoningTokens": 0,
             "outputTokens": 848460
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -82215,7 +83123,17 @@
             "hallucinationRate": 0.9033989266547406
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 667111,
@@ -82241,6 +83159,7 @@
             "reasoningTokens": 379454,
             "outputTokens": 673140
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 246172,
             "answerTokens": 138159,
@@ -82265,6 +83184,7 @@
             "reasoningTokens": 740388,
             "outputTokens": 893450
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 42982,
@@ -82276,7 +83196,8 @@
             "answerTokens": 648459,
             "reasoningTokens": 522000,
             "outputTokens": 1170459
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -82442,6 +83363,7 @@
             "reasoningTokens": 380710,
             "outputTokens": 527772
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 252084,
             "answerTokens": 130415,
@@ -82466,6 +83388,7 @@
             "reasoningTokens": 524359,
             "outputTokens": 708642
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 59225,
@@ -82477,7 +83400,8 @@
             "answerTokens": 307172,
             "reasoningTokens": 381586,
             "outputTokens": 688758
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -82643,6 +83567,7 @@
             "reasoningTokens": 334659,
             "outputTokens": 490103
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 139482,
             "answerTokens": 176656,
@@ -82684,7 +83609,8 @@
             "answerTokens": 209552,
             "reasoningTokens": 128761,
             "outputTokens": 338313
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -82885,6 +83811,7 @@
             "reasoningTokens": 3300890,
             "outputTokens": 3411341
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 715823,
             "answerTokens": 42923,
@@ -83037,7 +83964,17 @@
             "hallucinationRate": 0.7355491329479769
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 651905,
@@ -83063,6 +84000,7 @@
             "reasoningTokens": 0,
             "outputTokens": 286561
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 254133,
             "answerTokens": 133461,
@@ -83104,7 +84042,8 @@
             "answerTokens": 557094,
             "reasoningTokens": 0,
             "outputTokens": 557094
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -83198,14 +84137,36 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
+          "hle": null,
+          "lcr": null,
+          "gpqa": null,
           "tau2": {
             "inputTokens": 25137297,
             "answerTokens": 306900,
             "reasoningTokens": 0,
             "outputTokens": 306900
-          }
+          },
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
+          "scicode": null,
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -83371,6 +84332,7 @@
             "reasoningTokens": 0,
             "outputTokens": 165100
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 934352,
             "answerTokens": 924813,
@@ -83395,6 +84357,7 @@
             "reasoningTokens": 0,
             "outputTokens": 175491
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 5433395,
@@ -83406,7 +84369,8 @@
             "answerTokens": 456641,
             "reasoningTokens": 0,
             "outputTokens": 456641
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -83572,6 +84536,7 @@
             "reasoningTokens": 0,
             "outputTokens": 795472
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 253231,
             "answerTokens": 128819,
@@ -83596,6 +84561,7 @@
             "reasoningTokens": 0,
             "outputTokens": 106412
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 636060,
             "answerTokens": 65551,
@@ -83607,7 +84573,8 @@
             "answerTokens": 412945,
             "reasoningTokens": 0,
             "outputTokens": 412945
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -83773,12 +84740,14 @@
             "reasoningTokens": 0,
             "outputTokens": 0
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 139389,
             "answerTokens": 61621,
             "reasoningTokens": 976138,
             "outputTokens": 1037759
           },
+          "gdpval": null,
           "ifbench": {
             "inputTokens": 22239,
             "answerTokens": 156019,
@@ -83791,6 +84760,7 @@
             "reasoningTokens": 2126617,
             "outputTokens": 2300996
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 715805,
             "answerTokens": 82258,
@@ -83802,7 +84772,8 @@
             "answerTokens": 3532,
             "reasoningTokens": 24462,
             "outputTokens": 27994
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -84125,20 +85096,41 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
+          "hle": null,
+          "lcr": null,
           "gpqa": {
             "inputTokens": 50062,
             "answerTokens": 22444,
             "reasoningTokens": 0,
             "outputTokens": 22444
           },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
           "scicode": {
             "inputTokens": 577233,
             "answerTokens": 82771,
             "reasoningTokens": 0,
             "outputTokens": 82771
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -84232,7 +85224,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 786105,
@@ -84258,6 +85260,9 @@
             "reasoningTokens": 0,
             "outputTokens": 162793
           },
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
           "ifbench": {
             "inputTokens": 24589,
             "answerTokens": 248803,
@@ -84275,7 +85280,10 @@
             "answerTokens": 494583,
             "reasoningTokens": 0,
             "outputTokens": 494583
-          }
+          },
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -84441,6 +85449,7 @@
             "reasoningTokens": 2030076,
             "outputTokens": 2902571
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 375106,
             "answerTokens": 201299,
@@ -84482,7 +85491,8 @@
             "answerTokens": 238981,
             "reasoningTokens": 5341095,
             "outputTokens": 5580076
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -84576,7 +85586,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 753326,
@@ -84602,6 +85622,9 @@
             "reasoningTokens": 0,
             "outputTokens": 0
           },
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
           "ifbench": {
             "inputTokens": 24589,
             "answerTokens": 599417,
@@ -84614,12 +85637,15 @@
             "reasoningTokens": 0,
             "outputTokens": 137987
           },
+          "mmmuPro": null,
+          "omniscience": null,
           "terminalbenchHard": {
             "inputTokens": 11132845,
             "answerTokens": 397396,
             "reasoningTokens": 0,
             "outputTokens": 397396
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -84769,7 +85795,17 @@
             "hallucinationRate": 0.8268551236749117
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 645812,
@@ -84795,6 +85831,7 @@
             "reasoningTokens": 933290,
             "outputTokens": 1224049
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 189688,
             "answerTokens": 147810,
@@ -84819,6 +85856,7 @@
             "reasoningTokens": 1821717,
             "outputTokens": 1913606
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 167087,
@@ -84830,7 +85868,8 @@
             "answerTokens": 162602,
             "reasoningTokens": 986616,
             "outputTokens": 1149218
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -84985,7 +86024,17 @@
             "hallucinationRate": 0.49166666666666664
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 663043,
@@ -85041,6 +86090,7 @@
             "reasoningTokens": 3874140,
             "outputTokens": 4039255
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 714035,
             "answerTokens": 711814,
@@ -85157,7 +86207,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 692193,
@@ -85177,6 +86237,10 @@
             "reasoningTokens": 1067253,
             "outputTokens": 1220024
           },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
           "ifbench": {
             "inputTokens": 24589,
             "answerTokens": 104547,
@@ -85188,7 +86252,11 @@
             "answerTokens": 94145,
             "reasoningTokens": 572569,
             "outputTokens": 666714
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -85354,6 +86422,7 @@
             "reasoningTokens": 0,
             "outputTokens": 239053
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 401429,
             "answerTokens": 283930,
@@ -85378,6 +86447,7 @@
             "reasoningTokens": 0,
             "outputTokens": 155761
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 57139,
@@ -85389,7 +86459,8 @@
             "answerTokens": 558887,
             "reasoningTokens": 0,
             "outputTokens": 558887
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -85483,8 +86554,32 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
-        "eval_token_counts": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
+        "eval_token_counts": {
+          "hle": null,
+          "lcr": null,
+          "gpqa": null,
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
+          "scicode": null,
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
+        },
         "intelligence_index_token_counts": null
       }
     },
@@ -85633,7 +86728,17 @@
             "hallucinationRate": 0.9580838323353293
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 665354,
@@ -85659,12 +86764,14 @@
             "reasoningTokens": 594854,
             "outputTokens": 988545
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 186112,
             "answerTokens": 126500,
             "reasoningTokens": 2283435,
             "outputTokens": 2409935
           },
+          "gdpval": null,
           "ifbench": {
             "inputTokens": 24589,
             "answerTokens": 252253,
@@ -85677,6 +86784,7 @@
             "reasoningTokens": 3183034,
             "outputTokens": 3254025
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 713060,
             "answerTokens": 216949,
@@ -85688,7 +86796,8 @@
             "answerTokens": 449251,
             "reasoningTokens": 1240982,
             "outputTokens": 1690233
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -85874,6 +86983,7 @@
             "reasoningTokens": 5019861,
             "outputTokens": 5356152
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 285863,
             "answerTokens": 163249,
@@ -85915,7 +87025,8 @@
             "answerTokens": 826560,
             "reasoningTokens": 5531328,
             "outputTokens": 6357888
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -86101,6 +87212,7 @@
             "reasoningTokens": 746775,
             "outputTokens": 862471
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 186811,
             "answerTokens": 74034,
@@ -86125,6 +87237,7 @@
             "reasoningTokens": 2050403,
             "outputTokens": 2160783
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 729910,
             "answerTokens": 117912,
@@ -86136,7 +87249,8 @@
             "answerTokens": 227493,
             "reasoningTokens": 841802,
             "outputTokens": 1069295
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -86266,7 +87380,17 @@
             "hallucinationRate": 0.7360350492880613
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 653995,
@@ -86292,6 +87416,7 @@
             "reasoningTokens": 902698,
             "outputTokens": 1250943
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 216453,
             "answerTokens": 90547,
@@ -86316,6 +87441,7 @@
             "reasoningTokens": 955850,
             "outputTokens": 1088494
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716100,
             "answerTokens": 57054,
@@ -86327,7 +87453,8 @@
             "answerTokens": 1054647,
             "reasoningTokens": 994070,
             "outputTokens": 2048717
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -86421,7 +87548,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": null,
         "intelligence_index_token_counts": null
       }
@@ -86515,14 +87652,36 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
+          "hle": null,
+          "lcr": null,
+          "gpqa": null,
+          "tau2": null,
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 213695,
             "answerTokens": 103344,
             "reasoningTokens": 2205227,
             "outputTokens": 2308571
-          }
+          },
+          "gdpval": null,
+          "ifbench": null,
+          "scicode": null,
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -86652,7 +87811,17 @@
             "hallucinationRate": 0.717948717948718
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 672235,
@@ -86678,6 +87847,7 @@
             "reasoningTokens": 2901,
             "outputTokens": 178163
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 212156,
             "answerTokens": 89043,
@@ -86702,6 +87872,7 @@
             "reasoningTokens": 0,
             "outputTokens": 133698
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 49309,
@@ -86713,7 +87884,8 @@
             "answerTokens": 182847,
             "reasoningTokens": 0,
             "outputTokens": 182847
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -86807,7 +87979,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 783219,
@@ -86815,18 +87997,28 @@
             "reasoningTokens": 0,
             "outputTokens": 982788
           },
+          "lcr": null,
           "gpqa": {
             "inputTokens": 52438,
             "answerTokens": 119516,
             "reasoningTokens": 0,
             "outputTokens": 119516
           },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
           "scicode": {
             "inputTokens": 634010,
             "answerTokens": 100661,
             "reasoningTokens": 0,
             "outputTokens": 100661
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -86920,7 +88112,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 759314,
@@ -86928,18 +88130,28 @@
             "reasoningTokens": 0,
             "outputTokens": 4379771
           },
+          "lcr": null,
           "gpqa": {
             "inputTokens": 49563,
             "answerTokens": 136118,
             "reasoningTokens": 0,
             "outputTokens": 136118
           },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
           "scicode": {
             "inputTokens": 893767,
             "answerTokens": 214455,
             "reasoningTokens": 0,
             "outputTokens": 214455
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -87125,6 +88337,7 @@
             "reasoningTokens": 0,
             "outputTokens": 431294
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 220300,
             "answerTokens": 110000,
@@ -87149,6 +88362,7 @@
             "reasoningTokens": 0,
             "outputTokens": 93676
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 154942,
@@ -87160,7 +88374,8 @@
             "answerTokens": 255933,
             "reasoningTokens": 0,
             "outputTokens": 255933
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -87254,7 +88469,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 785672,
@@ -87280,6 +88505,9 @@
             "reasoningTokens": 0,
             "outputTokens": 268529
           },
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
           "ifbench": {
             "inputTokens": 24589,
             "answerTokens": 295510,
@@ -87291,7 +88519,11 @@
             "answerTokens": 109943,
             "reasoningTokens": 0,
             "outputTokens": 109943
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -87385,7 +88617,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": null,
         "intelligence_index_token_counts": null
       }
@@ -87479,7 +88721,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 722461,
@@ -87487,18 +88739,28 @@
             "reasoningTokens": 0,
             "outputTokens": 918348
           },
+          "lcr": null,
           "gpqa": {
             "inputTokens": 52438,
             "answerTokens": 73308,
             "reasoningTokens": 0,
             "outputTokens": 73308
           },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
           "scicode": {
             "inputTokens": 647209,
             "answerTokens": 101999,
             "reasoningTokens": 0,
             "outputTokens": 101999
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -87592,7 +88854,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 785378,
@@ -87600,18 +88872,28 @@
             "reasoningTokens": 0,
             "outputTokens": 1233028
           },
+          "lcr": null,
           "gpqa": {
             "inputTokens": 52438,
             "answerTokens": 83240,
             "reasoningTokens": 0,
             "outputTokens": 83240
           },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
           "scicode": {
             "inputTokens": 671547,
             "answerTokens": 127958,
             "reasoningTokens": 0,
             "outputTokens": 127958
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -87746,7 +89028,17 @@
             "hallucinationRate": 0.34285714285714286
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 651108,
@@ -87960,6 +89252,9 @@
             "reasoningTokens": 0,
             "outputTokens": 0
           },
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
           "ifbench": {
             "inputTokens": 24589,
             "answerTokens": 110222,
@@ -87972,12 +89267,15 @@
             "reasoningTokens": 0,
             "outputTokens": 121642
           },
+          "mmmuPro": null,
+          "omniscience": null,
           "terminalbenchHard": {
             "inputTokens": 17497303,
             "answerTokens": 387224,
             "reasoningTokens": 0,
             "outputTokens": 387224
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -88178,6 +89476,7 @@
             "reasoningTokens": 2032443,
             "outputTokens": 2144909
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 709727,
             "answerTokens": 308422,
@@ -88386,6 +89685,7 @@
             "reasoningTokens": 506756,
             "outputTokens": 680729
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 226245,
             "answerTokens": 116815,
@@ -88410,6 +89710,7 @@
             "reasoningTokens": 1146186,
             "outputTokens": 1259127
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 242077,
@@ -88421,7 +89722,8 @@
             "answerTokens": 213511,
             "reasoningTokens": 424910,
             "outputTokens": 638421
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -88556,7 +89858,17 @@
             "hallucinationRate": 0.9045226130653267
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 666011,
@@ -88734,7 +90046,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": null,
         "intelligence_index_token_counts": null
       }
@@ -88828,7 +90150,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 780964,
@@ -88836,12 +90168,23 @@
             "reasoningTokens": 0,
             "outputTokens": 910234
           },
+          "lcr": null,
           "gpqa": {
             "inputTokens": 52438,
             "answerTokens": 56616,
             "reasoningTokens": 0,
             "outputTokens": 56616
-          }
+          },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
+          "scicode": null,
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -88971,7 +90314,17 @@
             "hallucinationRate": 0.9634433962264151
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 762383,
@@ -88997,6 +90350,7 @@
             "reasoningTokens": 0,
             "outputTokens": 279553
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 277713,
             "answerTokens": 157638,
@@ -89021,6 +90375,7 @@
             "reasoningTokens": 0,
             "outputTokens": 125597
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716773,
             "answerTokens": 52867,
@@ -89032,7 +90387,8 @@
             "answerTokens": 1432797,
             "reasoningTokens": 0,
             "outputTokens": 1432797
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -89198,12 +90554,14 @@
             "reasoningTokens": 0,
             "outputTokens": 0
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 216418,
             "answerTokens": 108746,
             "reasoningTokens": 0,
             "outputTokens": 108746
           },
+          "gdpval": null,
           "ifbench": {
             "inputTokens": 24896,
             "answerTokens": 134839,
@@ -89216,6 +90574,7 @@
             "reasoningTokens": 0,
             "outputTokens": 134119
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 198656,
@@ -89227,7 +90586,8 @@
             "answerTokens": 1735600,
             "reasoningTokens": 0,
             "outputTokens": 1735600
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -89413,6 +90773,7 @@
             "reasoningTokens": 0,
             "outputTokens": 299751
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 139482,
             "answerTokens": 1785016,
@@ -89454,7 +90815,8 @@
             "answerTokens": 106315,
             "reasoningTokens": 0,
             "outputTokens": 106315
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -89675,6 +91037,7 @@
             "reasoningTokens": 1444583,
             "outputTokens": 1619070
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 717910,
             "answerTokens": 75732,
@@ -89847,7 +91210,17 @@
             "hallucinationRate": 0.5506807866868382
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 666954,
@@ -89873,6 +91246,7 @@
             "reasoningTokens": 0,
             "outputTokens": 240296
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 672230,
             "answerTokens": 572894,
@@ -89897,6 +91271,7 @@
             "reasoningTokens": 0,
             "outputTokens": 383205
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 383525,
@@ -89908,7 +91283,8 @@
             "answerTokens": 628973,
             "reasoningTokens": 0,
             "outputTokens": 628973
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -90074,6 +91450,7 @@
             "reasoningTokens": 752929,
             "outputTokens": 980519
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 194982,
             "answerTokens": 73486,
@@ -90098,6 +91475,7 @@
             "reasoningTokens": 1163752,
             "outputTokens": 1213920
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 729910,
             "answerTokens": 128098,
@@ -90109,7 +91487,8 @@
             "answerTokens": 330962,
             "reasoningTokens": 1324680,
             "outputTokens": 1655642
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -90259,7 +91638,17 @@
             "hallucinationRate": 0.6470588235294118
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 663646,
@@ -90285,6 +91674,7 @@
             "reasoningTokens": 0,
             "outputTokens": 198274
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 139482,
             "answerTokens": 234384,
@@ -90326,7 +91716,8 @@
             "answerTokens": 485869,
             "reasoningTokens": 0,
             "outputTokens": 485869
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -90420,7 +91811,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": null,
         "intelligence_index_token_counts": null
       }
@@ -90550,7 +91951,17 @@
             "hallucinationRate": 0.9150943396226415
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 702852,
@@ -90576,6 +91987,7 @@
             "reasoningTokens": 0,
             "outputTokens": 234704
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 308327,
             "answerTokens": 189498,
@@ -90600,6 +92012,7 @@
             "reasoningTokens": 0,
             "outputTokens": 145595
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 734990,
             "answerTokens": 171938,
@@ -90611,7 +92024,8 @@
             "answerTokens": 525105,
             "reasoningTokens": 0,
             "outputTokens": 525105
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -90746,7 +92160,17 @@
             "hallucinationRate": 0.40279937791601866
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 667111,
@@ -90960,7 +92384,17 @@
             "hallucinationRate": 0.9567039106145251
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 654547,
@@ -90986,6 +92420,7 @@
             "reasoningTokens": 274827,
             "outputTokens": 509974
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 324235,
             "answerTokens": 201332,
@@ -91027,7 +92462,8 @@
             "answerTokens": 172335,
             "reasoningTokens": 145008,
             "outputTokens": 317343
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -91157,7 +92593,17 @@
             "hallucinationRate": 0.8890274314214464
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 756309,
@@ -91183,6 +92629,7 @@
             "reasoningTokens": 836121,
             "outputTokens": 864827
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 421999,
             "answerTokens": 335750,
@@ -91224,7 +92671,8 @@
             "answerTokens": 737132,
             "reasoningTokens": 3993961,
             "outputTokens": 4731093
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -91390,6 +92838,7 @@
             "reasoningTokens": 0,
             "outputTokens": 1223108
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 1202749,
             "answerTokens": 1144261,
@@ -91431,7 +92880,8 @@
             "answerTokens": 1143892,
             "reasoningTokens": 0,
             "outputTokens": 1143892
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -91617,6 +93067,7 @@
             "reasoningTokens": 1082771,
             "outputTokens": 1257357
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 286931,
             "answerTokens": 169441,
@@ -91641,6 +93092,7 @@
             "reasoningTokens": 1826511,
             "outputTokens": 1897383
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 717910,
             "answerTokens": 43731,
@@ -91652,7 +93104,8 @@
             "answerTokens": 68046,
             "reasoningTokens": 1114368,
             "outputTokens": 1182414
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -91838,6 +93291,7 @@
             "reasoningTokens": 320930,
             "outputTokens": 602044
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 261019,
             "answerTokens": 143079,
@@ -91862,6 +93316,7 @@
             "reasoningTokens": 1610278,
             "outputTokens": 1860198
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 717910,
             "answerTokens": 679846,
@@ -91873,7 +93328,8 @@
             "answerTokens": 509091,
             "reasoningTokens": 185141,
             "outputTokens": 694232
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -92039,6 +93495,7 @@
             "reasoningTokens": 1025986,
             "outputTokens": 2141664
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 207798,
             "answerTokens": 35518,
@@ -92063,6 +93520,7 @@
             "reasoningTokens": 681230,
             "outputTokens": 787684
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 288526,
@@ -92074,7 +93532,8 @@
             "answerTokens": 186192,
             "reasoningTokens": 595846,
             "outputTokens": 782038
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -92209,7 +93668,17 @@
             "hallucinationRate": 0.5
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 672235,
@@ -92265,6 +93734,7 @@
             "reasoningTokens": 3250558,
             "outputTokens": 3377872
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 456539,
@@ -92453,6 +93923,7 @@
             "reasoningTokens": 1726628,
             "outputTokens": 1933825
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 96087,
             "answerTokens": 28772,
@@ -92494,7 +93965,8 @@
             "answerTokens": 237038,
             "reasoningTokens": 8217254,
             "outputTokens": 8454292
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -92624,7 +94096,17 @@
             "hallucinationRate": 0.9415204678362573
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 672564,
@@ -92650,6 +94132,7 @@
             "reasoningTokens": 0,
             "outputTokens": 182105
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 387405,
             "answerTokens": 279597,
@@ -92674,6 +94157,7 @@
             "reasoningTokens": 0,
             "outputTokens": 135687
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716507,
             "answerTokens": 53004,
@@ -92685,7 +94169,8 @@
             "answerTokens": 389639,
             "reasoningTokens": 0,
             "outputTokens": 389639
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -92851,6 +94336,7 @@
             "reasoningTokens": 0,
             "outputTokens": 138035
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 136114,
             "answerTokens": 507113,
@@ -92875,6 +94361,7 @@
             "reasoningTokens": 0,
             "outputTokens": 274315
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 707989,
             "answerTokens": 96820,
@@ -92886,7 +94373,8 @@
             "answerTokens": 156587,
             "reasoningTokens": 0,
             "outputTokens": 156587
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -93016,7 +94504,17 @@
             "hallucinationRate": 0.9567430025445293
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 666121,
@@ -93042,6 +94540,7 @@
             "reasoningTokens": 1198858,
             "outputTokens": 1614042
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 292633,
             "answerTokens": 168860,
@@ -93083,7 +94582,8 @@
             "answerTokens": 618752,
             "reasoningTokens": 3544572,
             "outputTokens": 4163324
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -93269,6 +94769,7 @@
             "reasoningTokens": 0,
             "outputTokens": 297315
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 957722,
             "answerTokens": 852923,
@@ -93293,6 +94794,7 @@
             "reasoningTokens": 0,
             "outputTokens": 887433
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 340454,
@@ -93304,7 +94806,8 @@
             "answerTokens": 493083,
             "reasoningTokens": 0,
             "outputTokens": 493083
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -93454,7 +94957,17 @@
             "hallucinationRate": 0.6786226685796269
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 666865,
@@ -93480,6 +94993,7 @@
             "reasoningTokens": 274752,
             "outputTokens": 459290
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 247782,
             "answerTokens": 135312,
@@ -93521,7 +95035,8 @@
             "answerTokens": 352396,
             "reasoningTokens": 1573653,
             "outputTokens": 1926049
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -93615,7 +95130,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 753468,
@@ -93623,18 +95148,28 @@
             "reasoningTokens": 0,
             "outputTokens": 2340257
           },
+          "lcr": null,
           "gpqa": {
             "inputTokens": 49875,
             "answerTokens": 123712,
             "reasoningTokens": 0,
             "outputTokens": 123712
           },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
           "scicode": {
             "inputTokens": 783813,
             "answerTokens": 197509,
             "reasoningTokens": 0,
             "outputTokens": 197509
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -93728,7 +95263,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": null,
         "intelligence_index_token_counts": null
       }
@@ -93858,7 +95403,17 @@
             "hallucinationRate": 0.18344155844155843
           }
         },
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 672235,
@@ -93884,6 +95439,7 @@
             "reasoningTokens": 152939,
             "outputTokens": 320459
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 312903,
             "answerTokens": 241350,
@@ -93925,7 +95481,8 @@
             "answerTokens": 98704,
             "reasoningTokens": 56501,
             "outputTokens": 155205
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -94091,6 +95648,7 @@
             "reasoningTokens": 650210,
             "outputTokens": 926128
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 211673,
             "answerTokens": 158380,
@@ -94132,7 +95690,8 @@
             "answerTokens": 253364,
             "reasoningTokens": 697332,
             "outputTokens": 950696
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -94298,6 +95857,7 @@
             "reasoningTokens": 1905384,
             "outputTokens": 2051184
           },
+          "tauBanking": null,
           "critpt": {
             "inputTokens": 278804,
             "answerTokens": 155532,
@@ -94322,6 +95882,7 @@
             "reasoningTokens": 2117525,
             "outputTokens": 2216266
           },
+          "mmmuPro": null,
           "omniscience": {
             "inputTokens": 716990,
             "answerTokens": 123307,
@@ -94333,7 +95894,8 @@
             "answerTokens": 734781,
             "reasoningTokens": 2232625,
             "outputTokens": 2967406
-          }
+          },
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
@@ -94427,7 +95989,17 @@
         "multilingual": null,
         "gdpval": null,
         "omniscience": null,
-        "openness": {},
+        "openness": {
+          "weightsAccess": null,
+          "weightsLicense": null,
+          "dataPretrainAccess": null,
+          "dataPretrainLicense": null,
+          "dataPosttrainAccess": null,
+          "dataPosttrainLicense": null,
+          "methodologyLicense": null,
+          "methodologyDisclosure": null,
+          "opennessIndex": null
+        },
         "eval_token_counts": {
           "hle": {
             "inputTokens": 748966,
@@ -94435,18 +96007,28 @@
             "reasoningTokens": 0,
             "outputTokens": 967035
           },
+          "lcr": null,
           "gpqa": {
             "inputTokens": 52438,
             "answerTokens": 44023,
             "reasoningTokens": 0,
             "outputTokens": 44023
           },
+          "tau2": null,
+          "tauBanking": null,
+          "critpt": null,
+          "gdpval": null,
+          "ifbench": null,
           "scicode": {
             "inputTokens": 373337,
             "answerTokens": 100596,
             "reasoningTokens": 0,
             "outputTokens": 100596
-          }
+          },
+          "mmmuPro": null,
+          "omniscience": null,
+          "terminalbenchHard": null,
+          "terminalbenchV21": null
         },
         "intelligence_index_token_counts": null
       }
