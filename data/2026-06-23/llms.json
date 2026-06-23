@@ -6,7 +6,7 @@
     "source_description": "LLM leaderboard page payload",
     "parser_version": "public-web-v1",
     "model_count": 511,
-    "fetched_at": "2026-06-23T07:21:06.097213+00:00"
+    "fetched_at": "2026-06-23T08:36:34.226157+00:00"
   },
   "models": [
     {
@@ -33518,19 +33518,19 @@
         "price_class": "high"
       },
       "speed": {
-        "output_tokens_per_second": 118.293096036798,
-        "time_to_first_token_seconds": 1.45709027399971,
-        "time_to_first_answer_token_seconds": 1.45709027399971,
-        "end_to_end_response_time_seconds": 5.683879636622044,
+        "output_tokens_per_second": 115.150782764181,
+        "time_to_first_token_seconds": 1.45095732399978,
+        "time_to_first_answer_token_seconds": 1.45095732399978,
+        "end_to_end_response_time_seconds": 5.793090204016387,
         "reasoning_time_seconds": null,
-        "percentile_05_output_tokens_per_second": 77.3786213771186,
-        "percentile_95_output_tokens_per_second": 158.906704940527,
-        "quartile_25_output_tokens_per_second": 98.2016017852749,
-        "quartile_75_output_tokens_per_second": 139.170016755489,
-        "percentile_05_time_to_first_token_seconds": 0.929197089200079,
-        "percentile_95_time_to_first_token_seconds": 2.85772285250036,
-        "quartile_25_time_to_first_token_seconds": 1.20161920150008,
-        "quartile_75_time_to_first_token_seconds": 1.80497783649994
+        "percentile_05_output_tokens_per_second": 76.650743848585,
+        "percentile_95_output_tokens_per_second": 158.430567459355,
+        "quartile_25_output_tokens_per_second": 95.3478272632984,
+        "quartile_75_output_tokens_per_second": 138.836582505964,
+        "percentile_05_time_to_first_token_seconds": 0.936515220800084,
+        "percentile_95_time_to_first_token_seconds": 2.84669179275036,
+        "quartile_25_time_to_first_token_seconds": 1.18717601675007,
+        "quartile_75_time_to_first_token_seconds": 1.78928388074992
       },
       "capabilities": {
         "context_window_tokens": 1050000,
@@ -49702,19 +49702,19 @@
         "price_class": "low"
       },
       "speed": {
-        "output_tokens_per_second": 103.109073046851,
-        "time_to_first_token_seconds": 2.14194386750012,
-        "time_to_first_answer_token_seconds": 21.538878985821224,
-        "end_to_end_response_time_seconds": 26.3881127654015,
-        "reasoning_time_seconds": 19.396935118321103,
-        "percentile_05_output_tokens_per_second": 30.2976406951113,
-        "percentile_95_output_tokens_per_second": 151.955555278531,
-        "quartile_25_output_tokens_per_second": 76.0812591374911,
-        "quartile_75_output_tokens_per_second": 115.017759737522,
-        "percentile_05_time_to_first_token_seconds": 1.08242546949986,
-        "percentile_95_time_to_first_token_seconds": 21.3582009487498,
-        "quartile_25_time_to_first_token_seconds": 1.16461091275011,
-        "quartile_75_time_to_first_token_seconds": 7.67435153399984
+        "output_tokens_per_second": 103.081115914165,
+        "time_to_first_token_seconds": 1.97524845400017,
+        "time_to_first_answer_token_seconds": 21.37744430978997,
+        "end_to_end_response_time_seconds": 26.227993273737418,
+        "reasoning_time_seconds": 19.4021958557898,
+        "percentile_05_output_tokens_per_second": 29.5457490077509,
+        "percentile_95_output_tokens_per_second": 151.203962895475,
+        "quartile_25_output_tokens_per_second": 75.5826069073414,
+        "quartile_75_output_tokens_per_second": 114.790706445189,
+        "percentile_05_time_to_first_token_seconds": 1.08342257679987,
+        "percentile_95_time_to_first_token_seconds": 21.1760361866997,
+        "quartile_25_time_to_first_token_seconds": 1.1646182605001,
+        "quartile_75_time_to_first_token_seconds": 7.61735517399979
       },
       "capabilities": {
         "context_window_tokens": 1000000,
@@ -89578,19 +89578,19 @@
         "price_class": "medium"
       },
       "speed": {
-        "output_tokens_per_second": 342.933398578594,
-        "time_to_first_token_seconds": 0.929380019000064,
-        "time_to_first_answer_token_seconds": 6.761416234456743,
-        "end_to_end_response_time_seconds": 8.219425288320913,
-        "reasoning_time_seconds": 5.832036215456679,
-        "percentile_05_output_tokens_per_second": 56.7298279290762,
-        "percentile_95_output_tokens_per_second": 970.350808213233,
-        "quartile_25_output_tokens_per_second": 160.817718619229,
-        "quartile_75_output_tokens_per_second": 567.630440491611,
-        "percentile_05_time_to_first_token_seconds": 0.348027939499946,
-        "percentile_95_time_to_first_token_seconds": 2.84467213130003,
-        "quartile_25_time_to_first_token_seconds": 0.621565740000051,
-        "quartile_75_time_to_first_token_seconds": 1.32705314149996
+        "output_tokens_per_second": 342.823231085613,
+        "time_to_first_token_seconds": 0.931614765500058,
+        "time_to_first_answer_token_seconds": 6.765525127019699,
+        "end_to_end_response_time_seconds": 8.22400271739961,
+        "reasoning_time_seconds": 5.833910361519641,
+        "percentile_05_output_tokens_per_second": 56.745340595348,
+        "percentile_95_output_tokens_per_second": 970.314112751234,
+        "quartile_25_output_tokens_per_second": 159.969272135659,
+        "quartile_75_output_tokens_per_second": 564.819865754014,
+        "percentile_05_time_to_first_token_seconds": 0.348131198749951,
+        "percentile_95_time_to_first_token_seconds": 2.84062078695002,
+        "quartile_25_time_to_first_token_seconds": 0.621962580500053,
+        "quartile_75_time_to_first_token_seconds": 1.32763135599987
       },
       "capabilities": {
         "context_window_tokens": 131072,
