@@ -6,7 +6,7 @@
     "source_description": "LLM leaderboard page payload",
     "parser_version": "public-web-v1",
     "model_count": 570,
-    "fetched_at": "2026-07-10T07:21:04.422725+00:00"
+    "fetched_at": "2026-07-10T08:34:09.941739+00:00"
   },
   "models": [
     {
@@ -470,7 +470,7 @@
         "gpqa": 0.865656565656566,
         "critpt": 0.04,
         "apex_agents": 0.0243362831858407,
-        "gdpval_aa_normalized": 0.382405,
+        "gdpval_aa_normalized": 0.38270000000000004,
         "mmmu_pro": null
       },
       "pricing": {
@@ -525,10 +525,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1264.81,
+          "elo": 1265.4,
           "avgTurns": 16.96818181818182,
-          "lower95ci": 1248.43,
-          "upper95ci": 1281.2
+          "lower95ci": 1249.16,
+          "upper95ci": 1281.65
         },
         "omniscience": {
           "total": {
@@ -1724,18 +1724,18 @@
         "gpqa": 0.827272727272727,
         "critpt": 0.00857142857142857,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.18945499999999998,
+        "gdpval_aa_normalized": 0.18995499999999998,
         "mmmu_pro": 0.702890173410405
       },
       "pricing": {
         "price_1m_blended_3_to_1": null,
         "price_1m_input_tokens": 0.4,
         "price_1m_output_tokens": 3.2,
-        "intelligence_index_cost_total": 214.10227400000002,
-        "intelligence_index_cost_input": 111.00590600000001,
-        "intelligence_index_cost_output": 103.09636800000001,
+        "intelligence_index_cost_total": 216.01344400000005,
+        "intelligence_index_cost_input": 112.76382480000002,
+        "intelligence_index_cost_output": 103.24961920000001,
         "intelligence_index_cost_reasoning": 0,
-        "intelligence_index_cost_answer": 103.09636800000001,
+        "intelligence_index_cost_answer": 103.24961920000001,
         "price_class": "high"
       },
       "speed": {
@@ -1799,10 +1799,10 @@
           }
         },
         "gdpval": {
-          "elo": 878.91,
-          "avgTurns": 21.781553398058254,
-          "lower95ci": 857.74,
-          "upper95ci": 900.08
+          "elo": 879.91,
+          "avgTurns": 22.271428571428572,
+          "lower95ci": 859.08,
+          "upper95ci": 900.74
         },
         "omniscience": {
           "total": {
@@ -1890,10 +1890,10 @@
             "outputTokens": 1790551
           },
           "gdpval": {
-            "inputTokens": 82729423,
-            "answerTokens": 2860358,
+            "inputTokens": 87124220,
+            "answerTokens": 2908249,
             "reasoningTokens": 0,
-            "outputTokens": 2860358
+            "outputTokens": 2908249
           },
           "ifbench": {
             "inputTokens": 24574,
@@ -1933,10 +1933,10 @@
           }
         },
         "intelligence_index_token_counts": {
-          "inputTokens": 277514765,
-          "answerTokens": 32217615,
+          "inputTokens": 281909562,
+          "answerTokens": 32265506,
           "reasoningTokens": 0,
-          "outputTokens": 32217615
+          "outputTokens": 32265506
         }
       }
     },
@@ -2426,10 +2426,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 442.64,
+          "elo": 444.21,
           "avgTurns": 7.081818181818182,
-          "lower95ci": 422.72,
-          "upper95ci": 462.57
+          "lower95ci": 424.44,
+          "upper95ci": 463.97
         },
         "omniscience": {
           "total": {
@@ -3958,7 +3958,7 @@
         "gpqa": 0.587878787878788,
         "critpt": 0,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.049319999999999996,
+        "gdpval_aa_normalized": 0.049625,
         "mmmu_pro": 0.541618497109827
       },
       "pricing": {
@@ -4013,10 +4013,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 598.64,
+          "elo": 599.25,
           "avgTurns": 31.077625570776256,
-          "lower95ci": 578.29,
-          "upper95ci": 618.99
+          "lower95ci": 579.13,
+          "upper95ci": 619.36
         },
         "omniscience": {
           "total": {
@@ -4574,10 +4574,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 466.04,
+          "elo": 468.11,
           "avgTurns": 4.872727272727273,
-          "lower95ci": 444.08,
-          "upper95ci": 488.01
+          "lower95ci": 446.3,
+          "upper95ci": 489.91
         },
         "omniscience": {
           "total": {
@@ -5533,10 +5533,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": -105.88,
-          "avgTurns": 249.62910798122067,
-          "lower95ci": -126.48,
-          "upper95ci": -85.29
+          "elo": -103.62,
+          "avgTurns": 249.63084112149534,
+          "lower95ci": -124.06,
+          "upper95ci": -83.18
         },
         "omniscience": {
           "total": {
@@ -5624,10 +5624,10 @@
             "outputTokens": 1837525
           },
           "gdpval": {
-            "inputTokens": 2038972202,
-            "answerTokens": 12245747,
+            "inputTokens": 2069237755,
+            "answerTokens": 12139486,
             "reasoningTokens": 0,
-            "outputTokens": 12245747
+            "outputTokens": 12139486
           },
           "ifbench": {
             "inputTokens": 24021,
@@ -5667,10 +5667,10 @@
           }
         },
         "intelligence_index_token_counts": {
-          "inputTokens": 2334886938,
-          "answerTokens": 129723306,
+          "inputTokens": 2365152491,
+          "answerTokens": 129617045,
           "reasoningTokens": 0,
-          "outputTokens": 129723306
+          "outputTokens": 129617045
         }
       }
     },
@@ -5707,7 +5707,7 @@
         "gpqa": 0.593939393939394,
         "critpt": 0,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.118565,
+        "gdpval_aa_normalized": 0.11952499999999998,
         "mmmu_pro": null
       },
       "pricing": {
@@ -5782,10 +5782,10 @@
           }
         },
         "gdpval": {
-          "elo": 737.13,
+          "elo": 739.05,
           "avgTurns": 20.37727272727273,
-          "lower95ci": 717.89,
-          "upper95ci": 756.37
+          "lower95ci": 720.05,
+          "upper95ci": 758.05
         },
         "omniscience": {
           "total": {
@@ -6084,7 +6084,7 @@
         "gpqa": 0.791919191919192,
         "critpt": 0.0171428571428571,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.19390499999999997,
+        "gdpval_aa_normalized": 0.19463999999999998,
         "mmmu_pro": null
       },
       "pricing": {
@@ -6159,10 +6159,10 @@
           }
         },
         "gdpval": {
-          "elo": 887.81,
+          "elo": 889.28,
           "avgTurns": 29.518691588785046,
-          "lower95ci": 864.41,
-          "upper95ci": 911.21
+          "lower95ci": 866.48,
+          "upper95ci": 912.07
         },
         "omniscience": {
           "total": {
@@ -6517,7 +6517,7 @@
         "gpqa": 0.894949494949495,
         "critpt": 0.0914285714285714,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.355615,
+        "gdpval_aa_normalized": 0.35569500000000004,
         "mmmu_pro": 0.765317919075144
       },
       "pricing": {
@@ -6572,10 +6572,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1211.23,
+          "elo": 1211.39,
           "avgTurns": 16.063636363636363,
-          "lower95ci": 1194.13,
-          "upper95ci": 1228.33
+          "lower95ci": 1194.43,
+          "upper95ci": 1228.34
         },
         "omniscience": {
           "total": {
@@ -6731,7 +6731,7 @@
         "gpqa": 0.784848484848485,
         "critpt": 0,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.08813499999999999,
+        "gdpval_aa_normalized": 0.08811000000000001,
         "mmmu_pro": 0.645086705202312
       },
       "pricing": {
@@ -6786,10 +6786,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 676.27,
+          "elo": 676.22,
           "avgTurns": 16.389671361502348,
-          "lower95ci": 658.42,
-          "upper95ci": 694.12
+          "lower95ci": 658.57,
+          "upper95ci": 693.87
         },
         "omniscience": {
           "total": {
@@ -6960,7 +6960,7 @@
         "gpqa": 0.911111111111111,
         "critpt": 0.08,
         "apex_agents": 0.284660766961652,
-        "gdpval_aa_normalized": 0.34490499999999996,
+        "gdpval_aa_normalized": 0.34519500000000003,
         "mmmu_pro": 0.79364161849711
       },
       "pricing": {
@@ -7015,10 +7015,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1189.81,
+          "elo": 1190.39,
           "avgTurns": 35.00454545454546,
-          "lower95ci": 1173.67,
-          "upper95ci": 1205.95
+          "lower95ci": 1174.38,
+          "upper95ci": 1206.41
         },
         "omniscience": {
           "total": {
@@ -7189,7 +7189,7 @@
         "gpqa": 0.708080808080808,
         "critpt": 0.00571428571428571,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.011759999999999991,
+        "gdpval_aa_normalized": 0.012524999999999977,
         "mmmu_pro": null
       },
       "pricing": {
@@ -7244,10 +7244,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 523.52,
+          "elo": 525.05,
           "avgTurns": 25.29032258064516,
-          "lower95ci": 502.29,
-          "upper95ci": 544.76
+          "lower95ci": 504.02,
+          "upper95ci": 546.09
         },
         "omniscience": {
           "total": {
@@ -7745,7 +7745,7 @@
         "gpqa": 0.892929292929293,
         "critpt": 0.0170612244897959,
         "apex_agents": 0.153392330383481,
-        "gdpval_aa_normalized": 0.23007999999999998,
+        "gdpval_aa_normalized": 0.230955,
         "mmmu_pro": 0.772832369942197
       },
       "pricing": {
@@ -7820,10 +7820,10 @@
           }
         },
         "gdpval": {
-          "elo": 960.16,
+          "elo": 961.91,
           "avgTurns": 22.536363636363635,
-          "lower95ci": 943.3,
-          "upper95ci": 977.03
+          "lower95ci": 945.18,
+          "upper95ci": 978.64
         },
         "omniscience": {
           "total": {
@@ -9331,7 +9331,7 @@
         "gpqa": null,
         "critpt": null,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.358335,
+        "gdpval_aa_normalized": 0.35871000000000003,
         "mmmu_pro": null
       },
       "pricing": {
@@ -9386,10 +9386,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1216.67,
+          "elo": 1217.42,
           "avgTurns": 13.959090909090909,
-          "lower95ci": 1199.22,
-          "upper95ci": 1234.12
+          "lower95ci": 1200.11,
+          "upper95ci": 1234.73
         },
         "omniscience": null,
         "openness": {
@@ -12516,7 +12516,7 @@
         "gpqa": 0.756565656565657,
         "critpt": 0.00285714285714286,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.01650999999999999,
+        "gdpval_aa_normalized": 0.017220000000000027,
         "mmmu_pro": null
       },
       "pricing": {
@@ -12571,10 +12571,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 533.02,
+          "elo": 534.44,
           "avgTurns": 26.522727272727273,
-          "lower95ci": 511.77,
-          "upper95ci": 554.27
+          "lower95ci": 513.39,
+          "upper95ci": 555.5
         },
         "omniscience": {
           "total": {
@@ -14668,7 +14668,7 @@
         "gpqa": 0.856565656565657,
         "critpt": 0.00571428571428571,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.23864,
+        "gdpval_aa_normalized": 0.23901,
         "mmmu_pro": 0.74971098265896
       },
       "pricing": {
@@ -14743,10 +14743,10 @@
           }
         },
         "gdpval": {
-          "elo": 977.28,
+          "elo": 978.02,
           "avgTurns": 21.798165137614678,
-          "lower95ci": 960.65,
-          "upper95ci": 993.91
+          "lower95ci": 961.53,
+          "upper95ci": 994.51
         },
         "omniscience": {
           "total": {
@@ -14904,7 +14904,7 @@
         "artificial_analysis_intelligence_index": 40.1358548646523,
         "artificial_analysis_intelligence_index_is_estimated": true,
         "artificial_analysis_coding_index": null,
-        "artificial_analysis_agentic_index": null,
+        "artificial_analysis_agentic_index": 23.7079793814433,
         "tau2_bench": 0.906432748538012,
         "terminal_bench_hard": 0.416666666666667,
         "scicode": 0.430555555555556,
@@ -14917,7 +14917,7 @@
         "gpqa": 0.84949494949495,
         "critpt": 0.0371428571428571,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.32263,
+        "gdpval_aa_normalized": 0.322505,
         "mmmu_pro": 0.754335260115607
       },
       "pricing": {
@@ -14972,10 +14972,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1145.26,
+          "elo": 1145.01,
           "avgTurns": 12.89041095890411,
-          "lower95ci": 1122.38,
-          "upper95ci": 1168.14
+          "lower95ci": 1122.58,
+          "upper95ci": 1167.44
         },
         "omniscience": {
           "total": {
@@ -15050,7 +15050,12 @@
             "reasoningTokens": 321761,
             "outputTokens": 618355
           },
-          "tauBanking": null,
+          "tauBanking": {
+            "inputTokens": 70475188,
+            "answerTokens": 253691,
+            "reasoningTokens": 393715,
+            "outputTokens": 647406
+          },
           "critpt": {
             "inputTokens": 359871,
             "answerTokens": 84610,
@@ -15624,10 +15629,10 @@
           }
         },
         "gdpval": {
-          "elo": -96.61,
+          "elo": -94.34,
           "avgTurns": 157.26363636363635,
-          "lower95ci": -115.79,
-          "upper95ci": -77.44
+          "lower95ci": -113.36,
+          "upper95ci": -75.32
         },
         "omniscience": {
           "total": {
@@ -15778,7 +15783,7 @@
         "gpqa": 0.911111111111111,
         "critpt": 0.168571428571429,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.5541699999999999,
+        "gdpval_aa_normalized": 0.55403,
         "mmmu_pro": 0.772832369942197
       },
       "pricing": {
@@ -15833,10 +15838,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1608.34,
+          "elo": 1608.06,
           "avgTurns": 94.11872146118722,
-          "lower95ci": 1589.88,
-          "upper95ci": 1626.8
+          "lower95ci": 1589.75,
+          "upper95ci": 1626.38
         },
         "omniscience": {
           "total": {
@@ -16395,7 +16400,7 @@
         "gpqa": 0.453535353535354,
         "critpt": 0,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.04395499999999999,
+        "gdpval_aa_normalized": 0.04507499999999999,
         "mmmu_pro": null
       },
       "pricing": {
@@ -16450,10 +16455,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 587.91,
+          "elo": 590.15,
           "avgTurns": 20.759090909090908,
-          "lower95ci": 567.59,
-          "upper95ci": 608.22
+          "lower95ci": 570.04,
+          "upper95ci": 610.25
         },
         "omniscience": {
           "total": {
@@ -17460,7 +17465,7 @@
         "gpqa": 0.844444444444444,
         "critpt": 0.0257142857142857,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.080815,
+        "gdpval_aa_normalized": 0.08269499999999999,
         "mmmu_pro": 0.749132947976879
       },
       "pricing": {
@@ -17535,10 +17540,10 @@
           }
         },
         "gdpval": {
-          "elo": 661.63,
+          "elo": 665.39,
           "avgTurns": 19.15068493150685,
-          "lower95ci": 642.34,
-          "upper95ci": 680.92
+          "lower95ci": 646.29,
+          "upper95ci": 684.48
         },
         "omniscience": {
           "total": {
@@ -17928,7 +17933,7 @@
         "gpqa": 0.929292929292929,
         "critpt": 0.0371428571428571,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.447635,
+        "gdpval_aa_normalized": 0.44741499999999995,
         "mmmu_pro": 0.785549132947977
       },
       "pricing": {
@@ -17983,10 +17988,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1395.27,
+          "elo": 1394.83,
           "avgTurns": 54.15909090909091,
-          "lower95ci": 1379.07,
-          "upper95ci": 1411.47
+          "lower95ci": 1378.76,
+          "upper95ci": 1410.9
         },
         "omniscience": {
           "total": {
@@ -18494,18 +18499,18 @@
         "gpqa": 0.828282828282828,
         "critpt": 0,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.218255,
+        "gdpval_aa_normalized": 0.21835500000000002,
         "mmmu_pro": 0.700578034682081
       },
       "pricing": {
         "price_1m_blended_3_to_1": null,
         "price_1m_input_tokens": 0.25,
         "price_1m_output_tokens": 2,
-        "intelligence_index_cost_total": 130.473961402133,
-        "intelligence_index_cost_input": 10.190481402132992,
-        "intelligence_index_cost_output": 120.28348000000001,
-        "intelligence_index_cost_reasoning": 113.80894,
-        "intelligence_index_cost_answer": 6.47454,
+        "intelligence_index_cost_total": 130.61078457325982,
+        "intelligence_index_cost_input": 10.253330573259827,
+        "intelligence_index_cost_output": 120.357454,
+        "intelligence_index_cost_reasoning": 113.833388,
+        "intelligence_index_cost_answer": 6.524066,
         "price_class": "medium"
       },
       "speed": {
@@ -18569,10 +18574,10 @@
           }
         },
         "gdpval": {
-          "elo": 936.51,
-          "avgTurns": 16.995391705069125,
-          "lower95ci": 916.15,
-          "upper95ci": 956.87
+          "elo": 936.71,
+          "avgTurns": 17.201834862385322,
+          "lower95ci": 916.63,
+          "upper95ci": 956.8
         },
         "omniscience": {
           "total": {
@@ -18660,10 +18665,10 @@
             "outputTokens": 2649466
           },
           "gdpval": {
-            "inputTokens": 88755086,
-            "answerTokens": 1643542,
-            "reasoningTokens": 1506830,
-            "outputTokens": 3150372
+            "inputTokens": 90470457,
+            "answerTokens": 1668305,
+            "reasoningTokens": 1519054,
+            "outputTokens": 3187359
           },
           "ifbench": {
             "inputTokens": 24896,
@@ -18703,10 +18708,10 @@
           }
         },
         "intelligence_index_token_counts": {
-          "inputTokens": 166695092,
-          "answerTokens": 3237270,
-          "reasoningTokens": 56904470,
-          "outputTokens": 60141740
+          "inputTokens": 168410463,
+          "answerTokens": 3262033,
+          "reasoningTokens": 56916694,
+          "outputTokens": 60178727
         }
       }
     },
@@ -19453,10 +19458,10 @@
           }
         },
         "gdpval": {
-          "elo": -146.91,
+          "elo": -144.46,
           "avgTurns": 250,
-          "lower95ci": -165.7,
-          "upper95ci": -128.12
+          "lower95ci": -163.08,
+          "upper95ci": -125.83
         },
         "omniscience": {
           "total": {
@@ -20281,7 +20286,7 @@
         "gpqa": 0.806060606060606,
         "critpt": 0.00285714285714286,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.06667000000000002,
+        "gdpval_aa_normalized": 0.06779000000000002,
         "mmmu_pro": 0.692485549132948
       },
       "pricing": {
@@ -20336,10 +20341,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 633.34,
+          "elo": 635.58,
           "avgTurns": 95.0409090909091,
-          "lower95ci": 611.93,
-          "upper95ci": 654.75
+          "lower95ci": 614.44,
+          "upper95ci": 656.73
         },
         "omniscience": {
           "total": {
@@ -21355,10 +21360,10 @@
           }
         },
         "gdpval": {
-          "elo": -146.34,
+          "elo": -143.64,
           "avgTurns": 250,
-          "lower95ci": -165.42,
-          "upper95ci": -127.26
+          "lower95ci": -162.57,
+          "upper95ci": -124.71
         },
         "omniscience": {
           "total": {
@@ -21728,7 +21733,7 @@
         "gpqa": 0.760606060606061,
         "critpt": 0.00285714285714286,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.10762000000000001,
+        "gdpval_aa_normalized": 0.10767000000000002,
         "mmmu_pro": 0.632369942196532
       },
       "pricing": {
@@ -21783,10 +21788,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 715.24,
+          "elo": 715.34,
           "avgTurns": 23.52777777777778,
-          "lower95ci": 694.46,
-          "upper95ci": 736.02
+          "lower95ci": 694.85,
+          "upper95ci": 735.82
         },
         "omniscience": {
           "total": {
@@ -23604,18 +23609,18 @@
         "gpqa": 0.733333333333333,
         "critpt": 0.00857142857142857,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.0763,
+        "gdpval_aa_normalized": 0.07682499999999999,
         "mmmu_pro": null
       },
       "pricing": {
         "price_1m_blended_3_to_1": null,
         "price_1m_input_tokens": 0.04,
         "price_1m_output_tokens": 0.14,
-        "intelligence_index_cost_total": 34.39053704,
-        "intelligence_index_cost_input": 15.17553032,
-        "intelligence_index_cost_output": 19.21500672,
-        "intelligence_index_cost_reasoning": 18.15587998,
-        "intelligence_index_cost_answer": 1.0591267400000002,
+        "intelligence_index_cost_total": 35.047044920000005,
+        "intelligence_index_cost_input": 15.7580426,
+        "intelligence_index_cost_output": 19.28900232,
+        "intelligence_index_cost_reasoning": 18.212071920000003,
+        "intelligence_index_cost_answer": 1.0769304000000002,
         "price_class": "low"
       },
       "speed": {
@@ -23659,10 +23664,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 652.6,
-          "avgTurns": 51.272277227722775,
-          "lower95ci": 629.88,
-          "upper95ci": 675.33
+          "elo": 653.65,
+          "avgTurns": 51.97584541062802,
+          "lower95ci": 631.27,
+          "upper95ci": 676.02
         },
         "omniscience": {
           "total": {
@@ -23750,10 +23755,10 @@
             "outputTokens": 2507289
           },
           "gdpval": {
-            "inputTokens": 246533788,
-            "answerTokens": 3797606,
-            "reasoningTokens": 9838365,
-            "outputTokens": 13635971
+            "inputTokens": 261096595,
+            "answerTokens": 3924775,
+            "reasoningTokens": 10239736,
+            "outputTokens": 14164511
           },
           "ifbench": {
             "inputTokens": 43405,
@@ -23788,10 +23793,10 @@
           }
         },
         "intelligence_index_token_counts": {
-          "inputTokens": 379388258,
-          "answerTokens": 7565191,
-          "reasoningTokens": 129684857,
-          "outputTokens": 137250048
+          "inputTokens": 393951065,
+          "answerTokens": 7692360,
+          "reasoningTokens": 130086228,
+          "outputTokens": 137778588
         }
       }
     },
@@ -24933,7 +24938,7 @@
         "gpqa": 0.687878787878788,
         "critpt": 0.0142857142857143,
         "apex_agents": 0.00737463126843658,
-        "gdpval_aa_normalized": 0.02849000000000001,
+        "gdpval_aa_normalized": 0.029514999999999986,
         "mmmu_pro": null
       },
       "pricing": {
@@ -25008,10 +25013,10 @@
           }
         },
         "gdpval": {
-          "elo": 556.98,
+          "elo": 559.03,
           "avgTurns": 45.154545454545456,
-          "lower95ci": 538.84,
-          "upper95ci": 575.12
+          "lower95ci": 541.05,
+          "upper95ci": 577
         },
         "omniscience": {
           "total": {
@@ -25743,7 +25748,7 @@
         "gpqa": 0.829292929292929,
         "critpt": 0.00857142857142857,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.30597,
+        "gdpval_aa_normalized": 0.30636,
         "mmmu_pro": 0.717341040462428
       },
       "pricing": {
@@ -25798,10 +25803,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1111.94,
+          "elo": 1112.72,
           "avgTurns": 30.75862068965517,
-          "lower95ci": 1092.38,
-          "upper95ci": 1131.49
+          "lower95ci": 1093.37,
+          "upper95ci": 1132.07
         },
         "omniscience": {
           "total": {
@@ -25972,7 +25977,7 @@
         "gpqa": 0.891919191919192,
         "critpt": 0.0857142857142857,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.37889,
+        "gdpval_aa_normalized": 0.37843499999999997,
         "mmmu_pro": null
       },
       "pricing": {
@@ -26027,10 +26032,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1257.78,
+          "elo": 1256.87,
           "avgTurns": 34.74429223744292,
-          "lower95ci": 1239.56,
-          "upper95ci": 1276.01
+          "lower95ci": 1238.81,
+          "upper95ci": 1274.92
         },
         "omniscience": {
           "total": {
@@ -28044,7 +28049,7 @@
         "gpqa": 0.768686868686869,
         "critpt": 0.00285714285714286,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.04319499999999999,
+        "gdpval_aa_normalized": 0.043995000000000006,
         "mmmu_pro": 0.568208092485549
       },
       "pricing": {
@@ -28099,10 +28104,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 586.39,
+          "elo": 587.99,
           "avgTurns": 12.336363636363636,
-          "lower95ci": 564.72,
-          "upper95ci": 608.06
+          "lower95ci": 566.58,
+          "upper95ci": 609.41
         },
         "omniscience": {
           "total": {
@@ -28328,10 +28333,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": -108.22,
+          "elo": -105.66,
           "avgTurns": 237.78636363636363,
-          "lower95ci": -128.8,
-          "upper95ci": -87.64
+          "lower95ci": -126.1,
+          "upper95ci": -85.22
         },
         "omniscience": {
           "total": {
@@ -29783,10 +29788,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": -110.63,
+          "elo": -108.35,
           "avgTurns": 208.5681818181818,
-          "lower95ci": -129.59,
-          "upper95ci": -91.67
+          "lower95ci": -127.15,
+          "upper95ci": -89.56
         },
         "omniscience": {
           "total": {
@@ -30554,10 +30559,10 @@
           }
         },
         "gdpval": {
-          "elo": 55.12,
+          "elo": 57.17,
           "avgTurns": 160.3394495412844,
-          "lower95ci": 33.46,
-          "upper95ci": 76.78
+          "lower95ci": 35.67,
+          "upper95ci": 78.68
         },
         "omniscience": {
           "total": {
@@ -30783,10 +30788,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 215.03,
+          "elo": 217.09,
           "avgTurns": 3.316279069767442,
-          "lower95ci": 193.43,
-          "upper95ci": 236.63
+          "lower95ci": 195.63,
+          "upper95ci": 238.55
         },
         "omniscience": {
           "total": {
@@ -31782,10 +31787,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 220.71,
+          "elo": 222.45,
           "avgTurns": 13.897196261682243,
-          "lower95ci": 199.74,
-          "upper95ci": 241.68
+          "lower95ci": 201.63,
+          "upper95ci": 243.26
         },
         "omniscience": {
           "total": {
@@ -33329,7 +33334,7 @@
         "gpqa": 0.853535353535353,
         "critpt": 0.0571428571428571,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.286985,
+        "gdpval_aa_normalized": 0.2874,
         "mmmu_pro": 0.742196531791907
       },
       "pricing": {
@@ -33404,10 +33409,10 @@
           }
         },
         "gdpval": {
-          "elo": 1073.97,
+          "elo": 1074.8,
           "avgTurns": 21.181818181818183,
-          "lower95ci": 1053.95,
-          "upper95ci": 1093.99
+          "lower95ci": 1054.98,
+          "upper95ci": 1094.61
         },
         "omniscience": {
           "total": {
@@ -33578,7 +33583,7 @@
         "gpqa": 0.67979797979798,
         "critpt": 0,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.0657,
+        "gdpval_aa_normalized": 0.066255,
         "mmmu_pro": 0.556647398843931
       },
       "pricing": {
@@ -33653,10 +33658,10 @@
           }
         },
         "gdpval": {
-          "elo": 631.4,
+          "elo": 632.51,
           "avgTurns": 16.10909090909091,
-          "lower95ci": 612.89,
-          "upper95ci": 649.9
+          "lower95ci": 614.2,
+          "upper95ci": 650.83
         },
         "omniscience": {
           "total": {
@@ -35021,7 +35026,7 @@
         "gpqa": 0.873737373737374,
         "critpt": 0.00571428571428571,
         "apex_agents": 0.106194690265487,
-        "gdpval_aa_normalized": 0.32896000000000003,
+        "gdpval_aa_normalized": 0.32895500000000005,
         "mmmu_pro": null
       },
       "pricing": {
@@ -35076,10 +35081,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1157.92,
+          "elo": 1157.91,
           "avgTurns": 20.70909090909091,
-          "lower95ci": 1141.47,
-          "upper95ci": 1174.37
+          "lower95ci": 1141.58,
+          "upper95ci": 1174.24
         },
         "omniscience": {
           "total": {
@@ -35573,7 +35578,7 @@
         "gpqa": 0.872727272727273,
         "critpt": 0.0485714285714286,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.243435,
+        "gdpval_aa_normalized": 0.24372500000000002,
         "mmmu_pro": 0.754913294797688
       },
       "pricing": {
@@ -35648,10 +35653,10 @@
           }
         },
         "gdpval": {
-          "elo": 986.87,
+          "elo": 987.45,
           "avgTurns": 15.709090909090909,
-          "lower95ci": 966.66,
-          "upper95ci": 1007.09
+          "lower95ci": 967.49,
+          "upper95ci": 1007.41
         },
         "omniscience": {
           "total": {
@@ -39736,7 +39741,7 @@
         "gpqa": 0.822222222222222,
         "critpt": 0.0114285714285714,
         "apex_agents": 0.121681415929204,
-        "gdpval_aa_normalized": 0.07015499999999997,
+        "gdpval_aa_normalized": 0.07078500000000003,
         "mmmu_pro": 0.755491329479769
       },
       "pricing": {
@@ -39791,10 +39796,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 640.31,
+          "elo": 641.57,
           "avgTurns": 9.64090909090909,
-          "lower95ci": 622.48,
-          "upper95ci": 658.14
+          "lower95ci": 623.92,
+          "upper95ci": 659.23
         },
         "omniscience": {
           "total": {
@@ -41097,10 +41102,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 367.11,
+          "elo": 369.86,
           "avgTurns": 10.706422018348624,
-          "lower95ci": 346.21,
-          "upper95ci": 388
+          "lower95ci": 349.09,
+          "upper95ci": 390.62
         },
         "omniscience": {
           "total": {
@@ -41266,7 +41271,7 @@
         "gpqa": 0.867676767676768,
         "critpt": 0.0457142857142857,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.37844500000000003,
+        "gdpval_aa_normalized": 0.37834,
         "mmmu_pro": null
       },
       "pricing": {
@@ -41321,10 +41326,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1256.89,
+          "elo": 1256.68,
           "avgTurns": 19.4,
-          "lower95ci": 1240.42,
-          "upper95ci": 1273.37
+          "lower95ci": 1240.34,
+          "upper95ci": 1273.02
         },
         "omniscience": {
           "total": {
@@ -41888,7 +41893,7 @@
         "gpqa": 0.866666666666667,
         "critpt": 0.0314285714285714,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.33186,
+        "gdpval_aa_normalized": 0.3319,
         "mmmu_pro": null
       },
       "pricing": {
@@ -41943,10 +41948,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1163.72,
+          "elo": 1163.8,
           "avgTurns": 21.577272727272728,
-          "lower95ci": 1147.25,
-          "upper95ci": 1180.18
+          "lower95ci": 1147.45,
+          "upper95ci": 1180.16
         },
         "omniscience": {
           "total": {
@@ -43220,10 +43225,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 197.2,
+          "elo": 198.86,
           "avgTurns": 119.76497695852535,
-          "lower95ci": 173.14,
-          "upper95ci": 221.25
+          "lower95ci": 174.96,
+          "upper95ci": 222.76
         },
         "omniscience": {
           "total": {
@@ -43792,7 +43797,7 @@
         "gpqa": 0.905050505050505,
         "critpt": 0.1,
         "apex_agents": null,
-        "gdpval_aa_normalized": null,
+        "gdpval_aa_normalized": 0.39792999999999995,
         "mmmu_pro": null
       },
       "pricing": {
@@ -43846,7 +43851,12 @@
       },
       "breakdowns": {
         "multilingual": null,
-        "gdpval": null,
+        "gdpval": {
+          "elo": 1295.86,
+          "avgTurns": 17.840182648401825,
+          "lower95ci": 1272.17,
+          "upper95ci": 1319.55
+        },
         "omniscience": {
           "total": {
             "accuracy": 0.41833333333333333,
@@ -43927,7 +43937,12 @@
             "reasoningTokens": 5027486,
             "outputTokens": 5141396
           },
-          "gdpval": null,
+          "gdpval": {
+            "inputTokens": 116315584,
+            "answerTokens": 4759124,
+            "reasoningTokens": 1012118,
+            "outputTokens": 5771242
+          },
           "ifbench": {
             "inputTokens": 24880,
             "answerTokens": 77494,
@@ -44245,10 +44260,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 306.4,
+          "elo": 307.72,
           "avgTurns": 15.895454545454545,
-          "lower95ci": 283.41,
-          "upper95ci": 329.38
+          "lower95ci": 284.91,
+          "upper95ci": 330.53
         },
         "omniscience": {
           "total": {
@@ -46384,8 +46399,8 @@
         "gdpval": {
           "elo": 585.55,
           "avgTurns": 13.431372549019608,
-          "lower95ci": 566.4,
-          "upper95ci": 604.71
+          "lower95ci": 566.61,
+          "upper95ci": 604.49
         },
         "omniscience": {
           "total": {
@@ -46689,7 +46704,7 @@
         "gpqa": 0.8,
         "critpt": 0.0314285714285714,
         "apex_agents": 0.0184365781710914,
-        "gdpval_aa_normalized": 0.09624500000000001,
+        "gdpval_aa_normalized": 0.096625,
         "mmmu_pro": null
       },
       "pricing": {
@@ -46744,10 +46759,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 692.49,
+          "elo": 693.25,
           "avgTurns": 50.913636363636364,
-          "lower95ci": 674.63,
-          "upper95ci": 710.34
+          "lower95ci": 675.58,
+          "upper95ci": 710.92
         },
         "omniscience": {
           "total": {
@@ -47943,7 +47958,7 @@
         "gpqa": 0.817171717171717,
         "critpt": 0,
         "apex_agents": null,
-        "gdpval_aa_normalized": null,
+        "gdpval_aa_normalized": 0.26135,
         "mmmu_pro": 0.710404624277457
       },
       "pricing": {
@@ -47997,7 +48012,12 @@
       },
       "breakdowns": {
         "multilingual": null,
-        "gdpval": null,
+        "gdpval": {
+          "elo": 1022.7,
+          "avgTurns": 54.10232558139535,
+          "lower95ci": 999.41,
+          "upper95ci": 1045.99
+        },
         "omniscience": {
           "total": {
             "accuracy": 0.17066666666666666,
@@ -48078,7 +48098,12 @@
             "reasoningTokens": 0,
             "outputTokens": 587522
           },
-          "gdpval": null,
+          "gdpval": {
+            "inputTokens": 522670593,
+            "answerTokens": 7492515,
+            "reasoningTokens": 0,
+            "outputTokens": 7492515
+          },
           "ifbench": {
             "inputTokens": 27430,
             "answerTokens": 888618,
@@ -48222,10 +48247,10 @@
           }
         },
         "gdpval": {
-          "elo": 271.14,
+          "elo": 272.8,
           "avgTurns": 77.65581395348838,
-          "lower95ci": 251.27,
-          "upper95ci": 291.01
+          "lower95ci": 253.09,
+          "upper95ci": 292.5
         },
         "omniscience": {
           "total": {
@@ -48728,7 +48753,7 @@
         "gpqa": 0.923232323232323,
         "critpt": 0.134285714285714,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.386485,
+        "gdpval_aa_normalized": 0.38657500000000006,
         "mmmu_pro": null
       },
       "pricing": {
@@ -48783,10 +48808,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1272.97,
+          "elo": 1273.15,
           "avgTurns": 14.295454545454545,
-          "lower95ci": 1256.52,
-          "upper95ci": 1289.43
+          "lower95ci": 1256.83,
+          "upper95ci": 1289.48
         },
         "omniscience": {
           "total": {
@@ -48952,7 +48977,7 @@
         "gpqa": 0.77979797979798,
         "critpt": 0.0114285714285714,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.21535500000000002,
+        "gdpval_aa_normalized": 0.21678500000000003,
         "mmmu_pro": null
       },
       "pricing": {
@@ -49027,10 +49052,10 @@
           }
         },
         "gdpval": {
-          "elo": 930.71,
+          "elo": 933.57,
           "avgTurns": 19.131818181818183,
-          "lower95ci": 910.92,
-          "upper95ci": 950.49
+          "lower95ci": 914.02,
+          "upper95ci": 953.11
         },
         "omniscience": {
           "total": {
@@ -49251,10 +49276,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 219.33,
+          "elo": 221.49,
           "avgTurns": 27.364583333333332,
-          "lower95ci": 198.73,
-          "upper95ci": 239.93
+          "lower95ci": 201.04,
+          "upper95ci": 241.95
         },
         "omniscience": null,
         "openness": {
@@ -50089,7 +50114,7 @@
         "gpqa": 0.809090909090909,
         "critpt": 0.0228571428571429,
         "apex_agents": 0.148230088495575,
-        "gdpval_aa_normalized": 0.25845,
+        "gdpval_aa_normalized": 0.25851999999999997,
         "mmmu_pro": 0.753179190751445
       },
       "pricing": {
@@ -50144,10 +50169,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1016.9,
+          "elo": 1017.04,
           "avgTurns": 24.46818181818182,
-          "lower95ci": 1000.33,
-          "upper95ci": 1033.48
+          "lower95ci": 1000.61,
+          "upper95ci": 1033.47
         },
         "omniscience": {
           "total": {
@@ -50970,7 +50995,7 @@
         "gpqa": 0.791919191919192,
         "critpt": 0,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.129675,
+        "gdpval_aa_normalized": 0.13066500000000003,
         "mmmu_pro": 0.692485549132948
       },
       "pricing": {
@@ -51025,10 +51050,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 759.35,
+          "elo": 761.33,
           "avgTurns": 22.04090909090909,
-          "lower95ci": 741.65,
-          "upper95ci": 777.05
+          "lower95ci": 743.8,
+          "upper95ci": 778.86
         },
         "omniscience": {
           "total": {
@@ -52254,7 +52279,7 @@
         "gpqa": 0.858585858585858,
         "critpt": 0.0171020408163265,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.33284,
+        "gdpval_aa_normalized": 0.33265,
         "mmmu_pro": null
       },
       "pricing": {
@@ -52309,10 +52334,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1165.68,
+          "elo": 1165.3,
           "avgTurns": 26.410138248847925,
-          "lower95ci": 1146.61,
-          "upper95ci": 1184.74
+          "lower95ci": 1146.43,
+          "upper95ci": 1184.18
         },
         "omniscience": {
           "total": {
@@ -52757,10 +52782,10 @@
           }
         },
         "gdpval": {
-          "elo": 246.68,
+          "elo": 248.36,
           "avgTurns": 68.3425925925926,
-          "lower95ci": 225.6,
-          "upper95ci": 267.77
+          "lower95ci": 227.43,
+          "upper95ci": 269.28
         },
         "omniscience": {
           "total": {
@@ -53210,10 +53235,10 @@
           }
         },
         "gdpval": {
-          "elo": 474.75,
+          "elo": 475.86,
           "avgTurns": 49.91866028708134,
-          "lower95ci": 455.69,
-          "upper95ci": 493.81
+          "lower95ci": 456.98,
+          "upper95ci": 494.75
         },
         "omniscience": {
           "total": {
@@ -54010,10 +54035,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 39.13,
+          "elo": 41.4,
           "avgTurns": 101.36363636363636,
-          "lower95ci": 17.64,
-          "upper95ci": 60.63
+          "lower95ci": 20.06,
+          "upper95ci": 62.74
         },
         "omniscience": {
           "total": {
@@ -54458,10 +54483,10 @@
           }
         },
         "gdpval": {
-          "elo": -126.02,
+          "elo": -123.73,
           "avgTurns": 158.26363636363635,
-          "lower95ci": -145.03,
-          "upper95ci": -107
+          "lower95ci": -142.58,
+          "upper95ci": -104.88
         },
         "omniscience": {
           "total": {
@@ -55090,10 +55115,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 312.74,
+          "elo": 314.48,
           "avgTurns": 12.536363636363637,
-          "lower95ci": 291.46,
-          "upper95ci": 334.01
+          "lower95ci": 293.36,
+          "upper95ci": 335.6
         },
         "omniscience": {
           "total": {
@@ -56101,10 +56126,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 482.66,
+          "elo": 483.84,
           "avgTurns": 22.87727272727273,
-          "lower95ci": 463.87,
-          "upper95ci": 501.46
+          "lower95ci": 465.22,
+          "upper95ci": 502.45
         },
         "omniscience": {
           "total": {
@@ -57123,7 +57148,7 @@
         "gpqa": 0.931313131313131,
         "critpt": 0.154285714285714,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.52124,
+        "gdpval_aa_normalized": 0.519335,
         "mmmu_pro": 0.804046242774566
       },
       "pricing": {
@@ -57178,10 +57203,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1542.48,
+          "elo": 1538.67,
           "avgTurns": 15.28310502283105,
-          "lower95ci": 1517.6,
-          "upper95ci": 1567.35
+          "lower95ci": 1514.26,
+          "upper95ci": 1563.08
         },
         "omniscience": {
           "total": {
@@ -58453,10 +58478,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": -143.42,
+          "elo": -141.11,
           "avgTurns": 250,
-          "lower95ci": -162.85,
-          "upper95ci": -123.99
+          "lower95ci": -160.38,
+          "upper95ci": -121.84
         },
         "omniscience": {
           "total": {
@@ -58539,10 +58564,10 @@
             "outputTokens": 5275793
           },
           "gdpval": {
-            "inputTokens": 1280590352,
-            "answerTokens": 12917323,
-            "reasoningTokens": 47483378,
-            "outputTokens": 60400701
+            "inputTokens": 1313661962,
+            "answerTokens": 13223263,
+            "reasoningTokens": 48522980,
+            "outputTokens": 61746243
           },
           "ifbench": {
             "inputTokens": 24589,
@@ -60657,7 +60682,7 @@
         "gpqa": 0.655555555555556,
         "critpt": 0,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.164725,
+        "gdpval_aa_normalized": 0.16652499999999998,
         "mmmu_pro": null
       },
       "pricing": {
@@ -60732,10 +60757,10 @@
           }
         },
         "gdpval": {
-          "elo": 829.45,
+          "elo": 833.05,
           "avgTurns": 177.04545454545453,
-          "lower95ci": 806.84,
-          "upper95ci": 852.05
+          "lower95ci": 810.83,
+          "upper95ci": 855.28
         },
         "omniscience": {
           "total": {
@@ -61965,10 +61990,10 @@
           }
         },
         "gdpval": {
-          "elo": 401.59,
+          "elo": 402.93,
           "avgTurns": 36.24657534246575,
-          "lower95ci": 381.25,
-          "upper95ci": 421.92
+          "lower95ci": 382.76,
+          "upper95ci": 423.09
         },
         "omniscience": {
           "total": {
@@ -62139,7 +62164,7 @@
         "gpqa": 0.841414141414142,
         "critpt": 0.00285714285714286,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.27366499999999994,
+        "gdpval_aa_normalized": 0.27433500000000005,
         "mmmu_pro": 0.75028901734104
       },
       "pricing": {
@@ -62194,10 +62219,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1047.33,
+          "elo": 1048.67,
           "avgTurns": 25.60185185185185,
-          "lower95ci": 1030.72,
-          "upper95ci": 1063.94
+          "lower95ci": 1032.2,
+          "upper95ci": 1065.14
         },
         "omniscience": {
           "total": {
@@ -64478,7 +64503,7 @@
         "gpqa": 0.842424242424242,
         "critpt": 0.0114285714285714,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.319745,
+        "gdpval_aa_normalized": 0.31986000000000003,
         "mmmu_pro": 0.746242774566474
       },
       "pricing": {
@@ -64533,10 +64558,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1139.49,
+          "elo": 1139.72,
           "avgTurns": 22.200913242009133,
-          "lower95ci": 1123.05,
-          "upper95ci": 1155.93
+          "lower95ci": 1123.41,
+          "upper95ci": 1156.04
         },
         "omniscience": {
           "total": {
@@ -65110,7 +65135,7 @@
         "gpqa": 0.895959595959596,
         "critpt": 0.1,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.343345,
+        "gdpval_aa_normalized": 0.343395,
         "mmmu_pro": null
       },
       "pricing": {
@@ -65165,10 +65190,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1186.69,
+          "elo": 1186.79,
           "avgTurns": 31.686363636363637,
-          "lower95ci": 1170,
-          "upper95ci": 1203.39
+          "lower95ci": 1170.24,
+          "upper95ci": 1203.35
         },
         "omniscience": {
           "total": {
@@ -66106,7 +66131,7 @@
         "gpqa": 0.845454545454545,
         "critpt": 0,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.38334500000000005,
+        "gdpval_aa_normalized": 0.38286000000000003,
         "mmmu_pro": null
       },
       "pricing": {
@@ -66161,10 +66186,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1266.69,
-          "avgTurns": 34.15348837209302,
-          "lower95ci": 1245.06,
-          "upper95ci": 1288.31
+          "elo": 1265.72,
+          "avgTurns": 34.26267281105991,
+          "lower95ci": 1244.39,
+          "upper95ci": 1287.04
         },
         "omniscience": {
           "total": {
@@ -66247,10 +66272,10 @@
             "outputTokens": 904666
           },
           "gdpval": {
-            "inputTokens": 361129026,
-            "answerTokens": 8815358,
+            "inputTokens": 366886841,
+            "answerTokens": 9012336,
             "reasoningTokens": 0,
-            "outputTokens": 8815358
+            "outputTokens": 9012336
           },
           "ifbench": null,
           "scicode": {
@@ -66275,10 +66300,10 @@
           }
         },
         "intelligence_index_token_counts": {
-          "inputTokens": 508985528,
-          "answerTokens": 74035217,
+          "inputTokens": 514743343,
+          "answerTokens": 74232195,
           "reasoningTokens": 0,
-          "outputTokens": 74035217
+          "outputTokens": 74232195
         }
       }
     },
@@ -66315,7 +66340,7 @@
         "gpqa": 0.657575757575758,
         "critpt": 0,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.29734000000000005,
+        "gdpval_aa_normalized": 0.29798,
         "mmmu_pro": 0.647976878612717
       },
       "pricing": {
@@ -66370,10 +66395,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1094.68,
+          "elo": 1095.96,
           "avgTurns": 14.345454545454546,
-          "lower95ci": 1078.14,
-          "upper95ci": 1111.22
+          "lower95ci": 1079.55,
+          "upper95ci": 1112.37
         },
         "omniscience": {
           "total": {
@@ -66544,7 +66569,7 @@
         "gpqa": 0.834343434343434,
         "critpt": 0.0114285714285714,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.27555499999999994,
+        "gdpval_aa_normalized": 0.27623000000000003,
         "mmmu_pro": 0.68728323699422
       },
       "pricing": {
@@ -66619,10 +66644,10 @@
           }
         },
         "gdpval": {
-          "elo": 1051.11,
+          "elo": 1052.46,
           "avgTurns": 17.01818181818182,
-          "lower95ci": 1031.54,
-          "upper95ci": 1070.67
+          "lower95ci": 1033.14,
+          "upper95ci": 1071.79
         },
         "omniscience": {
           "total": {
@@ -67052,10 +67077,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 102.03,
-          "avgTurns": 44.041666666666664,
-          "lower95ci": 79.15,
-          "upper95ci": 124.92
+          "elo": 103.94,
+          "avgTurns": 44.99078341013825,
+          "lower95ci": 81.21,
+          "upper95ci": 126.67
         },
         "omniscience": {
           "total": {
@@ -67143,10 +67168,10 @@
             "outputTokens": 101958
           },
           "gdpval": {
-            "inputTokens": 313033730,
-            "answerTokens": 3356300,
+            "inputTokens": 322181898,
+            "answerTokens": 3482491,
             "reasoningTokens": 0,
-            "outputTokens": 3356300
+            "outputTokens": 3482491
           },
           "ifbench": {
             "inputTokens": 26366,
@@ -67181,10 +67206,10 @@
           }
         },
         "intelligence_index_token_counts": {
-          "inputTokens": 413090609,
-          "answerTokens": 5397793,
+          "inputTokens": 422238777,
+          "answerTokens": 5523984,
           "reasoningTokens": 0,
-          "outputTokens": 5397793
+          "outputTokens": 5523984
         }
       }
     },
@@ -67221,7 +67246,7 @@
         "gpqa": 0.592929292929293,
         "critpt": 0,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.021375,
+        "gdpval_aa_normalized": 0.022345000000000028,
         "mmmu_pro": null
       },
       "pricing": {
@@ -67276,10 +67301,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 542.75,
+          "elo": 544.69,
           "avgTurns": 32.65296803652968,
-          "lower95ci": 520.58,
-          "upper95ci": 564.92
+          "lower95ci": 522.75,
+          "upper95ci": 566.64
         },
         "omniscience": {
           "total": {
@@ -67520,10 +67545,10 @@
           }
         },
         "gdpval": {
-          "elo": -18.32,
+          "elo": -16.15,
           "avgTurns": 35.89090909090909,
-          "lower95ci": -37.51,
-          "upper95ci": 0.87
+          "lower95ci": -35.18,
+          "upper95ci": 2.88
         },
         "omniscience": {
           "total": {
@@ -68363,7 +68388,7 @@
         "gpqa": 0.901010101010101,
         "critpt": 0.08,
         "apex_agents": 0.170353982300885,
-        "gdpval_aa_normalized": 0.292245,
+        "gdpval_aa_normalized": 0.29245000000000004,
         "mmmu_pro": 0.78092485549133
       },
       "pricing": {
@@ -68418,10 +68443,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1084.49,
+          "elo": 1084.9,
           "avgTurns": 13.254545454545454,
-          "lower95ci": 1068.03,
-          "upper95ci": 1100.95
+          "lower95ci": 1068.57,
+          "upper95ci": 1101.24
         },
         "omniscience": {
           "total": {
@@ -69065,10 +69090,10 @@
           }
         },
         "gdpval": {
-          "elo": 446.29,
+          "elo": 448.72,
           "avgTurns": 26.322727272727274,
-          "lower95ci": 427.17,
-          "upper95ci": 465.41
+          "lower95ci": 429.75,
+          "upper95ci": 467.7
         },
         "omniscience": {
           "total": {
@@ -69314,10 +69339,10 @@
           }
         },
         "gdpval": {
-          "elo": 77.56,
+          "elo": 79.94,
           "avgTurns": 18.49537037037037,
-          "lower95ci": 56.29,
-          "upper95ci": 98.84
+          "lower95ci": 58.79,
+          "upper95ci": 101.08
         },
         "omniscience": {
           "total": {
@@ -70024,7 +70049,7 @@
         "gpqa": null,
         "critpt": null,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.506135,
+        "gdpval_aa_normalized": 0.50548,
         "mmmu_pro": null
       },
       "pricing": {
@@ -70079,10 +70104,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1512.27,
+          "elo": 1510.96,
           "avgTurns": 60.15137614678899,
-          "lower95ci": 1493.77,
-          "upper95ci": 1530.77
+          "lower95ci": 1492.64,
+          "upper95ci": 1529.29
         },
         "omniscience": null,
         "openness": {
@@ -70977,10 +71002,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 198.22,
+          "elo": 200.34,
           "avgTurns": 15.839449541284404,
-          "lower95ci": 176.65,
-          "upper95ci": 219.78
+          "lower95ci": 178.91,
+          "upper95ci": 221.77
         },
         "omniscience": {
           "total": {
@@ -71742,10 +71767,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 190.71,
+          "elo": 192.39,
           "avgTurns": 53.154545454545456,
-          "lower95ci": 166.72,
-          "upper95ci": 214.7
+          "lower95ci": 168.56,
+          "upper95ci": 216.23
         },
         "omniscience": {
           "total": {
@@ -71911,7 +71936,7 @@
         "gpqa": 0.663636363636364,
         "critpt": 0,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.0007350000000000136,
+        "gdpval_aa_normalized": 0.001460000000000008,
         "mmmu_pro": 0.58728323699422
       },
       "pricing": {
@@ -71966,10 +71991,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 501.47,
+          "elo": 502.92,
           "avgTurns": 39.845454545454544,
-          "lower95ci": 480.8,
-          "upper95ci": 522.14
+          "lower95ci": 482.44,
+          "upper95ci": 523.4
         },
         "omniscience": {
           "total": {
@@ -72195,10 +72220,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": -147.8,
+          "elo": -145.05,
           "avgTurns": 250,
-          "lower95ci": -166.93,
-          "upper95ci": -128.67
+          "lower95ci": -164.04,
+          "upper95ci": -126.06
         },
         "omniscience": {
           "total": {
@@ -72286,10 +72311,10 @@
             "outputTokens": 300558
           },
           "gdpval": {
-            "inputTokens": 1915093336,
-            "answerTokens": 23709106,
+            "inputTokens": 1922693311,
+            "answerTokens": 23929754,
             "reasoningTokens": 0,
-            "outputTokens": 23709106
+            "outputTokens": 23929754
           },
           "ifbench": {
             "inputTokens": 24589,
@@ -72324,10 +72349,10 @@
           }
         },
         "intelligence_index_token_counts": {
-          "inputTokens": 2739695524,
-          "answerTokens": 34030598,
+          "inputTokens": 2747295499,
+          "answerTokens": 34251246,
           "reasoningTokens": 0,
-          "outputTokens": 34030598
+          "outputTokens": 34251246
         }
       }
     },
@@ -72696,7 +72721,7 @@
         "gpqa": 0.636363636363636,
         "critpt": 0,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.026470000000000028,
+        "gdpval_aa_normalized": 0.027365000000000007,
         "mmmu_pro": null
       },
       "pricing": {
@@ -72771,10 +72796,10 @@
           }
         },
         "gdpval": {
-          "elo": 552.94,
+          "elo": 554.73,
           "avgTurns": 19.195454545454545,
-          "lower95ci": 534.53,
-          "upper95ci": 571.36
+          "lower95ci": 536.48,
+          "upper95ci": 572.98
         },
         "omniscience": {
           "total": {
@@ -74108,7 +74133,7 @@
         "gpqa": 0.671717171717172,
         "critpt": 0,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.202605,
+        "gdpval_aa_normalized": 0.203305,
         "mmmu_pro": 0.585549132947977
       },
       "pricing": {
@@ -74183,10 +74208,10 @@
           }
         },
         "gdpval": {
-          "elo": 905.21,
+          "elo": 906.61,
           "avgTurns": 15.459090909090909,
-          "lower95ci": 887.91,
-          "upper95ci": 922.52
+          "lower95ci": 889.47,
+          "upper95ci": 923.75
         },
         "omniscience": {
           "total": {
@@ -74606,10 +74631,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": -127.16,
+          "elo": -124.62,
           "avgTurns": 238.12796208530807,
-          "lower95ci": -147.07,
-          "upper95ci": -107.26
+          "lower95ci": -144.38,
+          "upper95ci": -104.86
         },
         "omniscience": {
           "total": {
@@ -74959,7 +74984,7 @@
         "gpqa": 0.776767676767677,
         "critpt": 0.00285714285714286,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.17952999999999997,
+        "gdpval_aa_normalized": 0.180275,
         "mmmu_pro": 0.617919075144509
       },
       "pricing": {
@@ -75014,10 +75039,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 859.06,
+          "elo": 860.55,
           "avgTurns": 19.123287671232877,
-          "lower95ci": 839.16,
-          "upper95ci": 878.96
+          "lower95ci": 840.93,
+          "upper95ci": 880.17
         },
         "omniscience": {
           "total": {
@@ -75820,7 +75845,7 @@
         "gpqa": 0.9,
         "critpt": 0.0914285714285714,
         "apex_agents": 0.224188790560472,
-        "gdpval_aa_normalized": 0.21740499999999996,
+        "gdpval_aa_normalized": 0.21813,
         "mmmu_pro": 0.804624277456647
       },
       "pricing": {
@@ -75875,10 +75900,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 934.81,
+          "elo": 936.26,
           "avgTurns": 15.595454545454546,
-          "lower95ci": 917.75,
-          "upper95ci": 951.87
+          "lower95ci": 919.37,
+          "upper95ci": 953.15
         },
         "omniscience": {
           "total": {
@@ -76049,7 +76074,7 @@
         "gpqa": 0.92020202020202,
         "critpt": 0.2342857143,
         "apex_agents": 0.33259587020649,
-        "gdpval_aa_normalized": 0.44793499999999997,
+        "gdpval_aa_normalized": 0.44734,
         "mmmu_pro": 0.784393063583815
       },
       "pricing": {
@@ -76104,10 +76129,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1395.87,
+          "elo": 1394.68,
           "avgTurns": 41.27272727272727,
-          "lower95ci": 1379.45,
-          "upper95ci": 1412.3
+          "lower95ci": 1378.39,
+          "upper95ci": 1410.97
         },
         "omniscience": {
           "total": {
@@ -78620,10 +78645,10 @@
           }
         },
         "gdpval": {
-          "elo": 87.47,
+          "elo": 89.68,
           "avgTurns": 15.96774193548387,
-          "lower95ci": 68.21,
-          "upper95ci": 106.73
+          "lower95ci": 70.57,
+          "upper95ci": 108.78
         },
         "omniscience": {
           "total": {
@@ -78794,7 +78819,7 @@
         "gpqa": 0.606060606060606,
         "critpt": 0,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.14254000000000003,
+        "gdpval_aa_normalized": 0.14215499999999998,
         "mmmu_pro": 0.604624277456647
       },
       "pricing": {
@@ -78849,10 +78874,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 785.08,
+          "elo": 784.31,
           "avgTurns": 7.024752475247524,
-          "lower95ci": 767.06,
-          "upper95ci": 803.1
+          "lower95ci": 766.49,
+          "upper95ci": 802.14
         },
         "omniscience": {
           "total": {
@@ -79624,10 +79649,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 273.09,
+          "elo": 274.98,
           "avgTurns": 12.547945205479452,
-          "lower95ci": 252.69,
-          "upper95ci": 293.48
+          "lower95ci": 254.74,
+          "upper95ci": 295.22
         },
         "omniscience": {
           "total": {
@@ -82616,10 +82641,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 224,
+          "elo": 225.67,
           "avgTurns": 61.26146788990825,
-          "lower95ci": 202.06,
-          "upper95ci": 245.95
+          "lower95ci": 203.89,
+          "upper95ci": 247.46
         },
         "omniscience": null,
         "openness": {
@@ -83111,10 +83136,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 491.28,
+          "elo": 492.55,
           "avgTurns": 57.99038461538461,
-          "lower95ci": 473.22,
-          "upper95ci": 509.34
+          "lower95ci": 474.66,
+          "upper95ci": 510.44
         },
         "omniscience": {
           "total": {
@@ -83612,7 +83637,7 @@
         "gpqa": null,
         "critpt": null,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.45174000000000003,
+        "gdpval_aa_normalized": 0.4516,
         "mmmu_pro": null
       },
       "pricing": {
@@ -83667,10 +83692,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1403.48,
+          "elo": 1403.2,
           "avgTurns": 37.75342465753425,
-          "lower95ci": 1385.8,
-          "upper95ci": 1421.16
+          "lower95ci": 1385.67,
+          "upper95ci": 1420.72
         },
         "omniscience": null,
         "openness": {
@@ -83964,7 +83989,7 @@
         "gpqa": 0.874747474747475,
         "critpt": 0.1,
         "apex_agents": 0.281710914454277,
-        "gdpval_aa_normalized": 0.33494000000000007,
+        "gdpval_aa_normalized": 0.3354,
         "mmmu_pro": 0.732947976878613
       },
       "pricing": {
@@ -84039,10 +84064,10 @@
           }
         },
         "gdpval": {
-          "elo": 1169.88,
+          "elo": 1170.8,
           "avgTurns": 32.97727272727273,
-          "lower95ci": 1153.37,
-          "upper95ci": 1186.39
+          "lower95ci": 1154.42,
+          "upper95ci": 1187.17
         },
         "omniscience": {
           "total": {
@@ -85962,7 +85987,7 @@
         "gpqa": 0.887878787878788,
         "critpt": 0.128571428571429,
         "apex_agents": 0.242625368731563,
-        "gdpval_aa_normalized": 0.403505,
+        "gdpval_aa_normalized": 0.403605,
         "mmmu_pro": null
       },
       "pricing": {
@@ -86017,10 +86042,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1307.01,
+          "elo": 1307.21,
           "avgTurns": 22.727272727272727,
-          "lower95ci": 1290.55,
-          "upper95ci": 1323.46
+          "lower95ci": 1290.87,
+          "upper95ci": 1323.54
         },
         "omniscience": {
           "total": {
@@ -87349,7 +87374,7 @@
         "gpqa": 0.668686868686869,
         "critpt": 0.00285714285714286,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.022694999999999993,
+        "gdpval_aa_normalized": 0.023629999999999995,
         "mmmu_pro": 0.665317919075144
       },
       "pricing": {
@@ -87404,10 +87429,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 545.39,
+          "elo": 547.26,
           "avgTurns": 33.44748858447488,
-          "lower95ci": 525.49,
-          "upper95ci": 565.28
+          "lower95ci": 527.55,
+          "upper95ci": 566.96
         },
         "omniscience": {
           "total": {
@@ -87568,7 +87593,7 @@
         "gpqa": 0.823232323232323,
         "critpt": 0,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.10841500000000003,
+        "gdpval_aa_normalized": 0.10927999999999997,
         "mmmu_pro": null
       },
       "pricing": {
@@ -87623,10 +87648,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 716.83,
+          "elo": 718.56,
           "avgTurns": 3.8954545454545455,
-          "lower95ci": 696.83,
-          "upper95ci": 736.82
+          "lower95ci": 698.82,
+          "upper95ci": 738.3
         },
         "omniscience": {
           "total": {
@@ -89786,11 +89811,11 @@
         "price_1m_blended_3_to_1": null,
         "price_1m_input_tokens": 0.5,
         "price_1m_output_tokens": 6,
-        "intelligence_index_cost_total": 396.68571149999997,
-        "intelligence_index_cost_input": 36.7078695,
-        "intelligence_index_cost_output": 359.97784199999995,
-        "intelligence_index_cost_reasoning": 343.79702399999996,
-        "intelligence_index_cost_answer": 16.180818000000002,
+        "intelligence_index_cost_total": 400.538382,
+        "intelligence_index_cost_input": 39.273641999999995,
+        "intelligence_index_cost_output": 361.26474,
+        "intelligence_index_cost_reasoning": 344.898726,
+        "intelligence_index_cost_answer": 16.366014,
         "price_class": "high"
       },
       "speed": {
@@ -89854,10 +89879,10 @@
           }
         },
         "gdpval": {
-          "elo": 366.39,
-          "avgTurns": 12.451923076923077,
-          "lower95ci": 343.72,
-          "upper95ci": 389.05
+          "elo": 367.35,
+          "avgTurns": 13.542857142857143,
+          "lower95ci": 344.87,
+          "upper95ci": 389.84
         },
         "omniscience": {
           "total": {
@@ -89945,10 +89970,10 @@
             "outputTokens": 1712956
           },
           "gdpval": {
-            "inputTokens": 40458512,
-            "answerTokens": 859947,
-            "reasoningTokens": 7311029,
-            "outputTokens": 8170976
+            "inputTokens": 45590057,
+            "answerTokens": 890813,
+            "reasoningTokens": 7494646,
+            "outputTokens": 8385459
           },
           "ifbench": {
             "inputTokens": 24589,
@@ -89983,10 +90008,10 @@
           }
         },
         "intelligence_index_token_counts": {
-          "inputTokens": 73415739,
-          "answerTokens": 2696803,
-          "reasoningTokens": 57299504,
-          "outputTokens": 59996307
+          "inputTokens": 78547284,
+          "answerTokens": 2727669,
+          "reasoningTokens": 57483121,
+          "outputTokens": 60210790
         }
       }
     },
@@ -91253,7 +91278,7 @@
         "gpqa": 0.856565656565657,
         "critpt": 0.0142857142857143,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.151045,
+        "gdpval_aa_normalized": 0.15201499999999998,
         "mmmu_pro": 0.734104046242775
       },
       "pricing": {
@@ -91308,10 +91333,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 802.09,
+          "elo": 804.03,
           "avgTurns": 17.87272727272727,
-          "lower95ci": 784.35,
-          "upper95ci": 819.83
+          "lower95ci": 786.45,
+          "upper95ci": 821.6
         },
         "omniscience": {
           "total": {
@@ -91910,7 +91935,7 @@
         "gpqa": 0.532323232323232,
         "critpt": 0,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.11419,
+        "gdpval_aa_normalized": 0.11441500000000002,
         "mmmu_pro": 0.446242774566474
       },
       "pricing": {
@@ -91985,10 +92010,10 @@
           }
         },
         "gdpval": {
-          "elo": 728.38,
+          "elo": 728.83,
           "avgTurns": 24.436363636363637,
-          "lower95ci": 709.45,
-          "upper95ci": 747.3
+          "lower95ci": 710.12,
+          "upper95ci": 747.55
         },
         "omniscience": {
           "total": {
@@ -92691,7 +92716,7 @@
       "evaluations": {
         "artificial_analysis_intelligence_index": 24.8488625422228,
         "artificial_analysis_intelligence_index_is_estimated": true,
-        "artificial_analysis_coding_index": null,
+        "artificial_analysis_coding_index": 33.1716430850326,
         "artificial_analysis_agentic_index": null,
         "tau2_bench": 0.654970760233918,
         "terminal_bench_hard": 0.303030303030303,
@@ -92705,7 +92730,7 @@
         "gpqa": 0.762626262626263,
         "critpt": 0,
         "apex_agents": null,
-        "gdpval_aa_normalized": null,
+        "gdpval_aa_normalized": 0.12211000000000001,
         "mmmu_pro": 0.703468208092486
       },
       "pricing": {
@@ -92759,7 +92784,12 @@
       },
       "breakdowns": {
         "multilingual": null,
-        "gdpval": null,
+        "gdpval": {
+          "elo": 744.22,
+          "avgTurns": 17.88372093023256,
+          "lower95ci": 722.32,
+          "upper95ci": 766.11
+        },
         "omniscience": {
           "total": {
             "accuracy": 0.16866666666666666,
@@ -92840,7 +92870,12 @@
             "reasoningTokens": 0,
             "outputTokens": 401375
           },
-          "gdpval": null,
+          "gdpval": {
+            "inputTokens": 68141551,
+            "answerTokens": 1201554,
+            "reasoningTokens": 0,
+            "outputTokens": 1201554
+          },
           "ifbench": {
             "inputTokens": 27624,
             "answerTokens": 111970,
@@ -92871,7 +92906,12 @@
             "reasoningTokens": 0,
             "outputTokens": 518025
           },
-          "terminalbenchV21": null
+          "terminalbenchV21": {
+            "inputTokens": 70517543,
+            "answerTokens": 1310369,
+            "reasoningTokens": 0,
+            "outputTokens": 1310369
+          }
         },
         "intelligence_index_token_counts": null
       }
@@ -94550,10 +94590,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 420.26,
+          "elo": 422.01,
           "avgTurns": 21.327272727272728,
-          "lower95ci": 401.68,
-          "upper95ci": 438.83
+          "lower95ci": 403.59,
+          "upper95ci": 440.42
         },
         "omniscience": {
           "total": {
@@ -94719,7 +94759,7 @@
         "gpqa": 0.817171717171717,
         "critpt": 0.0925306122448979,
         "apex_agents": 0.249262536873156,
-        "gdpval_aa_normalized": 0.29993,
+        "gdpval_aa_normalized": 0.2999450000000001,
         "mmmu_pro": 0.653757225433526
       },
       "pricing": {
@@ -94774,10 +94814,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1099.86,
+          "elo": 1099.89,
           "avgTurns": 60.63181818181818,
-          "lower95ci": 1083.64,
-          "upper95ci": 1116.08
+          "lower95ci": 1083.78,
+          "upper95ci": 1116
         },
         "omniscience": {
           "total": {
@@ -94948,7 +94988,7 @@
         "gpqa": 0.8,
         "critpt": 0.0114285714285714,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.43574,
+        "gdpval_aa_normalized": 0.43592499999999995,
         "mmmu_pro": 0.71907514450867
       },
       "pricing": {
@@ -95003,10 +95043,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1371.48,
+          "elo": 1371.85,
           "avgTurns": 47.9041095890411,
-          "lower95ci": 1352.82,
-          "upper95ci": 1390.13
+          "lower95ci": 1353.37,
+          "upper95ci": 1390.32
         },
         "omniscience": {
           "total": {
@@ -95366,7 +95406,7 @@
         "gpqa": 0.84040404040404,
         "critpt": 0.0285714285714286,
         "apex_agents": 0.145280235988201,
-        "gdpval_aa_normalized": 0.180505,
+        "gdpval_aa_normalized": 0.18274,
         "mmmu_pro": null
       },
       "pricing": {
@@ -95441,10 +95481,10 @@
           }
         },
         "gdpval": {
-          "elo": 861.01,
-          "avgTurns": 24.073394495412845,
-          "lower95ci": 837.04,
-          "upper95ci": 884.98
+          "elo": 865.48,
+          "avgTurns": 24.100456621004565,
+          "lower95ci": 842.12,
+          "upper95ci": 888.84
         },
         "omniscience": {
           "total": {
@@ -95532,10 +95572,10 @@
             "outputTokens": 2565487
           },
           "gdpval": {
-            "inputTokens": 74187978,
-            "answerTokens": 3460707,
-            "reasoningTokens": 218762,
-            "outputTokens": 3679469
+            "inputTokens": 74578470,
+            "answerTokens": 3480396,
+            "reasoningTokens": 219361,
+            "outputTokens": 3699757
           },
           "ifbench": {
             "inputTokens": 24589,
@@ -95570,10 +95610,10 @@
           }
         },
         "intelligence_index_token_counts": {
-          "inputTokens": 278690441,
-          "answerTokens": 6329421,
-          "reasoningTokens": 56555135,
-          "outputTokens": 62884556
+          "inputTokens": 279080933,
+          "answerTokens": 6349110,
+          "reasoningTokens": 56555734,
+          "outputTokens": 62904844
         }
       }
     },
@@ -96008,7 +96048,7 @@
         "gpqa": 0.893939393939394,
         "critpt": 0.0714285714285714,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.344605,
+        "gdpval_aa_normalized": 0.34426999999999996,
         "mmmu_pro": null
       },
       "pricing": {
@@ -96063,10 +96103,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1189.21,
+          "elo": 1188.54,
           "avgTurns": 25.69090909090909,
-          "lower95ci": 1172.23,
-          "upper95ci": 1206.2
+          "lower95ci": 1171.69,
+          "upper95ci": 1205.4
         },
         "omniscience": {
           "total": {
@@ -98017,7 +98057,7 @@
         "gpqa": 0.748484848484849,
         "critpt": 0,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.21435,
+        "gdpval_aa_normalized": 0.21447500000000003,
         "mmmu_pro": 0.648554913294798
       },
       "pricing": {
@@ -98072,10 +98112,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 928.7,
+          "elo": 928.95,
           "avgTurns": 27.59090909090909,
-          "lower95ci": 911.6,
-          "upper95ci": 945.8
+          "lower95ci": 912.01,
+          "upper95ci": 945.88
         },
         "omniscience": {
           "total": {
@@ -99317,7 +99357,7 @@
         "gpqa": 0.874747474747475,
         "critpt": 0.0314285714285714,
         "apex_agents": 0.28023598820059,
-        "gdpval_aa_normalized": 0.439215,
+        "gdpval_aa_normalized": 0.439,
         "mmmu_pro": 0.732947976878613
       },
       "pricing": {
@@ -99392,10 +99432,10 @@
           }
         },
         "gdpval": {
-          "elo": 1378.43,
+          "elo": 1378,
           "avgTurns": 34.027272727272724,
-          "lower95ci": 1361.92,
-          "upper95ci": 1394.94
+          "lower95ci": 1361.62,
+          "upper95ci": 1394.37
         },
         "omniscience": {
           "total": {
@@ -102286,7 +102326,7 @@
         "gpqa": 0.914141414141414,
         "critpt": 0.12,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.50011,
+        "gdpval_aa_normalized": 0.49995000000000006,
         "mmmu_pro": 0.788439306358382
       },
       "pricing": {
@@ -102341,10 +102381,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1500.22,
+          "elo": 1499.9,
           "avgTurns": 45.28181818181818,
-          "lower95ci": 1483.34,
-          "upper95ci": 1517.1
+          "lower95ci": 1483.17,
+          "upper95ci": 1516.64
         },
         "omniscience": {
           "total": {
@@ -102857,7 +102897,7 @@
         "gpqa": 0.856565656565657,
         "critpt": 0.0371428571428571,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.20872000000000002,
+        "gdpval_aa_normalized": 0.20939,
         "mmmu_pro": null
       },
       "pricing": {
@@ -102912,10 +102952,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 917.44,
+          "elo": 918.78,
           "avgTurns": 20.05045871559633,
-          "lower95ci": 900.3,
-          "upper95ci": 934.59
+          "lower95ci": 901.81,
+          "upper95ci": 935.76
         },
         "omniscience": {
           "total": {
@@ -103295,7 +103335,7 @@
         "gpqa": 0.883838383838384,
         "critpt": 0.11330612244898,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.3216,
+        "gdpval_aa_normalized": 0.32184500000000005,
         "mmmu_pro": 0.805202312138728
       },
       "pricing": {
@@ -103350,10 +103390,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1143.2,
+          "elo": 1143.69,
           "avgTurns": 20.881818181818183,
-          "lower95ci": 1126.87,
-          "upper95ci": 1159.53
+          "lower95ci": 1127.49,
+          "upper95ci": 1159.9
         },
         "omniscience": {
           "total": {
@@ -104139,7 +104179,7 @@
         "gpqa": 0.819191919191919,
         "critpt": 0.00571428571428571,
         "apex_agents": null,
-        "gdpval_aa_normalized": null,
+        "gdpval_aa_normalized": 0.1526,
         "mmmu_pro": 0.691907514450867
       },
       "pricing": {
@@ -104213,7 +104253,12 @@
             "my": 0.7308333333333333
           }
         },
-        "gdpval": null,
+        "gdpval": {
+          "elo": 805.2,
+          "avgTurns": 26.532258064516128,
+          "lower95ci": 780.56,
+          "upper95ci": 829.84
+        },
         "omniscience": {
           "total": {
             "accuracy": 0.15666666666666668,
@@ -104294,7 +104339,12 @@
             "reasoningTokens": 0,
             "outputTokens": 1946441
           },
-          "gdpval": null,
+          "gdpval": {
+            "inputTokens": 155168108,
+            "answerTokens": 4405435,
+            "reasoningTokens": 0,
+            "outputTokens": 4405435
+          },
           "ifbench": {
             "inputTokens": 24589,
             "answerTokens": 339070,
@@ -104363,7 +104413,7 @@
         "gpqa": null,
         "critpt": null,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.40171,
+        "gdpval_aa_normalized": 0.40191,
         "mmmu_pro": null
       },
       "pricing": {
@@ -104418,10 +104468,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1303.42,
+          "elo": 1303.82,
           "avgTurns": 24.522727272727273,
-          "lower95ci": 1285.92,
-          "upper95ci": 1320.92
+          "lower95ci": 1286.46,
+          "upper95ci": 1321.18
         },
         "omniscience": null,
         "openness": {
@@ -104491,7 +104541,7 @@
         "gpqa": 0.781818181818182,
         "critpt": 0.0114285714285714,
         "apex_agents": 0.0309734513274336,
-        "gdpval_aa_normalized": 0.14826999999999999,
+        "gdpval_aa_normalized": 0.14966500000000002,
         "mmmu_pro": null
       },
       "pricing": {
@@ -104566,10 +104616,10 @@
           }
         },
         "gdpval": {
-          "elo": 796.54,
+          "elo": 799.33,
           "avgTurns": 29.045454545454547,
-          "lower95ci": 778.85,
-          "upper95ci": 814.24
+          "lower95ci": 781.8,
+          "upper95ci": 816.86
         },
         "omniscience": {
           "total": {
@@ -105675,7 +105725,7 @@
         "gpqa": 0.881818181818182,
         "critpt": 0.0285714285714286,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.31729999999999997,
+        "gdpval_aa_normalized": 0.31769500000000006,
         "mmmu_pro": 0.779768786127168
       },
       "pricing": {
@@ -105730,10 +105780,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1134.6,
+          "elo": 1135.39,
           "avgTurns": 23.89041095890411,
-          "lower95ci": 1118.23,
-          "upper95ci": 1150.97
+          "lower95ci": 1119.14,
+          "upper95ci": 1151.64
         },
         "omniscience": {
           "total": {
@@ -105904,7 +105954,7 @@
         "gpqa": 0.750505050505051,
         "critpt": 0,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.07167000000000001,
+        "gdpval_aa_normalized": 0.07259500000000002,
         "mmmu_pro": 0.627167630057804
       },
       "pricing": {
@@ -105959,10 +106009,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 643.34,
+          "elo": 645.19,
           "avgTurns": 12.41095890410959,
-          "lower95ci": 624.74,
-          "upper95ci": 661.94
+          "lower95ci": 626.79,
+          "upper95ci": 663.6
         },
         "omniscience": {
           "total": {
@@ -106541,7 +106591,7 @@
         "gpqa": 0.78989898989899,
         "critpt": 0,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.01908499999999998,
+        "gdpval_aa_normalized": 0.020305000000000007,
         "mmmu_pro": null
       },
       "pricing": {
@@ -106616,10 +106666,10 @@
           }
         },
         "gdpval": {
-          "elo": 538.17,
+          "elo": 540.61,
           "avgTurns": 11.67741935483871,
-          "lower95ci": 516.37,
-          "upper95ci": 559.96
+          "lower95ci": 519.01,
+          "upper95ci": 562.22
         },
         "omniscience": {
           "total": {
@@ -107336,7 +107386,7 @@
         "gpqa": 0.894949494949495,
         "critpt": 0.208571428571429,
         "apex_agents": 0.337020648967552,
-        "gdpval_aa_normalized": 0.507225,
+        "gdpval_aa_normalized": 0.5069450000000001,
         "mmmu_pro": null
       },
       "pricing": {
@@ -107391,10 +107441,10 @@
       "breakdowns": {
         "multilingual": null,
         "gdpval": {
-          "elo": 1514.45,
+          "elo": 1513.89,
           "avgTurns": 31.04090909090909,
-          "lower95ci": 1497.86,
-          "upper95ci": 1531.04
+          "lower95ci": 1497.44,
+          "upper95ci": 1530.35
         },
         "omniscience": {
           "total": {
@@ -107897,7 +107947,7 @@
         "gpqa": 0.763636363636364,
         "critpt": 0,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.197145,
+        "gdpval_aa_normalized": 0.197865,
         "mmmu_pro": null
       },
       "pricing": {
@@ -107972,10 +108022,10 @@
           }
         },
         "gdpval": {
-          "elo": 894.29,
+          "elo": 895.73,
           "avgTurns": 30.70909090909091,
-          "lower95ci": 875.62,
-          "upper95ci": 912.96
+          "lower95ci": 877.26,
+          "upper95ci": 914.2
         },
         "omniscience": {
           "total": {
@@ -108942,18 +108992,18 @@
         "gpqa": 0.737373737373737,
         "critpt": 0,
         "apex_agents": null,
-        "gdpval_aa_normalized": 0.10513999999999998,
+        "gdpval_aa_normalized": 0.10563,
         "mmmu_pro": null
       },
       "pricing": {
         "price_1m_blended_3_to_1": null,
         "price_1m_input_tokens": 0.35,
         "price_1m_output_tokens": 1.2,
-        "intelligence_index_cost_total": 246.9380224,
-        "intelligence_index_cost_input": 208.207048,
-        "intelligence_index_cost_output": 38.7309744,
+        "intelligence_index_cost_total": 247.25668894999998,
+        "intelligence_index_cost_input": 208.44684454999998,
+        "intelligence_index_cost_output": 38.8098444,
         "intelligence_index_cost_reasoning": 0,
-        "intelligence_index_cost_answer": 38.7309744,
+        "intelligence_index_cost_answer": 38.8098444,
         "price_class": "medium"
       },
       "speed": {
@@ -109017,10 +109067,10 @@
           }
         },
         "gdpval": {
-          "elo": 710.28,
-          "avgTurns": 30.65174129353234,
-          "lower95ci": 688.64,
-          "upper95ci": 731.93
+          "elo": 711.26,
+          "avgTurns": 30.307317073170733,
+          "lower95ci": 689.98,
+          "upper95ci": 732.55
         },
         "omniscience": {
           "total": {
@@ -109108,10 +109158,10 @@
             "outputTokens": 869309
           },
           "gdpval": {
-            "inputTokens": 162212356,
-            "answerTokens": 4007762,
+            "inputTokens": 162897489,
+            "answerTokens": 4073487,
             "reasoningTokens": 0,
-            "outputTokens": 4007762
+            "outputTokens": 4073487
           },
           "ifbench": {
             "inputTokens": 24589,
@@ -109146,10 +109196,10 @@
           }
         },
         "intelligence_index_token_counts": {
-          "inputTokens": 594877280,
-          "answerTokens": 32275812,
+          "inputTokens": 595562413,
+          "answerTokens": 32341537,
           "reasoningTokens": 0,
-          "outputTokens": 32275812
+          "outputTokens": 32341537
         }
       }
     },
